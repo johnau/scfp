@@ -1,4 +1,5 @@
-﻿using FaceplateDataExtractor.Model;
+﻿using ClosedXML.Excel;
+using FaceplateDataExtractor.Model;
 
 namespace FaceplateDataExtractor.Excel
 {
@@ -9,9 +10,18 @@ namespace FaceplateDataExtractor.Excel
             throw new NotImplementedException();
         }
 
-        public bool TryExtractData(string filePath, out List<ExtractedFaceplateData> data)
+        public bool TryExtractData(string filePath, int sheet = 0, out List<ExtractedFaceplateData> data)
         {
-            throw new NotImplementedException();
+            data = [];
+
+            var workbook = new XLWorkbook(filePath);
+            var worksheet = workbook.Worksheet(sheet);
+
+            var rows = worksheet.Rows();
+            
+
+
+            return true;
         }
     }
 }

@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <None Remove="resources\20200320 - 1010 %280%29 CABLE SCHEDULE ken and marty6.xlsx" />
+    <None Remove="resources\260923 DL FROM ACONEX CABLE SCHEDULE.xlsx" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +27,9 @@
 
   <ItemGroup>
     <EmbeddedResource Include="resources\20200320 - 1010 (0) CABLE SCHEDULE ken and marty6.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\260923 DL FROM ACONEX CABLE SCHEDULE.xlsx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
