@@ -1,0 +1,60 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../",
+          "files": ["**/**.csproj"],
+          "exclude": ["**/bin/**", "**/obj/**"]
+        }
+      ],
+      "dest": "./reference",
+      "includePrivateMembers": false,
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false,
+      "noRestore": false,
+      "namespaceLayout": "flattened"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "*.{md,yml}",
+          "general/**/*.{md,yml}",
+          "services/**/*.{md,yml}",
+          "reference/**/*.{md,yml}",
+          ".docfx/x-cross/toc.yml"
+        ]
+      }
+    ],
+    "resource": [
+      { "files": [".attachments/**", "**/.attachments/**", "**/images/**"] },
+      { "files": ["web.config"] }
+    ],
+    "dest": "_site",
+    "globalMetadata": {
+      "_appTitle": "Faceplate Generator Documentation",
+      "_appName": "Faceplate Generator Documentation",
+      "_appLogoPath": "images/logo.png",
+      "_appFaviconPath": "images/favicon.ico",
+      "_enableSearch": true,
+      "_enableNewTab": true
+    },
+    "template": ["default", ".docfx/template"],
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "postProcessors": [],
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "disableGitFeatures": false,
+    "xrefService": ["https://xref.docs.microsoft.com/query?uid={uid}"],
+    "markdownEngineName": "markdig",
+    "markdownEngineProperties": {
+      "markdigExtensions": [
+        "tasklists",
+        "diagrams"
+      ]
+    }
+  }
+}

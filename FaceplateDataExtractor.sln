@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceplateDataExtractor", "FaceplateDataExtractor\FaceplateDataExtractor.csproj", "{A844571C-844E-41AC-BB52-7B18282D2E63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceplateDxfCreator", "FaceplateDxfCreator\FaceplateDxfCreator.csproj", "{0FC38B04-143E-4BCE-83D6-28A0C874B3C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceplateGeneratorCore", "FaceplateGeneratorCore\FaceplateGeneratorCore.csproj", "{813BD20C-5093-4736-BDA4-FB3B3C2C8B7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceplateDatabase", "FaceplateDatabase\FaceplateDatabase.csproj", "{AE558A38-F340-4F4C-ACD7-DE90B0F20050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceplateGeneratorCore.XunitTests", "FaceplateGeneratorCore.XunitTests\FaceplateGeneratorCore.XunitTests.csproj", "{18953880-685F-45BE-8D49-354841E47C42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceplateDataExtractor.XunitTests", "FaceplateDataExtractor.XunitTests\FaceplateDataExtractor.XunitTests.csproj", "{6228F59E-D774-463D-B2A7-071218ED420D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceplateDatabase.XunitTests", "FaceplateDatabase.XunitTests\FaceplateDatabase.XunitTests.csproj", "{702B16DD-9068-415D-9578-A41522E29B0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A844571C-844E-41AC-BB52-7B18282D2E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A844571C-844E-41AC-BB52-7B18282D2E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A844571C-844E-41AC-BB52-7B18282D2E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A844571C-844E-41AC-BB52-7B18282D2E63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC38B04-143E-4BCE-83D6-28A0C874B3C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC38B04-143E-4BCE-83D6-28A0C874B3C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC38B04-143E-4BCE-83D6-28A0C874B3C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC38B04-143E-4BCE-83D6-28A0C874B3C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813BD20C-5093-4736-BDA4-FB3B3C2C8B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813BD20C-5093-4736-BDA4-FB3B3C2C8B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813BD20C-5093-4736-BDA4-FB3B3C2C8B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813BD20C-5093-4736-BDA4-FB3B3C2C8B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE558A38-F340-4F4C-ACD7-DE90B0F20050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE558A38-F340-4F4C-ACD7-DE90B0F20050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE558A38-F340-4F4C-ACD7-DE90B0F20050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE558A38-F340-4F4C-ACD7-DE90B0F20050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18953880-685F-45BE-8D49-354841E47C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18953880-685F-45BE-8D49-354841E47C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18953880-685F-45BE-8D49-354841E47C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18953880-685F-45BE-8D49-354841E47C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6228F59E-D774-463D-B2A7-071218ED420D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6228F59E-D774-463D-B2A7-071218ED420D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6228F59E-D774-463D-B2A7-071218ED420D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6228F59E-D774-463D-B2A7-071218ED420D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{702B16DD-9068-415D-9578-A41522E29B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{702B16DD-9068-415D-9578-A41522E29B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{702B16DD-9068-415D-9578-A41522E29B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{702B16DD-9068-415D-9578-A41522E29B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36961699-7A32-4F21-B18D-0C8290EE08DB}
+	EndGlobalSection
+EndGlobal

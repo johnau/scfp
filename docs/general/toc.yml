@@ -1,0 +1,25 @@
+# This is an automatically generated file
+items:
+- name: General Documentation
+  href: README.md
+- name: Architecture decisions
+  href: architecture-decisions/README.md
+  items:
+  - name: Architecture Decisions
+    href: architecture-decisions/README.md
+  - name: Decision Log
+    href: architecture-decisions/decision-log.md
+- name: Getting started
+  href: getting-started/README.md
+  items:
+  - name: Getting Started
+    href: getting-started/README.md
+  - name: Copy code button
+    href: getting-started/copy-code-button.md
+- name: Guidelines
+  href: guidelines/README.md
+  items:
+  - name: Guidelines
+    href: guidelines/README.md
+  - name: Documentation guidelines
+    href: guidelines/docs-guidelines.md

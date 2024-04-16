@@ -1,0 +1,9 @@
+/.vs
+/bin
+/obj
+*/bin
+*/obj
+
+# DocFx generated files
+/docs/_site/**
+/docs/reference/**
