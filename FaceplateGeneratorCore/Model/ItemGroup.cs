@@ -10,7 +10,11 @@
     {
 
         public List<Socket> Sockets { get; }
-        public List<>
 
+        public ItemGroup(string id, string name)
+            : base(id, name)
+        {
+            Sockets = [];
+        }
     }
 }

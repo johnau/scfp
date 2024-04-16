@@ -4,7 +4,9 @@ namespace FaceplateDataExtractor
 {
     public interface IFaceplateDataExtractor
     {
-        bool TryExtractData(string filePath, out List<ExtractedFaceplateData> data);
-        List<string> GetErrors();
+        bool HasErrors { get; }
+        List<string> Errors { get; }
+        bool TryExtractData(int sheet, out List<ExtractedFaceplateData> data, out List<ExtractedFaceplateData> rejectedData);
+        //List<string> GetErrors();
     }
 }

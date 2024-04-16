@@ -12,15 +12,10 @@
         public List<FixingHole> Fixings { get; }
         public List<Obstruction> Protrusions { get; }
 
-        public Socket(string id, string h_Id, List<FixingHole> fixings)
+        public Socket(string id, string name, List<FixingHole> fixings)
+            : base(id, name)
         {
-            Id = id;
-            H_Id = h_Id;
-            MarginLeft = 0f;
-            MarginRight = 0f;
-            MarginTop = 0f;
-            MarginBottom = 0f;
-            Fixings = [];
+            Fixings = fixings;
             Protrusions = [];
         }
     }

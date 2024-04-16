@@ -10,6 +10,9 @@
     /// </remarks>
     public class Obstruction : DrawingObject
     {
-
+        public Obstruction(string id, string name) 
+            : base(id, name)
+        {
+        }
     }
 }

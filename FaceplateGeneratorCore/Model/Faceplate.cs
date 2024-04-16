@@ -11,11 +11,18 @@
     /// 
     /// TODO: Implement builder pattern - maintain a constant valid state
     /// </remarks>
-    public class Faceplate
+    public class Faceplate : DrawingObject
     {
         public List<FixingHole> FixingHoles { get; }
         public List<PlateSection> Sections { get; }
         public List<Obstruction> Obstructions { get; }
 
+        public Faceplate(string id, string name)
+            : base(id, name)
+        {
+            FixingHoles = [];
+            Sections = [];
+            Obstructions = [];
+        }
     }
 }

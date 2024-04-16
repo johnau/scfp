@@ -19,5 +19,11 @@ namespace FaceplateGeneratorCore.Model
         /// Make into an object
         /// </remarks>
         public string Type { get; }
+
+        public FixingHole(string id, string name, string type)
+            : base(id, name)
+        {
+            Type = type;
+        }
     }
 }

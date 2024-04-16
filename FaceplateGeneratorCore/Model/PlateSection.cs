@@ -8,5 +8,9 @@
     /// </remarks>
     public class PlateSection : DrawingObject
     {
+        public PlateSection(string id, string name) 
+            : base(id, name)
+        {
+        }
     }
 }
