@@ -1,2 +1,2 @@
 # X
-## [Click here](https://johnau.github.io/scfp) for Documentation
+## [Click here](https://johnau.github.io/scfp) for Documentation.
