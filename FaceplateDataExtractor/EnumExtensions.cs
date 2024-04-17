@@ -1,17 +1,9 @@
 ﻿using static FaceplateDataExtractor.Utility.EnumHelper;
 
-namespace FaceplateDataExtractor.Utility
+namespace FaceplateDataExtractor
 {
     public static class EnumExtensions
     {
-        //public static string GetStringValue(this Enum value)
-        //{
-        //    var type = value.GetType();
-        //    var fieldInfo = type.GetField(value.ToString());
-        //    var stringValueAttribute = fieldInfo!.GetCustomAttributes(typeof(StringValueAttribute), false) as StringValueAttribute[];
-        //    return stringValueAttribute!.Length > 0 ? stringValueAttribute[0].Value : "";
-        //}
-
         public static string[] GetStringArrayValue(this Enum value)
         {
             var type = value.GetType();
@@ -25,6 +17,14 @@ namespace FaceplateDataExtractor.Utility
             }
 
             return strings.Length > 0 ? strings : [];
+        }
+
+        public static string GetStringValue(this Enum value)
+        {
+            var type = value.GetType();
+            var fieldInfo = type.GetField(value.ToString());
+            var stringValueAttribute = fieldInfo!.GetCustomAttributes(typeof(StringValueAttribute), false) as StringValueAttribute[];
+            return stringValueAttribute!.Length > 0 ? stringValueAttribute[0].Value : "";
         }
     }
 }

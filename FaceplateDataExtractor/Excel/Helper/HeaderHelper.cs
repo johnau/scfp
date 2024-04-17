@@ -1,11 +1,11 @@
 ﻿using ClosedXML.Excel;
+using FaceplateDataExtractor.Model;
 using System.Diagnostics;
 
 namespace FaceplateDataExtractor.Excel.Helper
 {
     internal class HeaderHelper
     {
-
         /// <summary>
         /// Scan each column top down through the header range and accumulate the header data
         /// </summary>
@@ -105,12 +105,17 @@ namespace FaceplateDataExtractor.Excel.Helper
 
         private static bool CheckAndHandleExpectedColumn(WorksheetHeaderData headers, int columnIndex, string textValue)
         {
-            foreach (ExpectedHeader expHeader in Enum.GetValues(typeof(ExpectedHeader)))
+            foreach (MetadataType expHeader in Enum.GetValues(typeof(MetadataType)))
             {
-                if (textValue.ToLower().StartsWith(expHeader.GetStringValue()))
+                var possibleValues = expHeader.GetStringArrayValue();
+                for (int i = 0; i < possibleValues.Length; i++)
                 {
-                    headers.SetExpectedHeaderColumn(expHeader, columnIndex);
-                    return true;
+                    // Any match of these values is enough (there should be no duplications)
+                    if (textValue.StartsWith(possibleValues[i], StringComparison.OrdinalIgnoreCase))
+                    {
+                        headers.SetExpectedHeaderColumn(expHeader, columnIndex);
+                        return true;
+                    }
                 }
             }
 

@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using FaceplateDataExtractor.Model;
 
 namespace FaceplateDataExtractor.Excel
 {
@@ -50,20 +51,20 @@ namespace FaceplateDataExtractor.Excel
             }
         }
 
-        public string GetHeaderStringByColumnIndex(int columnIndex)
+        public List<string> GetHeadersByColumnIndex(int columnIndex)
         {
             switch (columnIndex)
             {
                 case 1:
-                    return "PANEL ID";
+                    return ["PANEL ID"];
                 case 2:
-                    return "DESCRIPTION";
+                    return ["DESCRIPTION"];
                 case 3:
-                    return "LOCATION";
+                    return ["LOCATION"];
                 case 4:
-                    return "ROOM";
+                    return ["ROOM"];
                 case 5:
-                    return "AFFL";
+                    return ["AFFL"];
                 default:
                     break;
             }
@@ -73,37 +74,38 @@ namespace FaceplateDataExtractor.Excel
                 throw new ArgumentException($"The column at: {columnIndex}, does not have a header value or was not found");
             }
 
-            var sb = new StringBuilder();
-            for (int i = 0; i < values.Count; i++)
-            {
-                var v = values[i];
-                if (v == "") continue;
+            return values;
+            //var sb = new StringBuilder();
+            //for (int i = 0; i < values.Count; i++)
+            //{
+            //    var v = values[i];
+            //    if (v == "") continue;
 
-                sb.Append('{');
-                sb.Append(v);
-                sb.Append('}');
-                if (i != values.Count - 1) sb.Append(", ");
-            }
-            return sb.ToString();
+            //    sb.Append('{');
+            //    sb.Append(v);
+            //    sb.Append('}');
+            //    if (i != values.Count - 1) sb.Append(", ");
+            //}
+            //return sb.ToString();
         }
 
-        public void SetExpectedHeaderColumn(ExpectedHeader expHeader, int columnIndex)
+        public void SetExpectedHeaderColumn(MetadataType expHeader, int columnIndex)
         {
             switch (expHeader)
             {
-                case ExpectedHeader.PANEL_ID:
+                case MetadataType.PANEL_ID:
                     PanelIdColumn = columnIndex;
                     break;
-                case ExpectedHeader.DESCRIPTION:
+                case MetadataType.DESCRIPTION:
                     DescriptionColumn = columnIndex;
                     break;
-                case ExpectedHeader.LOCATION:
+                case MetadataType.LOCATION:
                     LocationColumn = columnIndex;
                     break;
-                case ExpectedHeader.ROOM:
+                case MetadataType.ROOM:
                     RoomColumn = columnIndex;
                     break;
-                case ExpectedHeader.AFFL:
+                case MetadataType.AFFL:
                     AboveFinishedFloorLevelColumn = columnIndex;
                     break;
                 default:

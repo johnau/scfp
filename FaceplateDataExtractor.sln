@@ -3,19 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceplateDataExtractor", "FaceplateDataExtractor\FaceplateDataExtractor.csproj", "{A844571C-844E-41AC-BB52-7B18282D2E63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceplateDataExtractor", "FaceplateDataExtractor\FaceplateDataExtractor.csproj", "{A844571C-844E-41AC-BB52-7B18282D2E63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceplateDxfCreator", "FaceplateDxfCreator\FaceplateDxfCreator.csproj", "{0FC38B04-143E-4BCE-83D6-28A0C874B3C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceplateDxfCreator", "FaceplateDxfCreator\FaceplateDxfCreator.csproj", "{0FC38B04-143E-4BCE-83D6-28A0C874B3C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceplateGeneratorCore", "FaceplateGeneratorCore\FaceplateGeneratorCore.csproj", "{813BD20C-5093-4736-BDA4-FB3B3C2C8B7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceplateGeneratorCore", "FaceplateGeneratorCore\FaceplateGeneratorCore.csproj", "{813BD20C-5093-4736-BDA4-FB3B3C2C8B7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceplateDatabase", "FaceplateDatabase\FaceplateDatabase.csproj", "{AE558A38-F340-4F4C-ACD7-DE90B0F20050}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceplateDatabase", "FaceplateDatabase\FaceplateDatabase.csproj", "{AE558A38-F340-4F4C-ACD7-DE90B0F20050}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceplateGeneratorCore.XunitTests", "FaceplateGeneratorCore.XunitTests\FaceplateGeneratorCore.XunitTests.csproj", "{18953880-685F-45BE-8D49-354841E47C42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceplateGeneratorCore.XunitTests", "FaceplateGeneratorCore.XunitTests\FaceplateGeneratorCore.XunitTests.csproj", "{18953880-685F-45BE-8D49-354841E47C42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceplateDataExtractor.XunitTests", "FaceplateDataExtractor.XunitTests\FaceplateDataExtractor.XunitTests.csproj", "{6228F59E-D774-463D-B2A7-071218ED420D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceplateDataExtractor.XunitTests", "FaceplateDataExtractor.XunitTests\FaceplateDataExtractor.XunitTests.csproj", "{6228F59E-D774-463D-B2A7-071218ED420D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceplateDatabase.XunitTests", "FaceplateDatabase.XunitTests\FaceplateDatabase.XunitTests.csproj", "{702B16DD-9068-415D-9578-A41522E29B0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceplateDatabase.XunitTests", "FaceplateDatabase.XunitTests\FaceplateDatabase.XunitTests.csproj", "{702B16DD-9068-415D-9578-A41522E29B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DxfIngest", "DxfIngest\DxfIngest.csproj", "{A7B083B9-028F-486B-B5A7-413EFF6D37B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevConsole", "DevConsole\DevConsole.csproj", "{DF92F8BC-794B-4CCA-B36D-E082EE0D4530}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{702B16DD-9068-415D-9578-A41522E29B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{702B16DD-9068-415D-9578-A41522E29B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{702B16DD-9068-415D-9578-A41522E29B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B083B9-028F-486B-B5A7-413EFF6D37B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B083B9-028F-486B-B5A7-413EFF6D37B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B083B9-028F-486B-B5A7-413EFF6D37B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B083B9-028F-486B-B5A7-413EFF6D37B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF92F8BC-794B-4CCA-B36D-E082EE0D4530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF92F8BC-794B-4CCA-B36D-E082EE0D4530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF92F8BC-794B-4CCA-B36D-E082EE0D4530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF92F8BC-794B-4CCA-B36D-E082EE0D4530}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

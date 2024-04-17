@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+﻿using FaceplateDataExtractor.Utility;
 
 namespace FaceplateDataExtractor.Excel
 {
@@ -24,7 +24,7 @@ namespace FaceplateDataExtractor.Excel
             _rowData = [];
         }
 
-        public void AddRowData(string headerText, string value, int col, int row)
+        public void AddRowData(List<string> headerText, string value, int col, int row)
         {
             if (double.TryParse(value, out var doubleValue))
                 AddRowDataObject(headerText, doubleValue, col, row);
@@ -32,15 +32,16 @@ namespace FaceplateDataExtractor.Excel
                 AddRowDataObject(headerText, value, col, row);
         }
 
-        public void AddRowData(string headerText, double value, int col, int row)
+        public void AddRowData(List<string> headerText, double value, int col, int row)
         {
             AddRowDataObject(headerText, value, col, row);
         }
 
-        private void AddRowDataObject(string headerText, object value, int col, int row)
+        private void AddRowDataObject(List<string> headerText, object value, int col, int row)
         {
             var cellData = new WorksheetCellData(headerText, value, col, row);
-            if (!_rowData.TryAdd(headerText, cellData))
+            var headerTextFlat = StringsHelper.ListToString(headerText);
+            if (!_rowData.TryAdd(headerTextFlat, cellData))
             {
                 throw new ArgumentException($"Tried to add a duplicate column: {headerText}");
             }

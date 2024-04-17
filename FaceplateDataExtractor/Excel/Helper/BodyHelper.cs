@@ -22,7 +22,7 @@ namespace FaceplateDataExtractor.Excel.Helper
                 {
                     var colNumber = cell.WorksheetColumn().ColumnNumber();
                     var rowNumber = cell.WorksheetRow().RowNumber();
-                    var header = headerData.GetHeaderStringByColumnIndex(colNumber);
+                    var header = headerData.GetHeadersByColumnIndex(colNumber);
                     if (cell.Value.IsText)
                     {
                         var text = cell.GetText().Trim();
