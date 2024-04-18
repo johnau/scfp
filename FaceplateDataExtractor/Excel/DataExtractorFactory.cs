@@ -1,49 +1,13 @@
-using FaceplateDataExtractor.Excel;
+﻿using FaceplateDataExtractor.Model.Mapper;
 using FaceplateDataExtractor.Model;
-using FaceplateDataExtractor.Model.Mapper;
-using System.Diagnostics;
-using System.Reflection;
 using static FaceplateDataExtractor.Excel.ControlledMsExcelFaceplateDataExtractor;
 
-namespace FaceplateDataExtractor.XunitTests
+namespace FaceplateDataExtractor.Excel
 {
-    public class UnitTestExcelDataExtractor
+    public class DataExtractorFactory
     {
-        [Fact]
-        public void TestExtract()
+        public static ControlledMsExcelFaceplateDataExtractor CreateWithMasterTemplateFixedLayout(string filePath)
         {
-            var assemblyDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            var resourceFolderPath = Path.Combine(assemblyDirectory!, "resources");
-            var fileName = "20200320 - 1010 (0) CABLE SCHEDULE ken and marty6.xlsx";
-            var filePath = Path.Combine(resourceFolderPath, fileName);
-
-            var extractor = new MsExcelFaceplateDataExtractor(filePath, 1);
-
-            Debug.WriteLine(filePath);
-            var exists = File.Exists(filePath);
-            Assert.True(exists);
-
-            if (!extractor.TryExtractData(0, out var data, out var rejectedData))
-            {
-                Debug.WriteLine("Unable to extract data");
-                return;
-            }
-
-            foreach (var d in data)
-            {
-                Debug.WriteLine($"EXTRACTED DATA:: {d}");
-            }
-        }
-
-        [Fact]
-        public void TestOtherMethod()
-        {
-            var assemblyDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            var resourceFolderPath = Path.Combine(assemblyDirectory!, "resources");
-            var fileName = "20200320 - 1010 (0) CABLE SCHEDULE ken and marty6.xlsx";
-            var filePath = Path.Combine(resourceFolderPath, fileName);
-
-
             var dataStartRow = 6;
             var dataEndRow = 200;
             var panelIdLayout = new ColumnLayout(PanelDescriptorDataType.PANEL_ID.ToString(), 1, 4, 4);
@@ -56,8 +20,8 @@ namespace FaceplateDataExtractor.XunitTests
             var technicalDataQtyLayout = new ColumnLayout(ColumnValueType.QUANTITY.ToString(), 6, 2, 4);
             var technicalDataDestLayout = new ColumnLayout(ColumnValueType.TO_FROM.ToString(), 7, 2, 4);
             var technicalDataGroup = new ColumnSet(
-                "TECHNICAL DATA", 
-                [ technicalDataQtyLayout, technicalDataDestLayout ]
+                "TECHNICAL DATA",
+                [technicalDataQtyLayout, technicalDataDestLayout]
             );
 
             var mmFiberQtyLayout = new ColumnLayout(ColumnValueType.QUANTITY.ToString(), 8, 2, 4);
@@ -98,7 +62,7 @@ namespace FaceplateDataExtractor.XunitTests
             var audioDigiAnlgReturnQtyLayout = new ColumnLayout(ColumnValueType.QUANTITY_FEMALE.ToString(), 17, 2, 4);
             var audioDigiAnlgReturnDestLayout = new ColumnLayout(ColumnValueType.TO_FROM.ToString(), 18, 2, 4);
             var audioReturnGroup = new ColumnSet(
-                "AUDIO DIGITAL/ANALOG RETURN"    ,
+                "AUDIO DIGITAL/ANALOG RETURN",
                 [audioDigiAnlgReturnQtyLayout, audioDigiAnlgReturnDestLayout]
             );
 
@@ -136,19 +100,8 @@ namespace FaceplateDataExtractor.XunitTests
 
             var config = new Configuration(dataStartRow, dataEndRow, columns, columnGroups);
             var extractor = new ControlledMsExcelFaceplateDataExtractor(filePath, 1, config);
-            var success = extractor.TryExtractData(0, out var data, out var rejectedData);
-            Assert.True(success);
-
-            foreach (var d in data)
-            {
-                Debug.WriteLine($"Entry: PanelId={d.PanelId} | Description={d.Description} | Location={d.Location} | Room={d.Room} | AFFL={d.AboveFinishedFloorLevel}");
-
-                foreach (var system in d.CableSystemDatas)
-                {
-                    //Debug.WriteLine($"SYSTEM: {system.SystemType} {system.CableType} {system.Quantity} {system.Destination}");
-                    Debug.WriteLine($"SYSTEM: {system.SystemType} | {system.Quantity} | {system.Destination}");
-                }
-            }
+            
+            return extractor;
         }
     }
 }

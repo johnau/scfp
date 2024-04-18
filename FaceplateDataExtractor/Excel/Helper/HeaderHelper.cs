@@ -1,5 +1,6 @@
 ﻿using ClosedXML.Excel;
 using FaceplateDataExtractor.Model;
+using FaceplateDataExtractor.Utility;
 using System.Diagnostics;
 
 namespace FaceplateDataExtractor.Excel.Helper
@@ -58,11 +59,12 @@ namespace FaceplateDataExtractor.Excel.Helper
                         textValue = cell.Value.GetText();
                     }
 
-                    textValue = StripIllegalCharacters(textValue);
+                    textValue = StringsHelper.Sanitize(textValue);
 
-                    expectedColumn = CheckAndHandleExpectedColumn(headers, colIdx, textValue);
-                    if (!expectedColumn) 
+                    expectedColumn = CheckAndHandleExpectedColumn(headers, colIdx, textValue); //, out var headerType);
+                    if (!expectedColumn)
                         headerText.Add(textValue);
+                        //headerText.Add(headerType.GetStringArrayValue()[0]);
 
                     rc++;
                 }
@@ -70,12 +72,6 @@ namespace FaceplateDataExtractor.Excel.Helper
                 if (!expectedColumn)
                     headers.AddCableColumn(colIdx, headerText);
             }
-        }
-
-        private static string StripIllegalCharacters(string text)
-        {
-            return text.Replace("{", "").Replace("}", ""); // Strip curly brackets because they are used in code to define header components.
-
         }
 
         private static string GetCellValueToLeft(WorksheetHeaderData headerData, int col, int row)
@@ -103,9 +99,10 @@ namespace FaceplateDataExtractor.Excel.Helper
             return true;
         }
 
-        private static bool CheckAndHandleExpectedColumn(WorksheetHeaderData headers, int columnIndex, string textValue)
+        private static bool CheckAndHandleExpectedColumn(WorksheetHeaderData headers, int columnIndex, string textValue) //, out PanelDescriptorDataType headerType)
         {
-            foreach (MetadataType expHeader in Enum.GetValues(typeof(MetadataType)))
+            //headerType = PanelDescriptorDataType.NONE;
+            foreach (PanelDescriptorDataType expHeader in Enum.GetValues(typeof(PanelDescriptorDataType)))
             {
                 var possibleValues = expHeader.GetStringArrayValue();
                 for (int i = 0; i < possibleValues.Length; i++)
@@ -114,6 +111,7 @@ namespace FaceplateDataExtractor.Excel.Helper
                     if (textValue.StartsWith(possibleValues[i], StringComparison.OrdinalIgnoreCase))
                     {
                         headers.SetExpectedHeaderColumn(expHeader, columnIndex);
+                        //headerType = expHeader;
                         return true;
                     }
                 }

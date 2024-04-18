@@ -1,0 +1,60 @@
+﻿<Page x:Class="ExcelFaceplateDataExtractorApp.View.ExtractedDataPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ExcelFaceplateDataExtractorApp.View"
+      xmlns:vm="clr-namespace:ExcelFaceplateDataExtractorApp.ViewModel"
+      mc:Ignorable="d" 
+      d:DataContext="{d:DesignInstance Type=vm:ExtractedDataPageViewModel}"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ExtractedDataPage">
+    <Page.Resources>
+        <Style TargetType="ListViewItem">
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+        </Style>
+        <Style TargetType="StackPanel">
+            <Setter Property="Background" Value="White" />
+        </Style>
+        <Style x:Key="TitleText" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="30" />
+        </Style>
+    </Page.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80" />
+            <RowDefinition />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <TextBlock Text="Extracted Data" Style="{StaticResource TitleText}" />
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Filename:" Margin="0 0 10 0" MinWidth="75"/>
+                <TextBlock Text="{Binding FileName, FallbackValue='None'}" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Path:" Margin="0 0 10 0" MinWidth="75"/>
+                <TextBlock Text="{Binding FilePath, FallbackValue='None'}" />
+            </StackPanel>
+        </StackPanel>
+        <ListView ItemsSource="{Binding ExtractedData}" Grid.Row="1">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="System" DisplayMemberBinding="{Binding System}" Width="Auto" />
+                    <GridViewColumn Header="Cable(s)" DisplayMemberBinding="{Binding Cables}" Width="Auto" />
+                    <GridViewColumn Header="Quantity" DisplayMemberBinding="{Binding Quantity}" Width="Auto" />
+                    <GridViewColumn Header="To/From" DisplayMemberBinding="{Binding Destination}" Width="Auto">
+                        <!--<GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button>Button Text</Button>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>-->
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button>Generate Faceplates</Button>
+        </StackPanel>
+    </Grid>
+</Page>

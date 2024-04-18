@@ -1,10 +1,16 @@
 ﻿using FaceplateDataExtractor.Utility;
+using System.Diagnostics;
 
 namespace FaceplateDataExtractor.Excel
 {
     internal class WorksheetRowData
     {
         public int RowNumber { get; }
+        //public string PanelId { get; set; }
+        //public string Description { get; set;  }
+        //public string Location { get; set;  }
+        //public string Room { get; set;  }
+        //public string AboveFinishedFloorLevel { get; set;  }
         private Dictionary<string, WorksheetCellData> _rowData; //Data stored by header string
 
         /// <value>
@@ -21,6 +27,11 @@ namespace FaceplateDataExtractor.Excel
         public WorksheetRowData(int rowNumber)
         {
             RowNumber = rowNumber;
+            //PanelId = "";
+            //Description = "";
+            //Location = "";
+            //Room = "";
+            //AboveFinishedFloorLevel = "";
             _rowData = [];
         }
 
@@ -41,6 +52,7 @@ namespace FaceplateDataExtractor.Excel
         {
             var cellData = new WorksheetCellData(headerText, value, col, row);
             var headerTextFlat = StringsHelper.ListToString(headerText);
+            Debug.WriteLine($"Adding row data object: {headerTextFlat} with Value: {value}");
             if (!_rowData.TryAdd(headerTextFlat, cellData))
             {
                 throw new ArgumentException($"Tried to add a duplicate column: {headerText}");

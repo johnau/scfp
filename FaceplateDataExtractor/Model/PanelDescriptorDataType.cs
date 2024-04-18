@@ -10,7 +10,7 @@ namespace FaceplateDataExtractor.Model
     /// This will eventually move to database.
     /// *Note: String values for Enum values must be unique like the enum value itself.
     /// </remarks>
-    public enum MetadataType
+    public enum PanelDescriptorDataType
     {
         [StringArrayValue(["None"])]
         NONE,

@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Diagnostics;
+using System.Text;
 using FaceplateDataExtractor.Model;
 
 namespace FaceplateDataExtractor.Excel
@@ -89,27 +90,30 @@ namespace FaceplateDataExtractor.Excel
             //return sb.ToString();
         }
 
-        public void SetExpectedHeaderColumn(MetadataType expHeader, int columnIndex)
+        public void SetExpectedHeaderColumn(PanelDescriptorDataType expHeader, int columnIndex)
         {
             switch (expHeader)
             {
-                case MetadataType.PANEL_ID:
+                case PanelDescriptorDataType.NONE:
+                    Debug.WriteLine($"Received a NONE type Data Column Type");
+                    break;
+                case PanelDescriptorDataType.PANEL_ID:
                     PanelIdColumn = columnIndex;
                     break;
-                case MetadataType.DESCRIPTION:
+                case PanelDescriptorDataType.DESCRIPTION:
                     DescriptionColumn = columnIndex;
                     break;
-                case MetadataType.LOCATION:
+                case PanelDescriptorDataType.LOCATION:
                     LocationColumn = columnIndex;
                     break;
-                case MetadataType.ROOM:
+                case PanelDescriptorDataType.ROOM:
                     RoomColumn = columnIndex;
                     break;
-                case MetadataType.AFFL:
+                case PanelDescriptorDataType.AFFL:
                     AboveFinishedFloorLevelColumn = columnIndex;
                     break;
                 default:
-                    throw new ArgumentException("Unrecognized Expected Header Value");
+                    throw new ArgumentException($"Unrecognized Expected Header Value: {expHeader.ToString()}");
             }
         }
 

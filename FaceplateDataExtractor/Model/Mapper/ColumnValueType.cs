@@ -10,7 +10,7 @@ namespace FaceplateDataExtractor.Model.Mapper
     /// Note: *See the FaceplateDataExtractor.Utility.StringsHelper.Sanitize(string) method to 
     /// help write these match strings.*
     /// </remarks>
-    internal enum ColumnValueType
+    public enum ColumnValueType
     {
         /// <summary>
         /// No type
@@ -24,7 +24,7 @@ namespace FaceplateDataExtractor.Model.Mapper
         /// <summary>
         /// 
         /// </summary>
-        [StringArrayValue(["To/From"])] DESTINATION,
+        [StringArrayValue(["To/From"])] TO_FROM,
         /// <summary>
         /// 
         /// </summary>
@@ -36,6 +36,6 @@ namespace FaceplateDataExtractor.Model.Mapper
         /// <summary>
         /// 
         /// </summary>
-        [StringArrayValue(["Quantity of Outlets"])] QUANTITY_GENDERLESS,
+        [StringArrayValue(["Quantity of Outlets"])] QUANTITY,
     }
 }

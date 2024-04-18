@@ -1,6 +1,9 @@
 ﻿using ClosedXML.Excel;
+using DocumentFormat.OpenXml.Bibliography;
 using FaceplateDataExtractor.Excel.Helper;
 using FaceplateDataExtractor.Model;
+using FaceplateDataExtractor.Model.Mapper;
+using FaceplateDataExtractor.Utility;
 using System.Diagnostics;
 using System.Numerics;
 using static FaceplateDataExtractor.Excel.MsExcelFaceplateDataExtractor;
@@ -39,7 +42,6 @@ namespace FaceplateDataExtractor.Excel
         /// <param name="DataEnd"></param>
         public record Configuration(bool AutoDetect, IntVec2? HeaderStart = null, IntVec2? HeaderEnd = null, IntVec2? DataStart = null, IntVec2? DataEnd = null) { }
         
-
         private Configuration _configuration;
         private string _filePath;
         private int _sheet;
@@ -64,7 +66,7 @@ namespace FaceplateDataExtractor.Excel
             _errors = [];
         }
 
-        private void CheckConfig()
+        protected virtual void CheckConfig()
         {
             if (_configuration == null) 
                 throw new Exception("Application Error: Configuration is null");
@@ -111,17 +113,111 @@ namespace FaceplateDataExtractor.Excel
             var invalidDiscardedRows = BodyHelper.StripInvalidRows(_rowDatas, _headerData);
             // map invalidDiscardedRows to ExtractedFaceplateData object
 
-            // Debug - delete
-            foreach (var row in _rowDatas) {
-                Debug.WriteLine($"Row {row.RowNumber}:");
-                foreach (var dat in row.RowData)
-                {
-                    Debug.WriteLine($"-> {dat.Key}: {dat.Value}");
-                }
-            }
-
+            var mapper = new ExtractedFaceplateDataMapper();
+            data = mapper.Map(_rowDatas);
             return true;
+
+            //Dictionary<string, ExtractedFaceplateData> faceplatesData = [];
+            //// Debug - delete
+            //foreach (var row in _rowDatas) {
+            //    Debug.WriteLine($"Row {row.RowNumber}:");
+
+            //    var cellList = row.RowData.ToList();
+            //    //var model = new ExtractedFaceplateData();
+            //    for (int i = 0; i < cellList.Count; i++)
+            //    {
+            //        // Iterate the cells in the row, accumulate the data to go into the ExtractedFaceplateData object
+            //        var cellData = cellList[i].Value;
+            //        //var headerTextString = StringsHelper.ListToString(cellData.HeaderText).ToLower();
+
+            //        if (cellData.Value == null || cellData.Value + "" == string.Empty)
+            //        {
+            //            Debug.WriteLine($"Ignored this cell as it is empty (Cell={cellData.ColumnNumber}, Row={cellData.RowNumber})");
+            //            continue;
+            //        }
+
+            //        //var panelIdTitle = PanelDescriptorDataType.PANEL_ID.GetStringArrayValue()[0].ToLower();
+            //        //var descriptionTitle = PanelDescriptorDataType.DESCRIPTION.GetStringArrayValue()[0].ToLower();
+            //        //var locationTitle = PanelDescriptorDataType.LOCATION.GetStringArrayValue()[0].ToLower();
+            //        //var roomTitle = PanelDescriptorDataType.LOCATION.GetStringArrayValue()[0].ToLower();
+            //        //var afflTitle = PanelDescriptorDataType.AFFL.GetStringArrayValue()[0].ToLower();
+            //        //if (headerTextString.Contains(panelIdTitle))
+            //        //{
+            //        //    model.PanelId = cellData.Value + "";
+            //        //    continue;
+            //        //}
+            //        //if (headerTextString.Contains(descriptionTitle)) 
+            //        //{ 
+            //        //    model.Description = cellData.Value + "";
+            //        //    continue;
+            //        //}
+            //        //if (headerTextString.Contains(locationTitle))
+            //        //{
+            //        //    model.Location = cellData.Value + "";
+            //        //    continue;
+            //        //}
+            //        //if (headerTextString.Contains(roomTitle))
+            //        //{
+            //        //    model.Room = cellData.Value + "";
+            //        //    continue;
+            //        //}
+            //        //if (headerTextString.Contains(afflTitle))
+            //        //{
+            //        //    model.AboveFinishedFloorLevel = cellData.Value + "";
+            //        //    continue;
+            //        //}
+
+            //        //Debug.WriteLine($"{model}");
+                    
+            //        Debug.WriteLine($"-> {StringsHelper.ListToString(cellData.HeaderText)}: {cellData.Value}");
+
+            //        //var cableSystemData = new CableSystemData();
+
+            //        ////faceplatesData.TryAdd(cellData.HeaderText.First(), new ExtractedFaceplateData());
+
+            //        //// Not super pretty, but at this point we are at the cable system columns
+            //        //// This heavily relies in the structure of the able that should not change
+            //        //// lookahead to next related rows 
+            //        //// we expect this loop to exit quite quickly every time (on first or second iteration)
+            //        //var cableSystemQuantity = 0;
+            //        //var cableSystemDestination = "";
+            //        //for (int ii = i + 1; ii < cellList.Count; ii++)
+            //        //{
+            //        //    var nextCellData = cellList[ii].Value;
+            //        //    if (cellData.HeaderText[0] != nextCellData.HeaderText[0])
+            //        //    {
+            //        //        Debug.WriteLine($"The first part of header was not matched in the next column: {cellData.HeaderText[0]} -> Handling next...");
+            //        //        break;
+            //        //    }
+
+            //        //    //// check the second header part if there is one
+            //        //    //// probably not neccessary
+            //        //    //if (cellData.HeaderText.Count > 1)
+            //        //    //{
+            //        //    //    if (cellData.HeaderText[1] != nextCellData.HeaderText[1])
+            //        //    //    {
+            //        //    //        Debug.WriteLine($"The second part of header was not matched in the next column: {cellData.HeaderText[1]} -> Handling next...");
+            //        //    //        break;
+            //        //    //    }
+            //        //    //}
+
+            //        //    if (nextCellData.Value == null || nextCellData.Value + "" == string.Empty)
+            //        //    {
+            //        //        // shouldn't occur
+            //        //        throw new Exception($"The previous cell in this system group: {StringsHelper.ListToString(nextCellData.HeaderText)} had a value, but this cell does not (Cell={cellData.ColumnNumber}, Row={cellData.RowNumber})");
+            //        //    }
+
+
+            //        //}
+
+            //        //cableSystemData.Quantity = cableSystemQuantity;
+            //        //cableSystemData.Destination = cableSystemDestination;
+            //    }
+            //}
+
+            //return true;
         }
+
 
         /// <summary>
         /// Detect the range of the header

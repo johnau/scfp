@@ -6,7 +6,7 @@ namespace FaceplateDataExtractor
     {
         bool HasErrors { get; }
         List<string> Errors { get; }
-        bool TryExtractData(int sheet, out List<ExtractedFaceplateData> data, out List<ExtractedFaceplateData> rejectedData);
+        bool TryExtractData(int flag, out List<ExtractedFaceplateData> data, out List<ExtractedFaceplateData> rejectedData);
         //List<string> GetErrors();
     }
 }

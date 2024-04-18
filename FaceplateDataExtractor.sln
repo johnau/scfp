@@ -17,9 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceplateDataExtractor.Xuni
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceplateDatabase.XunitTests", "FaceplateDatabase.XunitTests\FaceplateDatabase.XunitTests.csproj", "{702B16DD-9068-415D-9578-A41522E29B0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DxfIngest", "DxfIngest\DxfIngest.csproj", "{A7B083B9-028F-486B-B5A7-413EFF6D37B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DxfIngest", "DxfIngest\DxfIngest.csproj", "{A7B083B9-028F-486B-B5A7-413EFF6D37B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevConsole", "DevConsole\DevConsole.csproj", "{DF92F8BC-794B-4CCA-B36D-E082EE0D4530}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevConsole", "DevConsole\DevConsole.csproj", "{DF92F8BC-794B-4CCA-B36D-E082EE0D4530}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelFaceplateDataExtractorApp", "ExcelFaceplateDataExtractorApp\ExcelFaceplateDataExtractorApp.csproj", "{A8F43181-527C-4253-A5F2-F947B7CD74D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceplateIdGenerator", "FaceplateIdGenerator\FaceplateIdGenerator.csproj", "{7035A2C0-6B2F-4A61-A66F-B4251FF9A80D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{DF92F8BC-794B-4CCA-B36D-E082EE0D4530}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF92F8BC-794B-4CCA-B36D-E082EE0D4530}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF92F8BC-794B-4CCA-B36D-E082EE0D4530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F43181-527C-4253-A5F2-F947B7CD74D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F43181-527C-4253-A5F2-F947B7CD74D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F43181-527C-4253-A5F2-F947B7CD74D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F43181-527C-4253-A5F2-F947B7CD74D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7035A2C0-6B2F-4A61-A66F-B4251FF9A80D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7035A2C0-6B2F-4A61-A66F-B4251FF9A80D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7035A2C0-6B2F-4A61-A66F-B4251FF9A80D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7035A2C0-6B2F-4A61-A66F-B4251FF9A80D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

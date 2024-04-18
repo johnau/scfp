@@ -2,11 +2,17 @@
 {
     public class CableSystemData
     {
-        public SystemType SystemType { get; }
-        public CableType CableType { get; }
-        public int Quantity { get; }
-        public string Destination { get; }
+        public SystemType SystemType { get; set; }
+        public CableType CableType { get; set; }
+        public int Quantity { get; set; }
+        public string Destination { get; set; }
 
+        public CableSystemData() {
+            SystemType = SystemType.NONE;
+            CableType = CableType.NONE;
+            Quantity = 0;
+            Destination = "";
+        }
         public CableSystemData(SystemType systemType, CableType cableType, int quantity, string destination)
         {
             SystemType = systemType;

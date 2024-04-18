@@ -11,8 +11,8 @@
     internal class ColumnGroupLayout
     {
         #region static factory methods
-        public static ColumnGroupLayout System_TwoColumnLayout() => new ColumnGroupLayout([ColumnValueType.QUANTITY_GENDERLESS, ColumnValueType.DESTINATION]);
-        public static ColumnGroupLayout System_ThreeColumnLayout() => new ColumnGroupLayout([ColumnValueType.QUANTITY_MALE, ColumnValueType.QUANTITY_FEMALE, ColumnValueType.DESTINATION]);
+        public static ColumnGroupLayout System_TwoColumnLayout() => new ColumnGroupLayout([ColumnValueType.QUANTITY, ColumnValueType.TO_FROM]);
+        public static ColumnGroupLayout System_ThreeColumnLayout() => new ColumnGroupLayout([ColumnValueType.QUANTITY_MALE, ColumnValueType.QUANTITY_FEMALE, ColumnValueType.TO_FROM]);
         public static List<ColumnGroupLayout> ColumnLayouts() => [System_TwoColumnLayout(), System_ThreeColumnLayout()];
         #endregion
 

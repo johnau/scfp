@@ -40,11 +40,12 @@ namespace FaceplateDataExtractor.Model.Mapper
         public ExtractedFaceplateData Map(WorksheetRowData rowData)
         {
             var rowDataCollection = rowData.RowData;
-            var panelId = "";
-            var description = "";
-            var location = "";
-            var room = "";
-            var aboveFinishedFloorLevel = "";
+            //var panelId = "";
+            //var description = "";
+            //var location = "";
+            //var room = "";
+            //var aboveFinishedFloorLevel = "";
+            var model = new ExtractedFaceplateData();
             List<CableSystemData> cableSystemDatas = [];
 
             //ColumnGroupLayout? currentMatchedLayout = null;
@@ -57,32 +58,34 @@ namespace FaceplateDataExtractor.Model.Mapper
 
                 // First we try to detect a non-system type column
                 // If we match, we do not process the rest of the loop (continue)
-                if (TryHandleMetadataColumn(cellData, out var metadataColumnType, out var metadataColumnValue))
+                if (TryHandleMetadataColumn(cellData, out var metadataColumnType, out var descriptorColumnValue))
                 {
                     switch (metadataColumnType)
                     {
-                        case MetadataType.NONE:
+                        case PanelDescriptorDataType.NONE:
                             throw new Exception("Internal Error: A NONE type column has been detected...");
-                        case MetadataType.PANEL_ID:
-                            panelId = metadataColumnValue;
+                        case PanelDescriptorDataType.PANEL_ID:
+                            model.PanelId = descriptorColumnValue;
                             break;
-                        case MetadataType.DESCRIPTION:
-                            description = metadataColumnValue;
+                        case PanelDescriptorDataType.DESCRIPTION:
+                            model.Description = descriptorColumnValue;
                             break;
-                        case MetadataType.LOCATION:
-                            location = metadataColumnValue;
+                        case PanelDescriptorDataType.LOCATION:
+                            model.Location = descriptorColumnValue;
                             break;
-                        case MetadataType.ROOM:
-                            room = metadataColumnValue;
+                        case PanelDescriptorDataType.ROOM:
+                            model.Room = descriptorColumnValue;
                             break;
-                        case MetadataType.AFFL:
-                            aboveFinishedFloorLevel = metadataColumnValue;
+                        case PanelDescriptorDataType.AFFL:
+                            model.AboveFinishedFloorLevel = descriptorColumnValue;
                             break;
                         default:
                             throw new Exception("Internal Error: Unrecognized Metadata Column Type");
                     }
                     continue;
                 }
+
+                Debug.WriteLine($"{model}");
 
                 // At this point we must be in the System Types column groups else the table/template is borked.
                 // The LookAhead method will throw an exception if it can't find a match - can't continue further
@@ -138,6 +141,8 @@ namespace FaceplateDataExtractor.Model.Mapper
 
                 //}
 
+                var quantity = 0;
+                var destination = "";
                 var cableSystemData = new CableSystemData(systemType, cableType, quantity, destination);
                 cableSystemDatas.Add(cableSystemData);
 
@@ -147,7 +152,9 @@ namespace FaceplateDataExtractor.Model.Mapper
                 //}
             }
 
-            return new ExtractedFaceplateData(panelId, description, location, room, aboveFinishedFloorLevel, cableSystemDatas);
+            return model;
+
+            //return new ExtractedFaceplateData(panelId, description, location, room, aboveFinishedFloorLevel, cableSystemDatas);
         }
 
 
@@ -255,7 +262,7 @@ namespace FaceplateDataExtractor.Model.Mapper
             return destination;
         }
 
-        private static bool TryHandleMetadataColumn(WorksheetCellData? cellData, out MetadataType metadataType, out string value)
+        private static bool TryHandleMetadataColumn(WorksheetCellData? cellData, out PanelDescriptorDataType metadataType, out string value)
         {
             metadataType = default;
             value = "";
@@ -477,10 +484,10 @@ namespace FaceplateDataExtractor.Model.Mapper
 
             foreach (T _type in Enum.GetValues(typeof(T)))
             {
-                var possibleMatches = _type.GetStringArrayValue();
-                for (int i = 0; i < possibleMatches.Length; i++)
+                var enumTypeValueOptions = _type.GetStringArrayValue();
+                for (int i = 0; i < enumTypeValueOptions.Length; i++)
                 {
-                    var currentMatch = possibleMatches[i];
+                    var currentMatch = enumTypeValueOptions[i];
                     if (s.Contains(currentMatch, StringComparison.OrdinalIgnoreCase))
                     {
                         matches.Add(_type, currentMatch);
@@ -511,7 +518,7 @@ namespace FaceplateDataExtractor.Model.Mapper
                     longestMatchValue = e;
                 } else if (str.Length == longestMatch.Length)
                 {
-                    throw new Exception($"The enum {typeof(T)} needs to be modified since there are two or more values that are colliding during detection.  This error was somewhat expected at some point...");
+                    throw new Exception($"The enum {typeof(T)} needs to be modified since there are two or more values that are colliding during detection. ({str} and {longestMatch})  This error was somewhat expected at some point...");
                 }
             }
 

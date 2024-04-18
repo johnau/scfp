@@ -6,9 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\FaceplateDataExtractor\FaceplateDataExtractor.csproj" />
-    <ProjectReference Include="..\FaceplateIdGenerator\FaceplateIdGenerator.csproj" />
-  </ItemGroup>
-
 </Project>
