@@ -3,7 +3,7 @@
 /obj
 */bin
 */obj
-/FaceplateDataExtractor.XunitTests/resources/**
+/*.XunitTests/resources/**
 
 # DocFx generated files
 /docs/_site/**
