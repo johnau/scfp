@@ -26,14 +26,23 @@ public class DataExtractorService
         var success = extractor.TryExtractData(0, out var data, out var rejectedData);
         if (!success) return [];
 
+        var sorted = data.OrderBy(fp => fp.PanelId)
+                                    .ThenBy(fp => fp.Room)
+                                    .Select(fp => fp.ToString())
+                                    .ToList();
+
         //Dictionary<string, >
         // iterate the data and produce ids
         var cables = new List<CableData>();
+        var lastSourcePanel = "";
         foreach (var faceplateData in data)
         {
             foreach (var cableSystemData in faceplateData.CableSystemDatas)
             {
                 IdentifierType identifierType = MapToIdentifierType(cableSystemData.SystemType);
+
+                if (lastSourcePanel != "" && lastSourcePanel != faceplateData.PanelId)
+                    idGenerator.EndIdBatch(identifierType);
 
                 for (int i = 0; i < cableSystemData.Quantity; i++)
                 {
@@ -46,11 +55,12 @@ public class DataExtractorService
                         faceplateData.AboveFinishedFloorLevel, 
                         "<cable type>", 
                         faceplateData.PanelId, 
-                        cableSystemData.Destination);
+                        cableSystemData.DestPanelId);
 
                     cables.Add(cableData);
                 }
             }
+            lastSourcePanel = faceplateData.PanelId;
         }
 
         return cables;

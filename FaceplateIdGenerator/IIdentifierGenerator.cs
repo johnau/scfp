@@ -13,6 +13,9 @@ public interface IIdentifierGenerator
     /// </summary>
     /// <returns></returns>
     string NextId(IdentifierType type);
+
+    void EndIdBatch(IdentifierType type);
+
     /// <summary>
     /// Returns all ids generated;
     /// </summary>

@@ -125,7 +125,7 @@ namespace FaceplateDataExtractor.Excel
                         else if (name == ColumnValueType.TO_FROM.ToString())
                         {
                             // Set Destination / TO/FROM
-                            systemData.Destination = GetCellValueAsString(row.Cell(colNum));
+                            systemData.DestPanelId = GetCellValueAsString(row.Cell(colNum));
                         }
                         //else if (name == ColumnValueType.QUANTITY_MALE.ToString())
                         //{

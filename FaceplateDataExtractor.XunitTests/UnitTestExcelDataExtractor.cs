@@ -54,7 +54,7 @@ namespace FaceplateDataExtractor.XunitTests
                 foreach (var system in d.CableSystemDatas)
                 {
                     //Debug.WriteLine($"SYSTEM: {system.SystemType} {system.CableType} {system.Quantity} {system.Destination}");
-                    Debug.WriteLine($"SYSTEM: {system.SystemType} | {system.Quantity} | {system.Destination}");
+                    Debug.WriteLine($"SYSTEM: {system.SystemType} | {system.Quantity} | {system.DestPanelId}");
                 }
             }
         }
@@ -154,7 +154,7 @@ namespace FaceplateDataExtractor.XunitTests
                 foreach (var system in d.CableSystemDatas)
                 {
                     //Debug.WriteLine($"SYSTEM: {system.SystemType} {system.CableType} {system.Quantity} {system.Destination}");
-                    Debug.WriteLine($"SYSTEM: {system.SystemType} | {system.Quantity} | {system.Destination}");
+                    Debug.WriteLine($"SYSTEM: {system.SystemType} | {system.Quantity} | {system.DestPanelId}");
                 }
             }
         }

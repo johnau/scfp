@@ -2,6 +2,7 @@
 {
     internal class Identifier
     {
+        private readonly int _batchSize = 24;
         private string _prefix;
         private int _current;
 
@@ -39,6 +40,11 @@
                 }
             }
             return GetId();
+        }
+
+        public void EndBatch()
+        {
+            _current = _batchSize - (_current % _batchSize) + _current;
         }
     }
 }

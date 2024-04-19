@@ -56,7 +56,7 @@ namespace FaceplateDataExtractor.Model
         {
             if (cableSystemData.SystemType != SystemType.NONE 
                 && cableSystemData.Quantity > 0 
-                && !string.IsNullOrEmpty(cableSystemData.Destination))
+                && !string.IsNullOrEmpty(cableSystemData.DestPanelId))
                 _cableSystemDatas.Add(cableSystemData);
             Debug.WriteLine($"Added cable system data, now have: {_cableSystemDatas.Count} in list");
         }

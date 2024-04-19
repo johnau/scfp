@@ -33,6 +33,24 @@ namespace FaceplateIdGenerator
             return nextId;
         }
 
+        /// <summary>
+        /// Shifts the cursor to the end of the current batch
+        /// </summary>
+        /// <remarks>
+        /// Call before calling NextId() when batch needs to be ended.
+        /// </remarks>
+        /// <param name="type"></param>
+        /// <exception cref="Exception"></exception>
+        public void EndIdBatch(IdentifierType type)
+        {
+            if (!identifiers.TryGetValue(type, out var identifier))
+            {
+                throw new Exception("There is no Id sequence started");
+            }
+
+            identifier.EndBatch();
+        }
+
         public void StartAllSequences()
         {
             foreach (IdentifierType type in Enum.GetValues(typeof(IdentifierType)))

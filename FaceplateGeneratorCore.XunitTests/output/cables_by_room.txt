@@ -1,336 +1,336 @@
            Id         Description                  Location                     Room          Affl          SourcePanelId DestinationPanelId CableType    
-Cable:     TD012      D: LIGHTING CONTROL          L: CONTROL ROOM              R:            A: 500        FROM: CR491      TO: ER491      C: <cable typ
-Cable:     TD013      D: LIGHTING CONTROL          L: CONTROL ROOM              R:            A: 500        FROM: CR491      TO: ER491      C: <cable typ
-Cable:     TD014      D: LIGHTING CONTROL          L: CONTROL ROOM              R:            A: 500        FROM: CR491      TO: ER491      C: <cable typ
-Cable:     TD015      D: LIGHTING CONTROL          L: CONTROL ROOM              R:            A: 500        FROM: CR491      TO: ER491      C: <cable typ
-Cable:     DM012      D: LIGHTING CONTROL          L: CONTROL ROOM              R:            A: 500        FROM: CR491      TO: ER491      C: <cable typ
-Cable:     DM013      D: LIGHTING CONTROL          L: CONTROL ROOM              R:            A: 500        FROM: CR491      TO: ER491      C: <cable typ
-Cable:     TD016      D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      C: <cable typ
-Cable:     TD017      D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      C: <cable typ
-Cable:     TD018      D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      C: <cable typ
-Cable:     TD019      D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      C: <cable typ
-Cable:     DM014      D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      C: <cable typ
-Cable:     DM015      D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      C: <cable typ
-Cable:     TD020      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      C: <cable typ
-Cable:     TD021      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      C: <cable typ
-Cable:     TD022      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      C: <cable typ
-Cable:     TD023      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      C: <cable typ
-Cable:     DM016      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      C: <cable typ
-Cable:     DM017      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      C: <cable typ
-Cable:     DM018      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      C: <cable typ
-Cable:     DM019      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      C: <cable typ
-Cable:     TD026      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     TD027      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     TD028      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     TD029      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     TD030      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     TD031      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     TD032      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     TD033      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     TD034      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     TD035      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     MF013      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     MF014      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     MF015      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     MF016      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     MF017      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     MF018      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     MF019      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     MF020      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     MF021      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     MF022      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     MF023      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     MF024      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
-Cable:     TD070      D: FOLLOW SPOT               L: LEVEL 2 BALCONY           R:            A: 150        FROM: FS651      TO: ER401      C: <cable typ
-Cable:     TD071      D: FOLLOW SPOT               L: LEVEL 2 BALCONY           R:            A: 150        FROM: FS652      TO: ER401      C: <cable typ
-Cable:     TD080      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX651      TO: ER401      C: <cable typ
-Cable:     TD081      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX651      TO: ER401      C: <cable typ
-Cable:     TD082      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX652      TO: ER401      C: <cable typ
-Cable:     TD083      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX652      TO: ER401      C: <cable typ
-Cable:     TD084      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX653      TO: ER401      C: <cable typ
-Cable:     TD085      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX653      TO: ER401      C: <cable typ
-Cable:     TD086      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX654      TO: ER401      C: <cable typ
-Cable:     TD087      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX654      TO: ER401      C: <cable typ
-Cable:     TD088      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX655      TO: ER401      C: <cable typ
-Cable:     TD089      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX655      TO: ER401      C: <cable typ
-Cable:     TD090      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX656      TO: ER401      C: <cable typ
-Cable:     TD091      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX656      TO: ER401      C: <cable typ
-Cable:     TD107      D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX861      TO: ER401      C: <cable typ
-Cable:     TD108      D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX861      TO: ER401      C: <cable typ
-Cable:     TD109      D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX861      TO: ER401      C: <cable typ
-Cable:     TD110      D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX862      TO: ER401      C: <cable typ
-Cable:     TD111      D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX862      TO: ER401      C: <cable typ
-Cable:     TD112      D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX862      TO: ER401      C: <cable typ
-Cable:     TD113      D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX863      TO: ER401      C: <cable typ
-Cable:     TD114      D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX863      TO: ER401      C: <cable typ
-Cable:     TD115      D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX863      TO: ER401      C: <cable typ
-Cable:     TD116      D: SPEAKER                   L: LEVEL 1 BALCONY           R:            A: ON BAR     FROM: SX451      TO: ER401      C: <cable typ
-Cable:     TD117      D: SPEAKER                   L: LEVEL 1 BALCONY           R:            A: ON BAR     FROM: SX452      TO: ER401      C: <cable typ
-Cable:     TD149      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP801      TO: ER401      C: <cable typ
-Cable:     TD150      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP801      TO: ER401      C: <cable typ
-Cable:     TD151      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP802      TO: ER401      C: <cable typ
-Cable:     TD152      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP802      TO: ER401      C: <cable typ
-Cable:     TD153      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP803      TO: ER401      C: <cable typ
-Cable:     TD154      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP803      TO: ER401      C: <cable typ
-Cable:     MF025      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP803      TO: ER401      C: <cable typ
-Cable:     MF026      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP803      TO: ER401      C: <cable typ
-Cable:     MF027      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP803      TO: ER401      C: <cable typ
-Cable:     MF028      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP803      TO: ER401      C: <cable typ
-Cable:     TD155      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP804      TO: ER401      C: <cable typ
-Cable:     TD156      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP804      TO: ER401      C: <cable typ
-Cable:     MF029      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP804      TO: ER401      C: <cable typ
-Cable:     MF030      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP804      TO: ER401      C: <cable typ
-Cable:     MF031      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP804      TO: ER401      C: <cable typ
-Cable:     MF032      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP804      TO: ER401      C: <cable typ
-Cable:     TD157      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP851      TO: ER401      C: <cable typ
-Cable:     TD158      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP851      TO: ER401      C: <cable typ
-Cable:     TD159      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP851      TO: ER401      C: <cable typ
-Cable:     TD160      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP851      TO: ER401      C: <cable typ
-Cable:     TD161      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP852      TO: ER401      C: <cable typ
-Cable:     TD162      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP852      TO: ER401      C: <cable typ
-Cable:     TD163      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP852      TO: ER401      C: <cable typ
-Cable:     TD164      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP852      TO: ER401      C: <cable typ
-Cable:     TD165      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      C: <cable typ
-Cable:     TD166      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      C: <cable typ
-Cable:     TD167      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      C: <cable typ
-Cable:     TD168      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      C: <cable typ
-Cable:     MF033      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      C: <cable typ
-Cable:     MF034      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      C: <cable typ
-Cable:     MF035      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      C: <cable typ
-Cable:     MF036      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      C: <cable typ
-Cable:     TD169      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      C: <cable typ
-Cable:     TD170      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      C: <cable typ
-Cable:     TD171      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      C: <cable typ
-Cable:     TD172      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      C: <cable typ
-Cable:     MF037      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      C: <cable typ
-Cable:     MF038      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      C: <cable typ
-Cable:     MF039      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      C: <cable typ
-Cable:     MF040      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      C: <cable typ
-Cable:     DM083      D: SCREEN                    L: MULTI-PURPOSE RM/GREEG32  R:            A: 2000       FROM: BS203      TO: ER401      C: <cable typ
-Cable:     DM084      D: SCREEN                    L: DR. RM. G39               R:            A: 2000       FROM: BS205      TO: ER401      C: <cable typ
-Cable:     DM085      D: SCREEN                    L: DR. RM. G29               R:            A: 2000       FROM: BS207      TO: ER401      C: <cable typ
-Cable:     DM086      D: SCREEN                    L: PRINC. DR. RM. 2 G20      R:            A: 2000       FROM: BS209      TO: ER401      C: <cable typ
-Cable:     DM087      D: SCREEN                    L: STAGE DOOR G41            R:            A: 2000       FROM: BS211      TO: ER401      C: <cable typ
-Cable:     DM088      D: SCREEN                    L: LOBBY G44                 R:            A: 2000       FROM: BS213      TO: ER401      C: <cable typ
-Cable:     DM089      D: SCREEN                    L: SCENE DOCK G24            R:            A: 2500       FROM: BS214      TO: ER401      C: <cable typ
-Cable:     DM090      D: SCREEN                    L: WORKSHOP G35              R:            A: 2000       FROM: BS215      TO: ER401      C: <cable typ
-Cable:     TD173      D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      C: <cable typ
-Cable:     TD174      D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      C: <cable typ
-Cable:     TD175      D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      C: <cable typ
-Cable:     TD176      D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      C: <cable typ
-Cable:     TD177      D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      C: <cable typ
-Cable:     TD178      D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      C: <cable typ
-Cable:     DM091      D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      C: <cable typ
-Cable:     DM092      D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      C: <cable typ
-Cable:     TD179      D: TECH PANEL                L: SCENE DOCK G24            R:            A: 500        FROM: BS218      TO: ER401      C: <cable typ
-Cable:     TD180      D: TECH PANEL                L: SCENE DOCK G24            R:            A: 500        FROM: BS218      TO: ER401      C: <cable typ
-Cable:     TD181      D: TECH PANEL                L: SCENE DOCK G24            R:            A: 500        FROM: BS218      TO: ER401      C: <cable typ
-Cable:     TD182      D: TECH PANEL                L: SCENE DOCK G24            R:            A: 500        FROM: BS218      TO: ER401      C: <cable typ
-Cable:     DM093      D: TECH PANEL                L: SCENE DOCK G24            R:            A: 500        FROM: BS218      TO: ER401      C: <cable typ
-Cable:     DM094      D: TECH PANEL                L: SCENE DOCK G24            R:            A: 500        FROM: BS218      TO: ER401      C: <cable typ
-Cable:     DM095      D: SCREEN                    L: VENUE MAN. OFFICE 102     R:            A: 2000       FROM: BS401      TO: ER401      C: <cable typ
-Cable:     MF001      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
-Cable:     MF002      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
-Cable:     MF003      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
-Cable:     MF004      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
-Cable:     MF005      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
-Cable:     MF006      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
-Cable:     MF007      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
-Cable:     MF008      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
-Cable:     MF009      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
-Cable:     MF010      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
-Cable:     MF011      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
-Cable:     MF012      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
-Cable:     TD192      D: AV CONTROL                L: CONFERENCE 2              R: 205        A: 1100       FROM: CN651      TO: ER601      C: <cable typ
-Cable:     TD183      D: AV CONTROL                L: CONFERENCE 1              R: 206        A: 1100       FROM: CN601      TO: ER601      C: <cable typ
-Cable:     TD184      D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      C: <cable typ
-Cable:     TD185      D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      C: <cable typ
-Cable:     TD186      D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      C: <cable typ
-Cable:     TD187      D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      C: <cable typ
-Cable:     DM096      D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      C: <cable typ
-Cable:     DM097      D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      C: <cable typ
-Cable:     DM098      D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      C: <cable typ
-Cable:     DM099      D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      C: <cable typ
-Cable:     TD188      D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      C: <cable typ
-Cable:     TD189      D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      C: <cable typ
-Cable:     TD190      D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      C: <cable typ
-Cable:     TD191      D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      C: <cable typ
-Cable:     DM100      D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      C: <cable typ
-Cable:     DM101      D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      C: <cable typ
-Cable:     DM102      D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      C: <cable typ
-Cable:     DM103      D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      C: <cable typ
-Cable:     TD141      D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP601      TO: ER401      C: <cable typ
-Cable:     TD142      D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP601      TO: ER401      C: <cable typ
-Cable:     DM074      D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP601      TO: ER401      C: <cable typ
-Cable:     DM075      D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP601      TO: ER401      C: <cable typ
-Cable:     TD145      D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP603      TO: ER401      C: <cable typ
-Cable:     TD146      D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP603      TO: ER401      C: <cable typ
-Cable:     DM078      D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP603      TO: ER401      C: <cable typ
-Cable:     DM079      D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP603      TO: ER401      C: <cable typ
-Cable:     TD143      D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP602      TO: ER401      C: <cable typ
-Cable:     TD144      D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP602      TO: ER401      C: <cable typ
-Cable:     DM076      D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP602      TO: ER401      C: <cable typ
-Cable:     DM077      D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP602      TO: ER401      C: <cable typ
-Cable:     TD147      D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP604      TO: ER401      C: <cable typ
-Cable:     TD148      D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP604      TO: ER401      C: <cable typ
-Cable:     DM080      D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP604      TO: ER401      C: <cable typ
-Cable:     DM081      D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP604      TO: ER401      C: <cable typ
-Cable:     TD024      D: DIMMER RACK               L: TECH                      R: 220        A: 500        FROM: DIM601     TO: ER401      C: <cable typ
-Cable:     TD025      D: DIMMER RACK               L: TECH                      R: 220        A: 500        FROM: DIM601     TO: ER401      C: <cable typ
-Cable:     DM020      D: DIMMER RACK               L: TECH                      R: 220        A: 500        FROM: DIM601     TO: ER401      C: <cable typ
-Cable:     TD125      D: TECH PANEL                L: SUB STAGE                 R: B01        A: 300        FROM: TP001      TO: ER401      C: <cable typ
-Cable:     DM055      D: TECH PANEL                L: SUB STAGE                 R: B01        A: 300        FROM: TP001      TO: ER401      C: <cable typ
-Cable:     TD126      D: TECH PANEL                L: SUB STAGE                 R: B01        A: 300        FROM: TP002      TO: ER401      C: <cable typ
-Cable:     DM056      D: TECH PANEL                L: SUB STAGE                 R: B01        A: 300        FROM: TP002      TO: ER401      C: <cable typ
-Cable:     TD127      D: TECH PANEL                L: SUB STAGE                 R: B01        A: 300        FROM: TP003      TO: ER401      C: <cable typ
-Cable:     DM057      D: TECH PANEL                L: SUB STAGE                 R: B01        A: 300        FROM: TP003      TO: ER401      C: <cable typ
-Cable:     TD137      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      C: <cable typ
-Cable:     TD138      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      C: <cable typ
-Cable:     DM070      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      C: <cable typ
-Cable:     DM071      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      C: <cable typ
-Cable:     TD139      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      C: <cable typ
-Cable:     TD140      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      C: <cable typ
-Cable:     DM072      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      C: <cable typ
-Cable:     DM073      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      C: <cable typ
+Cable:     TD121      D: LIGHTING CONTROL          L: CONTROL ROOM              R:            A: 500        FROM: CR491      TO: ER491      C: <cable typ
+Cable:     TD122      D: LIGHTING CONTROL          L: CONTROL ROOM              R:            A: 500        FROM: CR491      TO: ER491      C: <cable typ
+Cable:     TD123      D: LIGHTING CONTROL          L: CONTROL ROOM              R:            A: 500        FROM: CR491      TO: ER491      C: <cable typ
+Cable:     TD124      D: LIGHTING CONTROL          L: CONTROL ROOM              R:            A: 500        FROM: CR491      TO: ER491      C: <cable typ
+Cable:     DM121      D: LIGHTING CONTROL          L: CONTROL ROOM              R:            A: 500        FROM: CR491      TO: ER491      C: <cable typ
+Cable:     DM122      D: LIGHTING CONTROL          L: CONTROL ROOM              R:            A: 500        FROM: CR491      TO: ER491      C: <cable typ
+Cable:     TD145      D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      C: <cable typ
+Cable:     TD146      D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      C: <cable typ
+Cable:     TD147      D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      C: <cable typ
+Cable:     TD148      D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      C: <cable typ
+Cable:     DM145      D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      C: <cable typ
+Cable:     DM146      D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      C: <cable typ
+Cable:     TD169      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      C: <cable typ
+Cable:     TD170      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      C: <cable typ
+Cable:     TD171      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      C: <cable typ
+Cable:     TD172      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      C: <cable typ
+Cable:     DM169      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      C: <cable typ
+Cable:     DM170      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      C: <cable typ
+Cable:     DM171      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      C: <cable typ
+Cable:     DM172      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      C: <cable typ
+Cable:     TD217      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     TD218      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     TD219      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     TD220      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     TD221      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     TD222      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     TD223      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     TD224      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     TD225      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     TD226      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     MF049      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     MF050      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     MF051      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     MF052      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     MF053      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     MF054      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     MF055      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     MF056      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     MF057      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     MF058      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     MF059      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     MF060      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      C: <cable typ
+Cable:     TD649      D: FOLLOW SPOT               L: LEVEL 2 BALCONY           R:            A: 150        FROM: FS651      TO: ER401      C: <cable typ
+Cable:     TD673      D: FOLLOW SPOT               L: LEVEL 2 BALCONY           R:            A: 150        FROM: FS652      TO: ER401      C: <cable typ
+Cable:     TD793      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX651      TO: ER401      C: <cable typ
+Cable:     TD794      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX651      TO: ER401      C: <cable typ
+Cable:     TD817      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX652      TO: ER401      C: <cable typ
+Cable:     TD818      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX652      TO: ER401      C: <cable typ
+Cable:     TD841      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX653      TO: ER401      C: <cable typ
+Cable:     TD842      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX653      TO: ER401      C: <cable typ
+Cable:     TD865      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX654      TO: ER401      C: <cable typ
+Cable:     TD866      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX654      TO: ER401      C: <cable typ
+Cable:     TD889      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX655      TO: ER401      C: <cable typ
+Cable:     TD890      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX655      TO: ER401      C: <cable typ
+Cable:     TD913      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX656      TO: ER401      C: <cable typ
+Cable:     TD914      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX656      TO: ER401      C: <cable typ
+Cable:     TD1057     D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX861      TO: ER401      C: <cable typ
+Cable:     TD1058     D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX861      TO: ER401      C: <cable typ
+Cable:     TD1059     D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX861      TO: ER401      C: <cable typ
+Cable:     TD1081     D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX862      TO: ER401      C: <cable typ
+Cable:     TD1082     D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX862      TO: ER401      C: <cable typ
+Cable:     TD1083     D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX862      TO: ER401      C: <cable typ
+Cable:     TD1105     D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX863      TO: ER401      C: <cable typ
+Cable:     TD1106     D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX863      TO: ER401      C: <cable typ
+Cable:     TD1107     D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX863      TO: ER401      C: <cable typ
+Cable:     TD1129     D: SPEAKER                   L: LEVEL 1 BALCONY           R:            A: ON BAR     FROM: SX451      TO: ER401      C: <cable typ
+Cable:     TD1153     D: SPEAKER                   L: LEVEL 1 BALCONY           R:            A: ON BAR     FROM: SX452      TO: ER401      C: <cable typ
+Cable:     TD1681     D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP801      TO: ER401      C: <cable typ
+Cable:     TD1682     D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP801      TO: ER401      C: <cable typ
+Cable:     TD1705     D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP802      TO: ER401      C: <cable typ
+Cable:     TD1706     D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP802      TO: ER401      C: <cable typ
+Cable:     TD1729     D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP803      TO: ER401      C: <cable typ
+Cable:     TD1730     D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP803      TO: ER401      C: <cable typ
+Cable:     MF073      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP803      TO: ER401      C: <cable typ
+Cable:     MF074      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP803      TO: ER401      C: <cable typ
+Cable:     MF075      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP803      TO: ER401      C: <cable typ
+Cable:     MF076      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP803      TO: ER401      C: <cable typ
+Cable:     TD1753     D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP804      TO: ER401      C: <cable typ
+Cable:     TD1754     D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP804      TO: ER401      C: <cable typ
+Cable:     MF097      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP804      TO: ER401      C: <cable typ
+Cable:     MF098      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP804      TO: ER401      C: <cable typ
+Cable:     MF099      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP804      TO: ER401      C: <cable typ
+Cable:     MF100      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP804      TO: ER401      C: <cable typ
+Cable:     TD1777     D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP851      TO: ER401      C: <cable typ
+Cable:     TD1778     D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP851      TO: ER401      C: <cable typ
+Cable:     TD1779     D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP851      TO: ER401      C: <cable typ
+Cable:     TD1780     D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP851      TO: ER401      C: <cable typ
+Cable:     TD1801     D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP852      TO: ER401      C: <cable typ
+Cable:     TD1802     D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP852      TO: ER401      C: <cable typ
+Cable:     TD1803     D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP852      TO: ER401      C: <cable typ
+Cable:     TD1804     D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP852      TO: ER401      C: <cable typ
+Cable:     TD1825     D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      C: <cable typ
+Cable:     TD1826     D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      C: <cable typ
+Cable:     TD1827     D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      C: <cable typ
+Cable:     TD1828     D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      C: <cable typ
+Cable:     MF121      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      C: <cable typ
+Cable:     MF122      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      C: <cable typ
+Cable:     MF123      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      C: <cable typ
+Cable:     MF124      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      C: <cable typ
+Cable:     TD1849     D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      C: <cable typ
+Cable:     TD1850     D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      C: <cable typ
+Cable:     TD1851     D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      C: <cable typ
+Cable:     TD1852     D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      C: <cable typ
+Cable:     MF145      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      C: <cable typ
+Cable:     MF146      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      C: <cable typ
+Cable:     MF147      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      C: <cable typ
+Cable:     MF148      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      C: <cable typ
+Cable:     DM961      D: SCREEN                    L: MULTI-PURPOSE RM/GREEG32  R:            A: 2000       FROM: BS203      TO: ER401      C: <cable typ
+Cable:     DM985      D: SCREEN                    L: DR. RM. G39               R:            A: 2000       FROM: BS205      TO: ER401      C: <cable typ
+Cable:     DM1009     D: SCREEN                    L: DR. RM. G29               R:            A: 2000       FROM: BS207      TO: ER401      C: <cable typ
+Cable:     DM1033     D: SCREEN                    L: PRINC. DR. RM. 2 G20      R:            A: 2000       FROM: BS209      TO: ER401      C: <cable typ
+Cable:     DM1057     D: SCREEN                    L: STAGE DOOR G41            R:            A: 2000       FROM: BS211      TO: ER401      C: <cable typ
+Cable:     DM1081     D: SCREEN                    L: LOBBY G44                 R:            A: 2000       FROM: BS213      TO: ER401      C: <cable typ
+Cable:     DM1105     D: SCREEN                    L: SCENE DOCK G24            R:            A: 2500       FROM: BS214      TO: ER401      C: <cable typ
+Cable:     DM1129     D: SCREEN                    L: WORKSHOP G35              R:            A: 2000       FROM: BS215      TO: ER401      C: <cable typ
+Cable:     TD1873     D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      C: <cable typ
+Cable:     TD1874     D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      C: <cable typ
+Cable:     TD1875     D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      C: <cable typ
+Cable:     TD1876     D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      C: <cable typ
+Cable:     TD1877     D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      C: <cable typ
+Cable:     TD1878     D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      C: <cable typ
+Cable:     DM1153     D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      C: <cable typ
+Cable:     DM1154     D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      C: <cable typ
+Cable:     TD1897     D: TECH PANEL                L: SCENE DOCK G24            R:            A: 500        FROM: BS218      TO: ER401      C: <cable typ
+Cable:     TD1898     D: TECH PANEL                L: SCENE DOCK G24            R:            A: 500        FROM: BS218      TO: ER401      C: <cable typ
+Cable:     TD1899     D: TECH PANEL                L: SCENE DOCK G24            R:            A: 500        FROM: BS218      TO: ER401      C: <cable typ
+Cable:     TD1900     D: TECH PANEL                L: SCENE DOCK G24            R:            A: 500        FROM: BS218      TO: ER401      C: <cable typ
+Cable:     DM1177     D: TECH PANEL                L: SCENE DOCK G24            R:            A: 500        FROM: BS218      TO: ER401      C: <cable typ
+Cable:     DM1178     D: TECH PANEL                L: SCENE DOCK G24            R:            A: 500        FROM: BS218      TO: ER401      C: <cable typ
+Cable:     DM1201     D: SCREEN                    L: VENUE MAN. OFFICE 102     R:            A: 2000       FROM: BS401      TO: ER401      C: <cable typ
+Cable:     MF025      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
+Cable:     MF026      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
+Cable:     MF027      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
+Cable:     MF028      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
+Cable:     MF029      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
+Cable:     MF030      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
+Cable:     MF031      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
+Cable:     MF032      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
+Cable:     MF033      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
+Cable:     MF034      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
+Cable:     MF035      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
+Cable:     MF036      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      C: <cable typ
+Cable:     TD1993     D: AV CONTROL                L: CONFERENCE 2              R: 205        A: 1100       FROM: CN651      TO: ER601      C: <cable typ
+Cable:     TD1921     D: AV CONTROL                L: CONFERENCE 1              R: 206        A: 1100       FROM: CN601      TO: ER601      C: <cable typ
+Cable:     TD1945     D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      C: <cable typ
+Cable:     TD1946     D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      C: <cable typ
+Cable:     TD1947     D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      C: <cable typ
+Cable:     TD1948     D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      C: <cable typ
+Cable:     DM1225     D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      C: <cable typ
+Cable:     DM1226     D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      C: <cable typ
+Cable:     DM1227     D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      C: <cable typ
+Cable:     DM1228     D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      C: <cable typ
+Cable:     TD1969     D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      C: <cable typ
+Cable:     TD1970     D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      C: <cable typ
+Cable:     TD1971     D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      C: <cable typ
+Cable:     TD1972     D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      C: <cable typ
+Cable:     DM1249     D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      C: <cable typ
+Cable:     DM1250     D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      C: <cable typ
+Cable:     DM1251     D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      C: <cable typ
+Cable:     DM1252     D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      C: <cable typ
+Cable:     TD1585     D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP601      TO: ER401      C: <cable typ
+Cable:     TD1586     D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP601      TO: ER401      C: <cable typ
+Cable:     DM841      D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP601      TO: ER401      C: <cable typ
+Cable:     DM842      D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP601      TO: ER401      C: <cable typ
+Cable:     TD1633     D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP603      TO: ER401      C: <cable typ
+Cable:     TD1634     D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP603      TO: ER401      C: <cable typ
+Cable:     DM889      D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP603      TO: ER401      C: <cable typ
+Cable:     DM890      D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP603      TO: ER401      C: <cable typ
+Cable:     TD1609     D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP602      TO: ER401      C: <cable typ
+Cable:     TD1610     D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP602      TO: ER401      C: <cable typ
+Cable:     DM865      D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP602      TO: ER401      C: <cable typ
+Cable:     DM866      D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP602      TO: ER401      C: <cable typ
+Cable:     TD1657     D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP604      TO: ER401      C: <cable typ
+Cable:     TD1658     D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP604      TO: ER401      C: <cable typ
+Cable:     DM913      D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP604      TO: ER401      C: <cable typ
+Cable:     DM914      D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP604      TO: ER401      C: <cable typ
+Cable:     TD193      D: DIMMER RACK               L: TECH                      R: 220        A: 500        FROM: DIM601     TO: ER401      C: <cable typ
+Cable:     TD194      D: DIMMER RACK               L: TECH                      R: 220        A: 500        FROM: DIM601     TO: ER401      C: <cable typ
+Cable:     DM193      D: DIMMER RACK               L: TECH                      R: 220        A: 500        FROM: DIM601     TO: ER401      C: <cable typ
+Cable:     TD1345     D: TECH PANEL                L: SUB STAGE                 R: B01        A: 300        FROM: TP001      TO: ER401      C: <cable typ
+Cable:     DM625      D: TECH PANEL                L: SUB STAGE                 R: B01        A: 300        FROM: TP001      TO: ER401      C: <cable typ
+Cable:     TD1369     D: TECH PANEL                L: SUB STAGE                 R: B01        A: 300        FROM: TP002      TO: ER401      C: <cable typ
+Cable:     DM649      D: TECH PANEL                L: SUB STAGE                 R: B01        A: 300        FROM: TP002      TO: ER401      C: <cable typ
+Cable:     TD1393     D: TECH PANEL                L: SUB STAGE                 R: B01        A: 300        FROM: TP003      TO: ER401      C: <cable typ
+Cable:     DM673      D: TECH PANEL                L: SUB STAGE                 R: B01        A: 300        FROM: TP003      TO: ER401      C: <cable typ
+Cable:     TD1537     D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      C: <cable typ
+Cable:     TD1538     D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      C: <cable typ
+Cable:     DM793      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      C: <cable typ
+Cable:     DM794      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      C: <cable typ
+Cable:     TD1561     D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      C: <cable typ
+Cable:     TD1562     D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      C: <cable typ
+Cable:     DM817      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      C: <cable typ
+Cable:     DM818      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      C: <cable typ
 Cable:     TD001      D: AVCONTROL PANEL           L: STAGE                     R: G15        A: 1100       FROM: AV202      TO: ER401      C: <cable typ
-Cable:     TD036      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB201      TO: ER401      C: <cable typ
-Cable:     TD037      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB201      TO: ER401      C: <cable typ
-Cable:     DM021      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB201      TO: ER401      C: <cable typ
-Cable:     DM022      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB201      TO: ER401      C: <cable typ
-Cable:     TD038      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB202      TO: ER401      C: <cable typ
-Cable:     TD039      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB202      TO: ER401      C: <cable typ
-Cable:     DM023      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB202      TO: ER401      C: <cable typ
-Cable:     DM024      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB202      TO: ER401      C: <cable typ
-Cable:     TD040      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB203      TO: ER401      C: <cable typ
-Cable:     TD041      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB203      TO: ER401      C: <cable typ
-Cable:     DM025      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB203      TO: ER401      C: <cable typ
-Cable:     DM026      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB203      TO: ER401      C: <cable typ
-Cable:     TD042      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB204      TO: ER401      C: <cable typ
-Cable:     TD043      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB204      TO: ER401      C: <cable typ
-Cable:     DM027      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB204      TO: ER401      C: <cable typ
-Cable:     DM028      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB204      TO: ER401      C: <cable typ
-Cable:     TD044      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB205      TO: ER401      C: <cable typ
-Cable:     TD045      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB205      TO: ER401      C: <cable typ
-Cable:     DM029      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB205      TO: ER401      C: <cable typ
-Cable:     DM030      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB205      TO: ER401      C: <cable typ
-Cable:     TD046      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB206      TO: ER401      C: <cable typ
-Cable:     TD047      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB206      TO: ER401      C: <cable typ
-Cable:     DM031      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB206      TO: ER401      C: <cable typ
-Cable:     DM032      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB206      TO: ER401      C: <cable typ
-Cable:     TD048      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB207      TO: ER401      C: <cable typ
-Cable:     TD049      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB207      TO: ER401      C: <cable typ
-Cable:     DM033      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB207      TO: ER401      C: <cable typ
-Cable:     DM034      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB207      TO: ER401      C: <cable typ
-Cable:     TD050      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB208      TO: ER401      C: <cable typ
-Cable:     TD051      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB208      TO: ER401      C: <cable typ
-Cable:     DM035      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB208      TO: ER401      C: <cable typ
-Cable:     DM036      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB208      TO: ER401      C: <cable typ
-Cable:     TD092      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX801      TO: ER401      C: <cable typ
-Cable:     TD093      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX801      TO: ER401      C: <cable typ
-Cable:     TD094      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX801      TO: ER401      C: <cable typ
-Cable:     TD095      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX802      TO: ER401      C: <cable typ
-Cable:     TD096      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX802      TO: ER401      C: <cable typ
-Cable:     TD097      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX802      TO: ER401      C: <cable typ
-Cable:     TD098      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX803      TO: ER401      C: <cable typ
-Cable:     TD099      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX803      TO: ER401      C: <cable typ
-Cable:     TD100      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX803      TO: ER401      C: <cable typ
-Cable:     TD101      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX804      TO: ER401      C: <cable typ
-Cable:     TD102      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX804      TO: ER401      C: <cable typ
-Cable:     TD103      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX804      TO: ER401      C: <cable typ
-Cable:     TD130      D: TECH PANEL (SM Panel)     L: STAGE                     R: G15        A: 300        FROM: TP202      TO: ER401      C: <cable typ
-Cable:     TD131      D: TECH PANEL (SM Panel)     L: STAGE                     R: G15        A: 300        FROM: TP202      TO: ER401      C: <cable typ
-Cable:     DM062      D: TECH PANEL (SM Panel)     L: STAGE                     R: G15        A: 300        FROM: TP202      TO: ER401      C: <cable typ
-Cable:     DM063      D: TECH PANEL (SM Panel)     L: STAGE                     R: G15        A: 300        FROM: TP202      TO: ER401      C: <cable typ
-Cable:     DM064      D: TECH PANEL (SM Panel)     L: STAGE                     R: G15        A: 300        FROM: TP202      TO: ER401      C: <cable typ
-Cable:     DM065      D: TECH PANEL (SM Panel)     L: STAGE                     R: G15        A: 300        FROM: TP202      TO: ER401      C: <cable typ
-Cable:     TD132      D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP203      TO: ER401      C: <cable typ
-Cable:     TD133      D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP203      TO: ER401      C: <cable typ
-Cable:     DM066      D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP203      TO: ER401      C: <cable typ
-Cable:     DM067      D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP203      TO: ER401      C: <cable typ
-Cable:     TD134      D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP204      TO: ER401      C: <cable typ
-Cable:     TD135      D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP204      TO: ER401      C: <cable typ
-Cable:     DM068      D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP204      TO: ER401      C: <cable typ
-Cable:     DM069      D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP204      TO: ER401      C: <cable typ
-Cable:     TD136      D: TECH PANEL (Power Lock)   L: STAGE                     R: G15        A: 300        FROM: TP205      TO: ER401      C: <cable typ
-Cable:     TD002      D: PROJECTOR                 L: AUDITORIUM                R: G16        A: SOFFIT     FROM: AV451      TO: ER401      C: <cable typ
-Cable:     DM001      D: PROJECTOR                 L: AUDITORIUM                R: G16        A: SOFFIT     FROM: AV451      TO: ER401      C: <cable typ
-Cable:     DM002      D: PROJECTOR                 L: AUDITORIUM                R: G16        A: SOFFIT     FROM: AV451      TO: ER401      C: <cable typ
-Cable:     TD003      D: SHOW RELAY CAMERA         L: AUDITORIUM                R: G16        A: ON BAR     FROM: AV651      TO: ER401      C: <cable typ
-Cable:     DM003      D: SHOW RELAY CAMERA         L: AUDITORIUM                R: G16        A: ON BAR     FROM: AV651      TO: ER401      C: <cable typ
-Cable:     TD004      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      C: <cable typ
-Cable:     TD005      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      C: <cable typ
-Cable:     TD006      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      C: <cable typ
-Cable:     TD007      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      C: <cable typ
-Cable:     DM004      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      C: <cable typ
-Cable:     DM005      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      C: <cable typ
-Cable:     DM006      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      C: <cable typ
-Cable:     DM007      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      C: <cable typ
-Cable:     TD008      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      C: <cable typ
-Cable:     TD009      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      C: <cable typ
-Cable:     TD010      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      C: <cable typ
-Cable:     TD011      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      C: <cable typ
-Cable:     DM008      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      C: <cable typ
-Cable:     DM009      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      C: <cable typ
-Cable:     DM010      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      C: <cable typ
-Cable:     DM011      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      C: <cable typ
-Cable:     TD052      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB251      TO: ER401      C: <cable typ
-Cable:     TD053      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB251      TO: ER401      C: <cable typ
-Cable:     DM037      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB251      TO: ER401      C: <cable typ
-Cable:     DM038      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB251      TO: ER401      C: <cable typ
-Cable:     TD054      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB252      TO: ER401      C: <cable typ
-Cable:     TD055      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB252      TO: ER401      C: <cable typ
-Cable:     DM039      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB252      TO: ER401      C: <cable typ
-Cable:     DM040      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB252      TO: ER401      C: <cable typ
-Cable:     TD056      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB253      TO: ER401      C: <cable typ
-Cable:     TD057      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB253      TO: ER401      C: <cable typ
-Cable:     DM041      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB253      TO: ER401      C: <cable typ
-Cable:     DM042      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB253      TO: ER401      C: <cable typ
-Cable:     TD058      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB254      TO: ER401      C: <cable typ
-Cable:     TD059      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB254      TO: ER401      C: <cable typ
-Cable:     DM043      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB254      TO: ER401      C: <cable typ
-Cable:     DM044      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB254      TO: ER401      C: <cable typ
-Cable:     TD060      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB255      TO: ER401      C: <cable typ
-Cable:     TD061      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB255      TO: ER401      C: <cable typ
-Cable:     DM045      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB255      TO: ER401      C: <cable typ
-Cable:     DM046      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB255      TO: ER401      C: <cable typ
-Cable:     TD062      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB256      TO: ER401      C: <cable typ
-Cable:     TD063      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB256      TO: ER401      C: <cable typ
-Cable:     DM047      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB256      TO: ER401      C: <cable typ
-Cable:     DM048      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB256      TO: ER401      C: <cable typ
-Cable:     TD064      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB257      TO: ER401      C: <cable typ
-Cable:     TD065      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB257      TO: ER401      C: <cable typ
-Cable:     DM049      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB257      TO: ER401      C: <cable typ
-Cable:     DM050      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB257      TO: ER401      C: <cable typ
-Cable:     TD066      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB258      TO: ER401      C: <cable typ
-Cable:     TD067      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB258      TO: ER401      C: <cable typ
-Cable:     DM051      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB258      TO: ER401      C: <cable typ
-Cable:     DM052      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB258      TO: ER401      C: <cable typ
-Cable:     TD068      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB259      TO: ER401      C: <cable typ
-Cable:     TD069      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB259      TO: ER401      C: <cable typ
-Cable:     DM053      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB259      TO: ER401      C: <cable typ
-Cable:     DM054      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB259      TO: ER401      C: <cable typ
-Cable:     TD072      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX451      TO: ER401      C: <cable typ
-Cable:     TD073      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX451      TO: ER401      C: <cable typ
-Cable:     TD074      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX452      TO: ER401      C: <cable typ
-Cable:     TD075      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX452      TO: ER401      C: <cable typ
-Cable:     TD076      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX453      TO: ER401      C: <cable typ
-Cable:     TD077      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX453      TO: ER401      C: <cable typ
-Cable:     TD078      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX454      TO: ER401      C: <cable typ
-Cable:     TD079      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX454      TO: ER401      C: <cable typ
-Cable:     TD104      D: LX BAR (ORCH)             L: AUDITORIUM                R: G16        A: CEILING    FROM: LX851      TO: ER401      C: <cable typ
-Cable:     TD105      D: LX BAR (ORCH)             L: AUDITORIUM                R: G16        A: CEILING    FROM: LX851      TO: ER401      C: <cable typ
-Cable:     TD106      D: LX BAR (ORCH)             L: AUDITORIUM                R: G16        A: CEILING    FROM: LX851      TO: ER401      C: <cable typ
-Cable:     TD118      D: SPEAKER (ARRAY)           L: AUDITORIUM                R: G16        A: CEILING    FROM: SX851A     TO: ER401      C: <cable typ
-Cable:     TD119      D: SPEAKER (SUBS)            L: AUDITORIUM                R: G16        A: CEILING    FROM: SX851B     TO: ER401      C: <cable typ
-Cable:     TD120      D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX852      TO: ER401      C: <cable typ
-Cable:     TD121      D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX853      TO: ER401      C: <cable typ
-Cable:     TD122      D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX854      TO: ER401      C: <cable typ
-Cable:     TD123      D: SPEAKER (ARRAY)           L: AUDITORIUM                R: G16        A: CEILING    FROM: SX855A     TO: ER401      C: <cable typ
-Cable:     TD124      D: SPEAKER (SUBS)            L: AUDITORIUM                R: G16        A: CEILING    FROM: SX855B     TO: ER401      C: <cable typ
-Cable:     TD128      D: TECH PANEL (SM Panel)     L: PERF LOCK                 R: G23        A: 300        FROM: TP201A     TO: ER401      C: <cable typ
-Cable:     TD129      D: TECH PANEL (SM Panel)     L: PERF LOCK                 R: G23        A: 300        FROM: TP201A     TO: ER401      C: <cable typ
-Cable:     DM058      D: TECH PANEL (SM Panel)     L: PERF LOCK                 R: G23        A: 300        FROM: TP201A     TO: ER401      C: <cable typ
-Cable:     DM059      D: TECH PANEL (SM Panel)     L: PERF LOCK                 R: G23        A: 300        FROM: TP201A     TO: ER401      C: <cable typ
-Cable:     DM060      D: TECH PANEL (SM Panel)     L: PERF LOCK                 R: G23        A: 300        FROM: TP201A     TO: ER401      C: <cable typ
-Cable:     DM061      D: TECH PANEL (SM Panel)     L: PERF LOCK                 R: G23        A: 300        FROM: TP201A     TO: ER401      C: <cable typ
-Cable:     DM082      D: SCREEN                    L: PRINC. DR. RM. 1          R: G26        A: 2000       FROM: BS201      TO: ER401      C: <cable typ
+Cable:     TD241      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB201      TO: ER401      C: <cable typ
+Cable:     TD242      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB201      TO: ER401      C: <cable typ
+Cable:     DM217      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB201      TO: ER401      C: <cable typ
+Cable:     DM218      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB201      TO: ER401      C: <cable typ
+Cable:     TD265      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB202      TO: ER401      C: <cable typ
+Cable:     TD266      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB202      TO: ER401      C: <cable typ
+Cable:     DM241      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB202      TO: ER401      C: <cable typ
+Cable:     DM242      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB202      TO: ER401      C: <cable typ
+Cable:     TD289      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB203      TO: ER401      C: <cable typ
+Cable:     TD290      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB203      TO: ER401      C: <cable typ
+Cable:     DM265      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB203      TO: ER401      C: <cable typ
+Cable:     DM266      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB203      TO: ER401      C: <cable typ
+Cable:     TD313      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB204      TO: ER401      C: <cable typ
+Cable:     TD314      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB204      TO: ER401      C: <cable typ
+Cable:     DM289      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB204      TO: ER401      C: <cable typ
+Cable:     DM290      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB204      TO: ER401      C: <cable typ
+Cable:     TD337      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB205      TO: ER401      C: <cable typ
+Cable:     TD338      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB205      TO: ER401      C: <cable typ
+Cable:     DM313      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB205      TO: ER401      C: <cable typ
+Cable:     DM314      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB205      TO: ER401      C: <cable typ
+Cable:     TD361      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB206      TO: ER401      C: <cable typ
+Cable:     TD362      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB206      TO: ER401      C: <cable typ
+Cable:     DM337      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB206      TO: ER401      C: <cable typ
+Cable:     DM338      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB206      TO: ER401      C: <cable typ
+Cable:     TD385      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB207      TO: ER401      C: <cable typ
+Cable:     TD386      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB207      TO: ER401      C: <cable typ
+Cable:     DM361      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB207      TO: ER401      C: <cable typ
+Cable:     DM362      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB207      TO: ER401      C: <cable typ
+Cable:     TD409      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB208      TO: ER401      C: <cable typ
+Cable:     TD410      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB208      TO: ER401      C: <cable typ
+Cable:     DM385      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB208      TO: ER401      C: <cable typ
+Cable:     DM386      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB208      TO: ER401      C: <cable typ
+Cable:     TD937      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX801      TO: ER401      C: <cable typ
+Cable:     TD938      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX801      TO: ER401      C: <cable typ
+Cable:     TD939      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX801      TO: ER401      C: <cable typ
+Cable:     TD961      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX802      TO: ER401      C: <cable typ
+Cable:     TD962      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX802      TO: ER401      C: <cable typ
+Cable:     TD963      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX802      TO: ER401      C: <cable typ
+Cable:     TD985      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX803      TO: ER401      C: <cable typ
+Cable:     TD986      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX803      TO: ER401      C: <cable typ
+Cable:     TD987      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX803      TO: ER401      C: <cable typ
+Cable:     TD1009     D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX804      TO: ER401      C: <cable typ
+Cable:     TD1010     D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX804      TO: ER401      C: <cable typ
+Cable:     TD1011     D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX804      TO: ER401      C: <cable typ
+Cable:     TD1441     D: TECH PANEL (SM Panel)     L: STAGE                     R: G15        A: 300        FROM: TP202      TO: ER401      C: <cable typ
+Cable:     TD1442     D: TECH PANEL (SM Panel)     L: STAGE                     R: G15        A: 300        FROM: TP202      TO: ER401      C: <cable typ
+Cable:     DM721      D: TECH PANEL (SM Panel)     L: STAGE                     R: G15        A: 300        FROM: TP202      TO: ER401      C: <cable typ
+Cable:     DM722      D: TECH PANEL (SM Panel)     L: STAGE                     R: G15        A: 300        FROM: TP202      TO: ER401      C: <cable typ
+Cable:     DM723      D: TECH PANEL (SM Panel)     L: STAGE                     R: G15        A: 300        FROM: TP202      TO: ER401      C: <cable typ
+Cable:     DM724      D: TECH PANEL (SM Panel)     L: STAGE                     R: G15        A: 300        FROM: TP202      TO: ER401      C: <cable typ
+Cable:     TD1465     D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP203      TO: ER401      C: <cable typ
+Cable:     TD1466     D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP203      TO: ER401      C: <cable typ
+Cable:     DM745      D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP203      TO: ER401      C: <cable typ
+Cable:     DM746      D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP203      TO: ER401      C: <cable typ
+Cable:     TD1489     D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP204      TO: ER401      C: <cable typ
+Cable:     TD1490     D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP204      TO: ER401      C: <cable typ
+Cable:     DM769      D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP204      TO: ER401      C: <cable typ
+Cable:     DM770      D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP204      TO: ER401      C: <cable typ
+Cable:     TD1513     D: TECH PANEL (Power Lock)   L: STAGE                     R: G15        A: 300        FROM: TP205      TO: ER401      C: <cable typ
+Cable:     TD025      D: PROJECTOR                 L: AUDITORIUM                R: G16        A: SOFFIT     FROM: AV451      TO: ER401      C: <cable typ
+Cable:     DM025      D: PROJECTOR                 L: AUDITORIUM                R: G16        A: SOFFIT     FROM: AV451      TO: ER401      C: <cable typ
+Cable:     DM026      D: PROJECTOR                 L: AUDITORIUM                R: G16        A: SOFFIT     FROM: AV451      TO: ER401      C: <cable typ
+Cable:     TD049      D: SHOW RELAY CAMERA         L: AUDITORIUM                R: G16        A: ON BAR     FROM: AV651      TO: ER401      C: <cable typ
+Cable:     DM049      D: SHOW RELAY CAMERA         L: AUDITORIUM                R: G16        A: ON BAR     FROM: AV651      TO: ER401      C: <cable typ
+Cable:     TD073      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      C: <cable typ
+Cable:     TD074      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      C: <cable typ
+Cable:     TD075      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      C: <cable typ
+Cable:     TD076      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      C: <cable typ
+Cable:     DM073      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      C: <cable typ
+Cable:     DM074      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      C: <cable typ
+Cable:     DM075      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      C: <cable typ
+Cable:     DM076      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      C: <cable typ
+Cable:     TD097      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      C: <cable typ
+Cable:     TD098      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      C: <cable typ
+Cable:     TD099      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      C: <cable typ
+Cable:     TD100      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      C: <cable typ
+Cable:     DM097      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      C: <cable typ
+Cable:     DM098      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      C: <cable typ
+Cable:     DM099      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      C: <cable typ
+Cable:     DM100      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      C: <cable typ
+Cable:     TD433      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB251      TO: ER401      C: <cable typ
+Cable:     TD434      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB251      TO: ER401      C: <cable typ
+Cable:     DM409      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB251      TO: ER401      C: <cable typ
+Cable:     DM410      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB251      TO: ER401      C: <cable typ
+Cable:     TD457      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB252      TO: ER401      C: <cable typ
+Cable:     TD458      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB252      TO: ER401      C: <cable typ
+Cable:     DM433      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB252      TO: ER401      C: <cable typ
+Cable:     DM434      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB252      TO: ER401      C: <cable typ
+Cable:     TD481      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB253      TO: ER401      C: <cable typ
+Cable:     TD482      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB253      TO: ER401      C: <cable typ
+Cable:     DM457      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB253      TO: ER401      C: <cable typ
+Cable:     DM458      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB253      TO: ER401      C: <cable typ
+Cable:     TD505      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB254      TO: ER401      C: <cable typ
+Cable:     TD506      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB254      TO: ER401      C: <cable typ
+Cable:     DM481      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB254      TO: ER401      C: <cable typ
+Cable:     DM482      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB254      TO: ER401      C: <cable typ
+Cable:     TD529      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB255      TO: ER401      C: <cable typ
+Cable:     TD530      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB255      TO: ER401      C: <cable typ
+Cable:     DM505      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB255      TO: ER401      C: <cable typ
+Cable:     DM506      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB255      TO: ER401      C: <cable typ
+Cable:     TD553      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB256      TO: ER401      C: <cable typ
+Cable:     TD554      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB256      TO: ER401      C: <cable typ
+Cable:     DM529      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB256      TO: ER401      C: <cable typ
+Cable:     DM530      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB256      TO: ER401      C: <cable typ
+Cable:     TD577      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB257      TO: ER401      C: <cable typ
+Cable:     TD578      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB257      TO: ER401      C: <cable typ
+Cable:     DM553      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB257      TO: ER401      C: <cable typ
+Cable:     DM554      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB257      TO: ER401      C: <cable typ
+Cable:     TD601      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB258      TO: ER401      C: <cable typ
+Cable:     TD602      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB258      TO: ER401      C: <cable typ
+Cable:     DM577      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB258      TO: ER401      C: <cable typ
+Cable:     DM578      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB258      TO: ER401      C: <cable typ
+Cable:     TD625      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB259      TO: ER401      C: <cable typ
+Cable:     TD626      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB259      TO: ER401      C: <cable typ
+Cable:     DM601      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB259      TO: ER401      C: <cable typ
+Cable:     DM602      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB259      TO: ER401      C: <cable typ
+Cable:     TD697      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX451      TO: ER401      C: <cable typ
+Cable:     TD698      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX451      TO: ER401      C: <cable typ
+Cable:     TD721      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX452      TO: ER401      C: <cable typ
+Cable:     TD722      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX452      TO: ER401      C: <cable typ
+Cable:     TD745      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX453      TO: ER401      C: <cable typ
+Cable:     TD746      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX453      TO: ER401      C: <cable typ
+Cable:     TD769      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX454      TO: ER401      C: <cable typ
+Cable:     TD770      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX454      TO: ER401      C: <cable typ
+Cable:     TD1033     D: LX BAR (ORCH)             L: AUDITORIUM                R: G16        A: CEILING    FROM: LX851      TO: ER401      C: <cable typ
+Cable:     TD1034     D: LX BAR (ORCH)             L: AUDITORIUM                R: G16        A: CEILING    FROM: LX851      TO: ER401      C: <cable typ
+Cable:     TD1035     D: LX BAR (ORCH)             L: AUDITORIUM                R: G16        A: CEILING    FROM: LX851      TO: ER401      C: <cable typ
+Cable:     TD1177     D: SPEAKER (ARRAY)           L: AUDITORIUM                R: G16        A: CEILING    FROM: SX851A     TO: ER401      C: <cable typ
+Cable:     TD1201     D: SPEAKER (SUBS)            L: AUDITORIUM                R: G16        A: CEILING    FROM: SX851B     TO: ER401      C: <cable typ
+Cable:     TD1225     D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX852      TO: ER401      C: <cable typ
+Cable:     TD1249     D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX853      TO: ER401      C: <cable typ
+Cable:     TD1273     D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX854      TO: ER401      C: <cable typ
+Cable:     TD1297     D: SPEAKER (ARRAY)           L: AUDITORIUM                R: G16        A: CEILING    FROM: SX855A     TO: ER401      C: <cable typ
+Cable:     TD1321     D: SPEAKER (SUBS)            L: AUDITORIUM                R: G16        A: CEILING    FROM: SX855B     TO: ER401      C: <cable typ
+Cable:     TD1417     D: TECH PANEL (SM Panel)     L: PERF LOCK                 R: G23        A: 300        FROM: TP201A     TO: ER401      C: <cable typ
+Cable:     TD1418     D: TECH PANEL (SM Panel)     L: PERF LOCK                 R: G23        A: 300        FROM: TP201A     TO: ER401      C: <cable typ
+Cable:     DM697      D: TECH PANEL (SM Panel)     L: PERF LOCK                 R: G23        A: 300        FROM: TP201A     TO: ER401      C: <cable typ
+Cable:     DM698      D: TECH PANEL (SM Panel)     L: PERF LOCK                 R: G23        A: 300        FROM: TP201A     TO: ER401      C: <cable typ
+Cable:     DM699      D: TECH PANEL (SM Panel)     L: PERF LOCK                 R: G23        A: 300        FROM: TP201A     TO: ER401      C: <cable typ
+Cable:     DM700      D: TECH PANEL (SM Panel)     L: PERF LOCK                 R: G23        A: 300        FROM: TP201A     TO: ER401      C: <cable typ
+Cable:     DM937      D: SCREEN                    L: PRINC. DR. RM. 1          R: G26        A: 2000       FROM: BS201      TO: ER401      C: <cable typ
