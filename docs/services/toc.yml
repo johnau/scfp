@@ -2,8 +2,8 @@
 items:
 - name: Service Documentation
   href: README.md
-- name: Service1
-  href: Service1/README.md
+- name: FaceplateDataExtractor
+  href: FaceplateDataExtractor/README.md
   items:
-  - name: Service1
-    href: Service1/README.md
+  - name: Faceplate Data Extractor
+    href: FaceplateDataExtractor/README.md
