@@ -5,7 +5,7 @@
         {
           "src": "../",
           "files": ["**/**.csproj"],
-          "exclude": ["**/bin/**", "**/obj/**"]
+          "exclude": ["**/bin/**", "**/obj/**", "/ExcelFaceplateDataExtractorApp/**"]
         }
       ],
       "dest": "./reference",
