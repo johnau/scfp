@@ -21,29 +21,33 @@ namespace FaceplateGeneratorCore.XunitTests
             //sorting for tests
 
 
-            var sortedById = cables.OrderBy(data => data.Id)
-                                    .Select(cable => cable.ToString())
-                                    .ToList();
-            var sortedByRoom = cables.OrderBy(cable => cable.Room)
-                                        .Select(cable => cable.ToString())
-                                        .ToList();
-            var sortedBySourcePanelId = cables.OrderBy(cable => cable.SourcePanelId)
-                                                .ThenBy(cable => cable.Room)
-                                                .Select(cable => cable.ToString())
-                                                .ToList();
-            var sortedByDestinationPanelId = cables.OrderBy(cable => cable.DestinationPanelId)
-                                                    .Select(cable => cable.ToString())
-                                                    .ToList();
+            //var sortedById = cables.OrderBy(data => data.Id)
+            //                        .Select(cable => cable.ToString())
+            //                        .ToList();
+            //var sortedByRoom = cables.OrderBy(cable => cable.Room)
+            //                            .Select(cable => cable.ToString())
+            //                            .ToList();
+            //var sortedBySourcePanelId = cables.OrderBy(cable => cable.SourcePanelId)
+            //                                    .ThenBy(cable => cable.Room)
+            //                                    .Select(cable => cable.ToString())
+            //                                    .ToList();
+            //var sortedByDestinationPanelId = cables.OrderBy(cable => cable.DestinationPanelId)
+            //                                        .Select(cable => cable.ToString())
+            //                                        .ToList();
+
+            var cableStrings = cables
+                .Select(cable => cable.ToString())
+                .ToList();
 
             Directory.CreateDirectory(outputFolderPath);
-            var filePathForDebug = Path.Combine(outputFolderPath, "cables_by_id.txt");
-            WriteStringsToFile(sortedById, filePathForDebug);
-            filePathForDebug = Path.Combine(outputFolderPath, "cables_by_room.txt");
-            WriteStringsToFile(sortedByRoom, filePathForDebug);
-            filePathForDebug = Path.Combine(outputFolderPath, "cables_by_source.txt");
-            WriteStringsToFile(sortedBySourcePanelId, filePathForDebug);
-            filePathForDebug = Path.Combine(outputFolderPath, "cables_by_dest.txt");
-            WriteStringsToFile(sortedByDestinationPanelId, filePathForDebug);
+            var filePathForDebug = Path.Combine(outputFolderPath, "cables_output.txt");
+            WriteStringsToFile(cableStrings, filePathForDebug);
+            //filePathForDebug = Path.Combine(outputFolderPath, "cables_by_room.txt");
+            //WriteStringsToFile(sortedByRoom, filePathForDebug);
+            //filePathForDebug = Path.Combine(outputFolderPath, "cables_by_source.txt");
+            //WriteStringsToFile(cables, filePathForDebug);
+            //filePathForDebug = Path.Combine(outputFolderPath, "cables_by_dest.txt");
+            //WriteStringsToFile(sortedByDestinationPanelId, filePathForDebug);
         }
 
         private static void WriteStringsToFile(List<string> strings, string filePath)

@@ -38,7 +38,7 @@ namespace FaceplateGeneratorCore.Data
             string truncatedDestinationPanelId = DestinationPanelId.Length > 10 ? DestinationPanelId[..10] : DestinationPanelId;
             string truncatedCableType = CableType.Length > 10 ? CableType[..10] : CableType;
 
-            return $"{"Cable:",-10} {Id,-10} D: {truncatedDescription,-25} L: {truncatedLocation,-25} R: {truncatedRoom,-10} A: {truncatedAffl,-10} FROM: {truncatedSourcePanelId,-10} TO: {truncatedDestinationPanelId,-10} C: {truncatedCableType,-10}";
+            return $"{"Cable:",-10} {Id,-10} D: {truncatedDescription,-25} L: {truncatedLocation,-25} R: {truncatedRoom,-10} A: {truncatedAffl,-10} FROM: {truncatedSourcePanelId,-10} TO: {truncatedDestinationPanelId,-10} C: {truncatedCableType,-10} SYS: {SystemType, -10}";
         }
 
         public void AssignId(string id)

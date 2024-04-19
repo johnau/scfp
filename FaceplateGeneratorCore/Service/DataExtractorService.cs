@@ -34,8 +34,7 @@ public class DataExtractorService
         {
             foreach (var cableSystemData in faceplateData.CableSystemDatas)
             {
-                IdentifierType identifierType = MapToIdentifierType(cableSystemData.SystemType);
-
+                //IdentifierType identifierType = MapToIdentifierType(cableSystemData.SystemType);
                 for (int i = 0; i < cableSystemData.Quantity; i++)
                 {
                     //string nextId = idGenerator.NextId(identifierType, faceplateData.PanelId);
@@ -55,18 +54,21 @@ public class DataExtractorService
             }
         }
 
-        var sortedBySourcePanelId_AndThenByRoom = cables.OrderBy(cable => cable.SourcePanelId)
-                                            .ThenBy(cable => cable.Room)
-                                            .ToList();
+        var sortedCables = cables.OrderBy(cable => cable.SystemType.ToString())
+                                                        .ThenBy(cable => cable.DestinationPanelId)
+                                                        .ThenBy(cable => cable.SourcePanelId)
+                                                        .ThenBy(cable => cable.Location)
+                                                        .ThenBy(cable => cable.Room)
+                                                        .ToList();
 
-        foreach (var cable in sortedBySourcePanelId_AndThenByRoom)
+        foreach (var cable in sortedCables)
         {
             IdentifierType identifierType = MapToIdentifierType(cable.SystemType);
-            string nextId = idGenerator.NextId(identifierType, cable.SourcePanelId);
+            string nextId = idGenerator.NextId(identifierType, cable.DestinationPanelId);
             cable.AssignId(nextId);
         }
 
-        return cables;
+        return sortedCables;
     }
 
     public static IdentifierType MapToIdentifierType(SystemType systemType)
