@@ -2,7 +2,7 @@
 {
     internal class MultimodeFiberIdentifier : Identifier
     {
-        public MultimodeFiberIdentifier(int startNumber = 100) 
+        public MultimodeFiberIdentifier(int startNumber = 0) 
             : base("MF", startNumber)
         {
         }

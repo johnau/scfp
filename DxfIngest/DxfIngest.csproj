@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="netDxf" Version="2022.11.2" />
+  </ItemGroup>
+
 </Project>

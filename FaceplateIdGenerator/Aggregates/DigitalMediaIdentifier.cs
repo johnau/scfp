@@ -2,7 +2,7 @@
 {
     internal class DigitalMediaIdentifier : Identifier
     {
-        public DigitalMediaIdentifier(int startNumber = 100) 
+        public DigitalMediaIdentifier(int startNumber = 0) 
             : base("DM", startNumber)
         {
         }

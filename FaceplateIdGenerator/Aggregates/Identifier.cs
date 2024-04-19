@@ -17,7 +17,7 @@
         /// <returns></returns>
         public string GetId()
         {
-            return _prefix + _current;
+            return _prefix + _current.ToString("D3");
         }
 
         /// <summary>

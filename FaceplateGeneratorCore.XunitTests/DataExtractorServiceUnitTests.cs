@@ -34,6 +34,7 @@ namespace FaceplateGeneratorCore.XunitTests
                                         .Select(cable => cable.ToString())
                                         .ToList();
             var sortedBySourcePanelId = cables.OrderBy(cable => cable.SourcePanelId)
+                                                .ThenBy(cable => cable.Room)
                                                 .Select(cable => cable.ToString())
                                                 .ToList();
             var sortedByDestinationPanelId = cables.OrderBy(cable => cable.DestinationPanelId)
