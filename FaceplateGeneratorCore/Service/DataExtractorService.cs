@@ -54,12 +54,12 @@ public class DataExtractorService
             }
         }
 
-        var sortedCables = cables.OrderBy(cable => cable.SystemType.ToString())
-                                                        .ThenBy(cable => cable.DestinationPanelId)
-                                                        .ThenBy(cable => cable.SourcePanelId)
-                                                        .ThenBy(cable => cable.Location)
-                                                        .ThenBy(cable => cable.Room)
-                                                        .ToList();
+        var sortedCables = cables.OrderByDescending(cable => cable.SystemType.ToString())
+                                    .ThenBy(cable => cable.DestinationPanelId)
+                                    .ThenBy(cable => cable.SourcePanelId)
+                                    .ThenBy(cable => cable.Location)
+                                    .ThenBy(cable => cable.Room)
+                                    .ToList();
 
         foreach (var cable in sortedCables)
         {
