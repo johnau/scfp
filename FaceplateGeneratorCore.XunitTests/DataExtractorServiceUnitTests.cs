@@ -21,23 +21,34 @@ namespace FaceplateGeneratorCore.XunitTests
         {
             var assemblyDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             var resourceFolderPath = Path.Combine(assemblyDirectory!, "resources");
+            var outputFolderPath = Path.Combine(assemblyDirectory!, "../../../output");
             var fileName = "20200320 - 1010 (0) CABLE SCHEDULE ken and marty6.xlsx";
             var filePath = Path.Combine(resourceFolderPath, fileName);
 
             var service = new DataExtractorService();
             var cables = service.ExtractFromMasterExcelTemplate(filePath);
-            var sortedList = cables.OrderBy(data => data.Id).ToList();
+            var sortedById = cables.OrderBy(data => data.Id)
+                                    .Select(cable => cable.ToString())
+                                    .ToList();
+            var sortedByRoom = cables.OrderBy(cable => cable.Room)
+                                        .Select(cable => cable.ToString())
+                                        .ToList();
+            var sortedBySourcePanelId = cables.OrderBy(cable => cable.SourcePanelId)
+                                                .Select(cable => cable.ToString())
+                                                .ToList();
+            var sortedByDestinationPanelId = cables.OrderBy(cable => cable.DestinationPanelId)
+                                                    .Select(cable => cable.ToString())
+                                                    .ToList();
 
-            var strings = new List<string>();
-
-            foreach (var cable in sortedList)
-            {
-                Debug.WriteLine(cable);
-                strings.Add(cable.ToString());
-            }
-
-            var filePathForDebug = Path.Combine(resourceFolderPath, "debug_output.txt");
-            WriteStringsToFile(strings, filePathForDebug);
+            Directory.CreateDirectory(outputFolderPath);
+            var filePathForDebug = Path.Combine(outputFolderPath, "cables_by_id.txt");
+            WriteStringsToFile(sortedById, filePathForDebug);
+            filePathForDebug = Path.Combine(outputFolderPath, "cables_by_room.txt");
+            WriteStringsToFile(sortedByRoom, filePathForDebug);
+            filePathForDebug = Path.Combine(outputFolderPath, "cables_by_source.txt");
+            WriteStringsToFile(sortedBySourcePanelId, filePathForDebug);
+            filePathForDebug = Path.Combine(outputFolderPath, "cables_by_dest.txt");
+            WriteStringsToFile(sortedByDestinationPanelId, filePathForDebug);
         }
 
         private static void WriteStringsToFile(List<string> strings, string filePath)

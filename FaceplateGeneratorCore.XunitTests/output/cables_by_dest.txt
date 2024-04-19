@@ -1,0 +1,336 @@
+           Id         Location                     Room          Affl          SourcePanelId DestinationPanelId CableType    
+Cable:     TP284      L: CONFERENCE 1              R: 206        A: 300        S: CN611      D: EN601      C: <cable typ
+Cable:     TP285      L: CONFERENCE 1              R: 206        A: 300        S: CN611      D: EN601      C: <cable typ
+Cable:     TP286      L: CONFERENCE 1              R: 206        A: 300        S: CN611      D: EN601      C: <cable typ
+Cable:     TP287      L: CONFERENCE 1              R: 206        A: 300        S: CN611      D: EN601      C: <cable typ
+Cable:     DM196      L: CONFERENCE 1              R: 206        A: 300        S: CN611      D: EN601      C: <cable typ
+Cable:     DM197      L: CONFERENCE 1              R: 206        A: 300        S: CN611      D: EN601      C: <cable typ
+Cable:     DM198      L: CONFERENCE 1              R: 206        A: 300        S: CN611      D: EN601      C: <cable typ
+Cable:     DM199      L: CONFERENCE 1              R: 206        A: 300        S: CN611      D: EN601      C: <cable typ
+Cable:     TP288      L: CONFERENCE 1              R: 206        A: 0          S: CN612      D: EN601      C: <cable typ
+Cable:     TP289      L: CONFERENCE 1              R: 206        A: 0          S: CN612      D: EN601      C: <cable typ
+Cable:     TP290      L: CONFERENCE 1              R: 206        A: 0          S: CN612      D: EN601      C: <cable typ
+Cable:     TP291      L: CONFERENCE 1              R: 206        A: 0          S: CN612      D: EN601      C: <cable typ
+Cable:     DM200      L: CONFERENCE 1              R: 206        A: 0          S: CN612      D: EN601      C: <cable typ
+Cable:     DM201      L: CONFERENCE 1              R: 206        A: 0          S: CN612      D: EN601      C: <cable typ
+Cable:     DM202      L: CONFERENCE 1              R: 206        A: 0          S: CN612      D: EN601      C: <cable typ
+Cable:     DM203      L: CONFERENCE 1              R: 206        A: 0          S: CN612      D: EN601      C: <cable typ
+Cable:     TP101      L: STAGE                     R: G15        A: 1100       S: AV202      D: ER401      C: <cable typ
+Cable:     TP102      L: AUDITORIUM                R: G16        A: SOFFIT     S: AV451      D: ER401      C: <cable typ
+Cable:     DM101      L: AUDITORIUM                R: G16        A: SOFFIT     S: AV451      D: ER401      C: <cable typ
+Cable:     DM102      L: AUDITORIUM                R: G16        A: SOFFIT     S: AV451      D: ER401      C: <cable typ
+Cable:     TP103      L: AUDITORIUM                R: G16        A: ON BAR     S: AV651      D: ER401      C: <cable typ
+Cable:     DM103      L: AUDITORIUM                R: G16        A: ON BAR     S: AV651      D: ER401      C: <cable typ
+Cable:     TP124      L: TECH                      R: 220        A: 500        S: DIM601     D: ER401      C: <cable typ
+Cable:     TP125      L: TECH                      R: 220        A: 500        S: DIM601     D: ER401      C: <cable typ
+Cable:     DM120      L: TECH                      R: 220        A: 500        S: DIM601     D: ER401      C: <cable typ
+Cable:     TP126      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     TP127      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     TP128      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     TP129      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     TP130      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     TP131      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     TP132      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     TP133      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     TP134      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     TP135      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     MF113      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     MF114      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     MF115      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     MF116      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     MF117      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     MF118      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     MF119      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     MF120      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     MF121      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     MF122      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     MF123      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     MF124      L: CONTROL ROOM              R:            A: 0          S: ER491      D: ER401      C: <cable typ
+Cable:     TP136      L: STAGE                     R: G15        A: 0          S: FB201      D: ER401      C: <cable typ
+Cable:     TP137      L: STAGE                     R: G15        A: 0          S: FB201      D: ER401      C: <cable typ
+Cable:     DM121      L: STAGE                     R: G15        A: 0          S: FB201      D: ER401      C: <cable typ
+Cable:     DM122      L: STAGE                     R: G15        A: 0          S: FB201      D: ER401      C: <cable typ
+Cable:     TP138      L: STAGE                     R: G15        A: 0          S: FB202      D: ER401      C: <cable typ
+Cable:     TP139      L: STAGE                     R: G15        A: 0          S: FB202      D: ER401      C: <cable typ
+Cable:     DM123      L: STAGE                     R: G15        A: 0          S: FB202      D: ER401      C: <cable typ
+Cable:     DM124      L: STAGE                     R: G15        A: 0          S: FB202      D: ER401      C: <cable typ
+Cable:     TP140      L: STAGE                     R: G15        A: 0          S: FB203      D: ER401      C: <cable typ
+Cable:     TP141      L: STAGE                     R: G15        A: 0          S: FB203      D: ER401      C: <cable typ
+Cable:     DM125      L: STAGE                     R: G15        A: 0          S: FB203      D: ER401      C: <cable typ
+Cable:     DM126      L: STAGE                     R: G15        A: 0          S: FB203      D: ER401      C: <cable typ
+Cable:     TP142      L: STAGE                     R: G15        A: 0          S: FB204      D: ER401      C: <cable typ
+Cable:     TP143      L: STAGE                     R: G15        A: 0          S: FB204      D: ER401      C: <cable typ
+Cable:     DM127      L: STAGE                     R: G15        A: 0          S: FB204      D: ER401      C: <cable typ
+Cable:     DM128      L: STAGE                     R: G15        A: 0          S: FB204      D: ER401      C: <cable typ
+Cable:     TP144      L: STAGE                     R: G15        A: 0          S: FB205      D: ER401      C: <cable typ
+Cable:     TP145      L: STAGE                     R: G15        A: 0          S: FB205      D: ER401      C: <cable typ
+Cable:     DM129      L: STAGE                     R: G15        A: 0          S: FB205      D: ER401      C: <cable typ
+Cable:     DM130      L: STAGE                     R: G15        A: 0          S: FB205      D: ER401      C: <cable typ
+Cable:     TP146      L: STAGE                     R: G15        A: 0          S: FB206      D: ER401      C: <cable typ
+Cable:     TP147      L: STAGE                     R: G15        A: 0          S: FB206      D: ER401      C: <cable typ
+Cable:     DM131      L: STAGE                     R: G15        A: 0          S: FB206      D: ER401      C: <cable typ
+Cable:     DM132      L: STAGE                     R: G15        A: 0          S: FB206      D: ER401      C: <cable typ
+Cable:     TP148      L: STAGE                     R: G15        A: 0          S: FB207      D: ER401      C: <cable typ
+Cable:     TP149      L: STAGE                     R: G15        A: 0          S: FB207      D: ER401      C: <cable typ
+Cable:     DM133      L: STAGE                     R: G15        A: 0          S: FB207      D: ER401      C: <cable typ
+Cable:     DM134      L: STAGE                     R: G15        A: 0          S: FB207      D: ER401      C: <cable typ
+Cable:     TP150      L: STAGE                     R: G15        A: 0          S: FB208      D: ER401      C: <cable typ
+Cable:     TP151      L: STAGE                     R: G15        A: 0          S: FB208      D: ER401      C: <cable typ
+Cable:     DM135      L: STAGE                     R: G15        A: 0          S: FB208      D: ER401      C: <cable typ
+Cable:     DM136      L: STAGE                     R: G15        A: 0          S: FB208      D: ER401      C: <cable typ
+Cable:     TP152      L: AUDITORIUM                R: G16        A: 0          S: FB251      D: ER401      C: <cable typ
+Cable:     TP153      L: AUDITORIUM                R: G16        A: 0          S: FB251      D: ER401      C: <cable typ
+Cable:     DM137      L: AUDITORIUM                R: G16        A: 0          S: FB251      D: ER401      C: <cable typ
+Cable:     DM138      L: AUDITORIUM                R: G16        A: 0          S: FB251      D: ER401      C: <cable typ
+Cable:     TP154      L: AUDITORIUM                R: G16        A: 0          S: FB252      D: ER401      C: <cable typ
+Cable:     TP155      L: AUDITORIUM                R: G16        A: 0          S: FB252      D: ER401      C: <cable typ
+Cable:     DM139      L: AUDITORIUM                R: G16        A: 0          S: FB252      D: ER401      C: <cable typ
+Cable:     DM140      L: AUDITORIUM                R: G16        A: 0          S: FB252      D: ER401      C: <cable typ
+Cable:     TP156      L: AUDITORIUM                R: G16        A: 0          S: FB253      D: ER401      C: <cable typ
+Cable:     TP157      L: AUDITORIUM                R: G16        A: 0          S: FB253      D: ER401      C: <cable typ
+Cable:     DM141      L: AUDITORIUM                R: G16        A: 0          S: FB253      D: ER401      C: <cable typ
+Cable:     DM142      L: AUDITORIUM                R: G16        A: 0          S: FB253      D: ER401      C: <cable typ
+Cable:     TP158      L: AUDITORIUM                R: G16        A: 0          S: FB254      D: ER401      C: <cable typ
+Cable:     TP159      L: AUDITORIUM                R: G16        A: 0          S: FB254      D: ER401      C: <cable typ
+Cable:     DM143      L: AUDITORIUM                R: G16        A: 0          S: FB254      D: ER401      C: <cable typ
+Cable:     DM144      L: AUDITORIUM                R: G16        A: 0          S: FB254      D: ER401      C: <cable typ
+Cable:     TP160      L: AUDITORIUM                R: G16        A: 0          S: FB255      D: ER401      C: <cable typ
+Cable:     TP161      L: AUDITORIUM                R: G16        A: 0          S: FB255      D: ER401      C: <cable typ
+Cable:     DM145      L: AUDITORIUM                R: G16        A: 0          S: FB255      D: ER401      C: <cable typ
+Cable:     DM146      L: AUDITORIUM                R: G16        A: 0          S: FB255      D: ER401      C: <cable typ
+Cable:     TP162      L: AUDITORIUM                R: G16        A: 0          S: FB256      D: ER401      C: <cable typ
+Cable:     TP163      L: AUDITORIUM                R: G16        A: 0          S: FB256      D: ER401      C: <cable typ
+Cable:     DM147      L: AUDITORIUM                R: G16        A: 0          S: FB256      D: ER401      C: <cable typ
+Cable:     DM148      L: AUDITORIUM                R: G16        A: 0          S: FB256      D: ER401      C: <cable typ
+Cable:     TP164      L: AUDITORIUM                R: G16        A: 0          S: FB257      D: ER401      C: <cable typ
+Cable:     TP165      L: AUDITORIUM                R: G16        A: 0          S: FB257      D: ER401      C: <cable typ
+Cable:     DM149      L: AUDITORIUM                R: G16        A: 0          S: FB257      D: ER401      C: <cable typ
+Cable:     DM150      L: AUDITORIUM                R: G16        A: 0          S: FB257      D: ER401      C: <cable typ
+Cable:     TP166      L: AUDITORIUM                R: G16        A: 0          S: FB258      D: ER401      C: <cable typ
+Cable:     TP167      L: AUDITORIUM                R: G16        A: 0          S: FB258      D: ER401      C: <cable typ
+Cable:     DM151      L: AUDITORIUM                R: G16        A: 0          S: FB258      D: ER401      C: <cable typ
+Cable:     DM152      L: AUDITORIUM                R: G16        A: 0          S: FB258      D: ER401      C: <cable typ
+Cable:     TP168      L: AUDITORIUM                R: G16        A: 0          S: FB259      D: ER401      C: <cable typ
+Cable:     TP169      L: AUDITORIUM                R: G16        A: 0          S: FB259      D: ER401      C: <cable typ
+Cable:     DM153      L: AUDITORIUM                R: G16        A: 0          S: FB259      D: ER401      C: <cable typ
+Cable:     DM154      L: AUDITORIUM                R: G16        A: 0          S: FB259      D: ER401      C: <cable typ
+Cable:     TP170      L: LEVEL 2 BALCONY           R:            A: 150        S: FS651      D: ER401      C: <cable typ
+Cable:     TP171      L: LEVEL 2 BALCONY           R:            A: 150        S: FS652      D: ER401      C: <cable typ
+Cable:     TP172      L: AUDITORIUM                R: G16        A: ON BAR     S: LX451      D: ER401      C: <cable typ
+Cable:     TP173      L: AUDITORIUM                R: G16        A: ON BAR     S: LX451      D: ER401      C: <cable typ
+Cable:     TP174      L: AUDITORIUM                R: G16        A: ON BAR     S: LX452      D: ER401      C: <cable typ
+Cable:     TP175      L: AUDITORIUM                R: G16        A: ON BAR     S: LX452      D: ER401      C: <cable typ
+Cable:     TP176      L: AUDITORIUM                R: G16        A: ON BAR     S: LX453      D: ER401      C: <cable typ
+Cable:     TP177      L: AUDITORIUM                R: G16        A: ON BAR     S: LX453      D: ER401      C: <cable typ
+Cable:     TP178      L: AUDITORIUM                R: G16        A: ON BAR     S: LX454      D: ER401      C: <cable typ
+Cable:     TP179      L: AUDITORIUM                R: G16        A: ON BAR     S: LX454      D: ER401      C: <cable typ
+Cable:     TP180      L: LEVEL 2 BALCONY           R:            A: ON BAR     S: LX651      D: ER401      C: <cable typ
+Cable:     TP181      L: LEVEL 2 BALCONY           R:            A: ON BAR     S: LX651      D: ER401      C: <cable typ
+Cable:     TP182      L: LEVEL 2 BALCONY           R:            A: ON BAR     S: LX652      D: ER401      C: <cable typ
+Cable:     TP183      L: LEVEL 2 BALCONY           R:            A: ON BAR     S: LX652      D: ER401      C: <cable typ
+Cable:     TP184      L: LEVEL 2 BALCONY           R:            A: ON BAR     S: LX653      D: ER401      C: <cable typ
+Cable:     TP185      L: LEVEL 2 BALCONY           R:            A: ON BAR     S: LX653      D: ER401      C: <cable typ
+Cable:     TP186      L: LEVEL 2 BALCONY           R:            A: ON BAR     S: LX654      D: ER401      C: <cable typ
+Cable:     TP187      L: LEVEL 2 BALCONY           R:            A: ON BAR     S: LX654      D: ER401      C: <cable typ
+Cable:     TP188      L: LEVEL 2 BALCONY           R:            A: ON BAR     S: LX655      D: ER401      C: <cable typ
+Cable:     TP189      L: LEVEL 2 BALCONY           R:            A: ON BAR     S: LX655      D: ER401      C: <cable typ
+Cable:     TP190      L: LEVEL 2 BALCONY           R:            A: ON BAR     S: LX656      D: ER401      C: <cable typ
+Cable:     TP191      L: LEVEL 2 BALCONY           R:            A: ON BAR     S: LX656      D: ER401      C: <cable typ
+Cable:     TP192      L: STAGE                     R: G15        A: CEILING    S: LX801      D: ER401      C: <cable typ
+Cable:     TP193      L: STAGE                     R: G15        A: CEILING    S: LX801      D: ER401      C: <cable typ
+Cable:     TP194      L: STAGE                     R: G15        A: CEILING    S: LX801      D: ER401      C: <cable typ
+Cable:     TP195      L: STAGE                     R: G15        A: CEILING    S: LX802      D: ER401      C: <cable typ
+Cable:     TP196      L: STAGE                     R: G15        A: CEILING    S: LX802      D: ER401      C: <cable typ
+Cable:     TP197      L: STAGE                     R: G15        A: CEILING    S: LX802      D: ER401      C: <cable typ
+Cable:     TP198      L: STAGE                     R: G15        A: CEILING    S: LX803      D: ER401      C: <cable typ
+Cable:     TP199      L: STAGE                     R: G15        A: CEILING    S: LX803      D: ER401      C: <cable typ
+Cable:     TP200      L: STAGE                     R: G15        A: CEILING    S: LX803      D: ER401      C: <cable typ
+Cable:     TP201      L: STAGE                     R: G15        A: CEILING    S: LX804      D: ER401      C: <cable typ
+Cable:     TP202      L: STAGE                     R: G15        A: CEILING    S: LX804      D: ER401      C: <cable typ
+Cable:     TP203      L: STAGE                     R: G15        A: CEILING    S: LX804      D: ER401      C: <cable typ
+Cable:     TP204      L: AUDITORIUM                R: G16        A: CEILING    S: LX851      D: ER401      C: <cable typ
+Cable:     TP205      L: AUDITORIUM                R: G16        A: CEILING    S: LX851      D: ER401      C: <cable typ
+Cable:     TP206      L: AUDITORIUM                R: G16        A: CEILING    S: LX851      D: ER401      C: <cable typ
+Cable:     TP207      L: CABLE NET                 R:            A: ON CABLENE S: LX861      D: ER401      C: <cable typ
+Cable:     TP208      L: CABLE NET                 R:            A: ON CABLENE S: LX861      D: ER401      C: <cable typ
+Cable:     TP209      L: CABLE NET                 R:            A: ON CABLENE S: LX861      D: ER401      C: <cable typ
+Cable:     TP210      L: CABLE NET                 R:            A: ON CABLENE S: LX862      D: ER401      C: <cable typ
+Cable:     TP211      L: CABLE NET                 R:            A: ON CABLENE S: LX862      D: ER401      C: <cable typ
+Cable:     TP212      L: CABLE NET                 R:            A: ON CABLENE S: LX862      D: ER401      C: <cable typ
+Cable:     TP213      L: CABLE NET                 R:            A: ON CABLENE S: LX863      D: ER401      C: <cable typ
+Cable:     TP214      L: CABLE NET                 R:            A: ON CABLENE S: LX863      D: ER401      C: <cable typ
+Cable:     TP215      L: CABLE NET                 R:            A: ON CABLENE S: LX863      D: ER401      C: <cable typ
+Cable:     TP216      L: LEVEL 1 BALCONY           R:            A: ON BAR     S: SX451      D: ER401      C: <cable typ
+Cable:     TP217      L: LEVEL 1 BALCONY           R:            A: ON BAR     S: SX452      D: ER401      C: <cable typ
+Cable:     TP218      L: AUDITORIUM                R: G16        A: CEILING    S: SX851A     D: ER401      C: <cable typ
+Cable:     TP219      L: AUDITORIUM                R: G16        A: CEILING    S: SX851B     D: ER401      C: <cable typ
+Cable:     TP220      L: AUDITORIUM                R: G16        A: CEILING    S: SX852      D: ER401      C: <cable typ
+Cable:     TP221      L: AUDITORIUM                R: G16        A: CEILING    S: SX853      D: ER401      C: <cable typ
+Cable:     TP222      L: AUDITORIUM                R: G16        A: CEILING    S: SX854      D: ER401      C: <cable typ
+Cable:     TP223      L: AUDITORIUM                R: G16        A: CEILING    S: SX855A     D: ER401      C: <cable typ
+Cable:     TP224      L: AUDITORIUM                R: G16        A: CEILING    S: SX855B     D: ER401      C: <cable typ
+Cable:     TP225      L: SUB STAGE                 R: B01        A: 300        S: TP001      D: ER401      C: <cable typ
+Cable:     DM155      L: SUB STAGE                 R: B01        A: 300        S: TP001      D: ER401      C: <cable typ
+Cable:     TP226      L: SUB STAGE                 R: B01        A: 300        S: TP002      D: ER401      C: <cable typ
+Cable:     DM156      L: SUB STAGE                 R: B01        A: 300        S: TP002      D: ER401      C: <cable typ
+Cable:     TP227      L: SUB STAGE                 R: B01        A: 300        S: TP003      D: ER401      C: <cable typ
+Cable:     DM157      L: SUB STAGE                 R: B01        A: 300        S: TP003      D: ER401      C: <cable typ
+Cable:     TP228      L: PERF LOCK                 R: G23        A: 300        S: TP201A     D: ER401      C: <cable typ
+Cable:     TP229      L: PERF LOCK                 R: G23        A: 300        S: TP201A     D: ER401      C: <cable typ
+Cable:     DM158      L: PERF LOCK                 R: G23        A: 300        S: TP201A     D: ER401      C: <cable typ
+Cable:     DM159      L: PERF LOCK                 R: G23        A: 300        S: TP201A     D: ER401      C: <cable typ
+Cable:     DM160      L: PERF LOCK                 R: G23        A: 300        S: TP201A     D: ER401      C: <cable typ
+Cable:     DM161      L: PERF LOCK                 R: G23        A: 300        S: TP201A     D: ER401      C: <cable typ
+Cable:     TP230      L: STAGE                     R: G15        A: 300        S: TP202      D: ER401      C: <cable typ
+Cable:     TP231      L: STAGE                     R: G15        A: 300        S: TP202      D: ER401      C: <cable typ
+Cable:     DM162      L: STAGE                     R: G15        A: 300        S: TP202      D: ER401      C: <cable typ
+Cable:     DM163      L: STAGE                     R: G15        A: 300        S: TP202      D: ER401      C: <cable typ
+Cable:     DM164      L: STAGE                     R: G15        A: 300        S: TP202      D: ER401      C: <cable typ
+Cable:     DM165      L: STAGE                     R: G15        A: 300        S: TP202      D: ER401      C: <cable typ
+Cable:     TP232      L: STAGE                     R: G15        A: 300        S: TP203      D: ER401      C: <cable typ
+Cable:     TP233      L: STAGE                     R: G15        A: 300        S: TP203      D: ER401      C: <cable typ
+Cable:     DM166      L: STAGE                     R: G15        A: 300        S: TP203      D: ER401      C: <cable typ
+Cable:     DM167      L: STAGE                     R: G15        A: 300        S: TP203      D: ER401      C: <cable typ
+Cable:     TP234      L: STAGE                     R: G15        A: 300        S: TP204      D: ER401      C: <cable typ
+Cable:     TP235      L: STAGE                     R: G15        A: 300        S: TP204      D: ER401      C: <cable typ
+Cable:     DM168      L: STAGE                     R: G15        A: 300        S: TP204      D: ER401      C: <cable typ
+Cable:     DM169      L: STAGE                     R: G15        A: 300        S: TP204      D: ER401      C: <cable typ
+Cable:     TP236      L: STAGE                     R: G15        A: 300        S: TP205      D: ER401      C: <cable typ
+Cable:     TP237      L: FORESTAGE                 R: B02        A: 300        S: TP251      D: ER401      C: <cable typ
+Cable:     TP238      L: FORESTAGE                 R: B02        A: 300        S: TP251      D: ER401      C: <cable typ
+Cable:     DM170      L: FORESTAGE                 R: B02        A: 300        S: TP251      D: ER401      C: <cable typ
+Cable:     DM171      L: FORESTAGE                 R: B02        A: 300        S: TP251      D: ER401      C: <cable typ
+Cable:     TP239      L: FORESTAGE                 R: B02        A: 300        S: TP252      D: ER401      C: <cable typ
+Cable:     TP240      L: FORESTAGE                 R: B02        A: 300        S: TP252      D: ER401      C: <cable typ
+Cable:     DM172      L: FORESTAGE                 R: B02        A: 300        S: TP252      D: ER401      C: <cable typ
+Cable:     DM173      L: FORESTAGE                 R: B02        A: 300        S: TP252      D: ER401      C: <cable typ
+Cable:     TP241      L: TECH (GALLERY)            R: 218        A: 300        S: TP601      D: ER401      C: <cable typ
+Cable:     TP242      L: TECH (GALLERY)            R: 218        A: 300        S: TP601      D: ER401      C: <cable typ
+Cable:     DM174      L: TECH (GALLERY)            R: 218        A: 300        S: TP601      D: ER401      C: <cable typ
+Cable:     DM175      L: TECH (GALLERY)            R: 218        A: 300        S: TP601      D: ER401      C: <cable typ
+Cable:     TP243      L: TECH (GALLERY)            R: 219        A: 300        S: TP602      D: ER401      C: <cable typ
+Cable:     TP244      L: TECH (GALLERY)            R: 219        A: 300        S: TP602      D: ER401      C: <cable typ
+Cable:     DM176      L: TECH (GALLERY)            R: 219        A: 300        S: TP602      D: ER401      C: <cable typ
+Cable:     DM177      L: TECH (GALLERY)            R: 219        A: 300        S: TP602      D: ER401      C: <cable typ
+Cable:     TP245      L: TECH (GALLERY)            R: 218        A: 300        S: TP603      D: ER401      C: <cable typ
+Cable:     TP246      L: TECH (GALLERY)            R: 218        A: 300        S: TP603      D: ER401      C: <cable typ
+Cable:     DM178      L: TECH (GALLERY)            R: 218        A: 300        S: TP603      D: ER401      C: <cable typ
+Cable:     DM179      L: TECH (GALLERY)            R: 218        A: 300        S: TP603      D: ER401      C: <cable typ
+Cable:     TP247      L: TECH (GALLERY)            R: 219        A: 300        S: TP604      D: ER401      C: <cable typ
+Cable:     TP248      L: TECH (GALLERY)            R: 219        A: 300        S: TP604      D: ER401      C: <cable typ
+Cable:     DM180      L: TECH (GALLERY)            R: 219        A: 300        S: TP604      D: ER401      C: <cable typ
+Cable:     DM181      L: TECH (GALLERY)            R: 219        A: 300        S: TP604      D: ER401      C: <cable typ
+Cable:     TP249      L: FLY GALLERY               R:            A: 300        S: TP801      D: ER401      C: <cable typ
+Cable:     TP250      L: FLY GALLERY               R:            A: 300        S: TP801      D: ER401      C: <cable typ
+Cable:     TP251      L: FLY GALLERY               R:            A: 300        S: TP802      D: ER401      C: <cable typ
+Cable:     TP252      L: FLY GALLERY               R:            A: 300        S: TP802      D: ER401      C: <cable typ
+Cable:     TP253      L: FLY GALLERY               R:            A: 300        S: TP803      D: ER401      C: <cable typ
+Cable:     TP254      L: FLY GALLERY               R:            A: 300        S: TP803      D: ER401      C: <cable typ
+Cable:     MF125      L: FLY GALLERY               R:            A: 300        S: TP803      D: ER401      C: <cable typ
+Cable:     MF126      L: FLY GALLERY               R:            A: 300        S: TP803      D: ER401      C: <cable typ
+Cable:     MF127      L: FLY GALLERY               R:            A: 300        S: TP803      D: ER401      C: <cable typ
+Cable:     MF128      L: FLY GALLERY               R:            A: 300        S: TP803      D: ER401      C: <cable typ
+Cable:     TP255      L: FLY GALLERY               R:            A: 300        S: TP804      D: ER401      C: <cable typ
+Cable:     TP256      L: FLY GALLERY               R:            A: 300        S: TP804      D: ER401      C: <cable typ
+Cable:     MF129      L: FLY GALLERY               R:            A: 300        S: TP804      D: ER401      C: <cable typ
+Cable:     MF130      L: FLY GALLERY               R:            A: 300        S: TP804      D: ER401      C: <cable typ
+Cable:     MF131      L: FLY GALLERY               R:            A: 300        S: TP804      D: ER401      C: <cable typ
+Cable:     MF132      L: FLY GALLERY               R:            A: 300        S: TP804      D: ER401      C: <cable typ
+Cable:     TP257      L: CABLE NET                 R:            A: 300        S: TP851      D: ER401      C: <cable typ
+Cable:     TP258      L: CABLE NET                 R:            A: 300        S: TP851      D: ER401      C: <cable typ
+Cable:     TP259      L: CABLE NET                 R:            A: 300        S: TP851      D: ER401      C: <cable typ
+Cable:     TP260      L: CABLE NET                 R:            A: 300        S: TP851      D: ER401      C: <cable typ
+Cable:     TP261      L: CABLE NET                 R:            A: 300        S: TP852      D: ER401      C: <cable typ
+Cable:     TP262      L: CABLE NET                 R:            A: 300        S: TP852      D: ER401      C: <cable typ
+Cable:     TP263      L: CABLE NET                 R:            A: 300        S: TP852      D: ER401      C: <cable typ
+Cable:     TP264      L: CABLE NET                 R:            A: 300        S: TP852      D: ER401      C: <cable typ
+Cable:     TP265      L: CABLE NET                 R:            A: 300        S: TP853      D: ER401      C: <cable typ
+Cable:     TP266      L: CABLE NET                 R:            A: 300        S: TP853      D: ER401      C: <cable typ
+Cable:     TP267      L: CABLE NET                 R:            A: 300        S: TP853      D: ER401      C: <cable typ
+Cable:     TP268      L: CABLE NET                 R:            A: 300        S: TP853      D: ER401      C: <cable typ
+Cable:     MF133      L: CABLE NET                 R:            A: 300        S: TP853      D: ER401      C: <cable typ
+Cable:     MF134      L: CABLE NET                 R:            A: 300        S: TP853      D: ER401      C: <cable typ
+Cable:     MF135      L: CABLE NET                 R:            A: 300        S: TP853      D: ER401      C: <cable typ
+Cable:     MF136      L: CABLE NET                 R:            A: 300        S: TP853      D: ER401      C: <cable typ
+Cable:     TP269      L: CABLE NET                 R:            A: 300        S: TP854      D: ER401      C: <cable typ
+Cable:     TP270      L: CABLE NET                 R:            A: 300        S: TP854      D: ER401      C: <cable typ
+Cable:     TP271      L: CABLE NET                 R:            A: 300        S: TP854      D: ER401      C: <cable typ
+Cable:     TP272      L: CABLE NET                 R:            A: 300        S: TP854      D: ER401      C: <cable typ
+Cable:     MF137      L: CABLE NET                 R:            A: 300        S: TP854      D: ER401      C: <cable typ
+Cable:     MF138      L: CABLE NET                 R:            A: 300        S: TP854      D: ER401      C: <cable typ
+Cable:     MF139      L: CABLE NET                 R:            A: 300        S: TP854      D: ER401      C: <cable typ
+Cable:     MF140      L: CABLE NET                 R:            A: 300        S: TP854      D: ER401      C: <cable typ
+Cable:     DM182      L: PRINC. DR. RM. 1          R: G26        A: 2000       S: BS201      D: ER401      C: <cable typ
+Cable:     DM183      L: MULTI-PURPOSE RM/GREEG32  R:            A: 2000       S: BS203      D: ER401      C: <cable typ
+Cable:     DM184      L: DR. RM. G39               R:            A: 2000       S: BS205      D: ER401      C: <cable typ
+Cable:     DM185      L: DR. RM. G29               R:            A: 2000       S: BS207      D: ER401      C: <cable typ
+Cable:     DM186      L: PRINC. DR. RM. 2 G20      R:            A: 2000       S: BS209      D: ER401      C: <cable typ
+Cable:     DM187      L: STAGE DOOR G41            R:            A: 2000       S: BS211      D: ER401      C: <cable typ
+Cable:     DM188      L: LOBBY G44                 R:            A: 2000       S: BS213      D: ER401      C: <cable typ
+Cable:     DM189      L: SCENE DOCK G24            R:            A: 2500       S: BS214      D: ER401      C: <cable typ
+Cable:     DM190      L: WORKSHOP G35              R:            A: 2000       S: BS215      D: ER401      C: <cable typ
+Cable:     TP273      L: WORKSHOP G35              R:            A: 1200       S: BS217      D: ER401      C: <cable typ
+Cable:     TP274      L: WORKSHOP G35              R:            A: 1200       S: BS217      D: ER401      C: <cable typ
+Cable:     TP275      L: WORKSHOP G35              R:            A: 1200       S: BS217      D: ER401      C: <cable typ
+Cable:     TP276      L: WORKSHOP G35              R:            A: 1200       S: BS217      D: ER401      C: <cable typ
+Cable:     TP277      L: WORKSHOP G35              R:            A: 1200       S: BS217      D: ER401      C: <cable typ
+Cable:     TP278      L: WORKSHOP G35              R:            A: 1200       S: BS217      D: ER401      C: <cable typ
+Cable:     DM191      L: WORKSHOP G35              R:            A: 1200       S: BS217      D: ER401      C: <cable typ
+Cable:     DM192      L: WORKSHOP G35              R:            A: 1200       S: BS217      D: ER401      C: <cable typ
+Cable:     TP279      L: SCENE DOCK G24            R:            A: 500        S: BS218      D: ER401      C: <cable typ
+Cable:     TP280      L: SCENE DOCK G24            R:            A: 500        S: BS218      D: ER401      C: <cable typ
+Cable:     TP281      L: SCENE DOCK G24            R:            A: 500        S: BS218      D: ER401      C: <cable typ
+Cable:     TP282      L: SCENE DOCK G24            R:            A: 500        S: BS218      D: ER401      C: <cable typ
+Cable:     DM193      L: SCENE DOCK G24            R:            A: 500        S: BS218      D: ER401      C: <cable typ
+Cable:     DM194      L: SCENE DOCK G24            R:            A: 500        S: BS218      D: ER401      C: <cable typ
+Cable:     DM195      L: VENUE MAN. OFFICE 102     R:            A: 2000       S: BS401      D: ER401      C: <cable typ
+Cable:     TP104      L: AUDITORIUM                R: G16        A: 0          S: CR251      D: ER491      C: <cable typ
+Cable:     TP105      L: AUDITORIUM                R: G16        A: 0          S: CR251      D: ER491      C: <cable typ
+Cable:     TP106      L: AUDITORIUM                R: G16        A: 0          S: CR251      D: ER491      C: <cable typ
+Cable:     TP107      L: AUDITORIUM                R: G16        A: 0          S: CR251      D: ER491      C: <cable typ
+Cable:     DM104      L: AUDITORIUM                R: G16        A: 0          S: CR251      D: ER491      C: <cable typ
+Cable:     DM105      L: AUDITORIUM                R: G16        A: 0          S: CR251      D: ER491      C: <cable typ
+Cable:     DM106      L: AUDITORIUM                R: G16        A: 0          S: CR251      D: ER491      C: <cable typ
+Cable:     DM107      L: AUDITORIUM                R: G16        A: 0          S: CR251      D: ER491      C: <cable typ
+Cable:     TP108      L: AUDITORIUM                R: G16        A: IN RISER   S: CR451      D: ER491      C: <cable typ
+Cable:     TP109      L: AUDITORIUM                R: G16        A: IN RISER   S: CR451      D: ER491      C: <cable typ
+Cable:     TP110      L: AUDITORIUM                R: G16        A: IN RISER   S: CR451      D: ER491      C: <cable typ
+Cable:     TP111      L: AUDITORIUM                R: G16        A: IN RISER   S: CR451      D: ER491      C: <cable typ
+Cable:     DM108      L: AUDITORIUM                R: G16        A: IN RISER   S: CR451      D: ER491      C: <cable typ
+Cable:     DM109      L: AUDITORIUM                R: G16        A: IN RISER   S: CR451      D: ER491      C: <cable typ
+Cable:     DM110      L: AUDITORIUM                R: G16        A: IN RISER   S: CR451      D: ER491      C: <cable typ
+Cable:     DM111      L: AUDITORIUM                R: G16        A: IN RISER   S: CR451      D: ER491      C: <cable typ
+Cable:     TP112      L: CONTROL ROOM              R:            A: 500        S: CR491      D: ER491      C: <cable typ
+Cable:     TP113      L: CONTROL ROOM              R:            A: 500        S: CR491      D: ER491      C: <cable typ
+Cable:     TP114      L: CONTROL ROOM              R:            A: 500        S: CR491      D: ER491      C: <cable typ
+Cable:     TP115      L: CONTROL ROOM              R:            A: 500        S: CR491      D: ER491      C: <cable typ
+Cable:     DM112      L: CONTROL ROOM              R:            A: 500        S: CR491      D: ER491      C: <cable typ
+Cable:     DM113      L: CONTROL ROOM              R:            A: 500        S: CR491      D: ER491      C: <cable typ
+Cable:     TP116      L: CONTROL ROOM              R:            A: 500        S: CR492      D: ER491      C: <cable typ
+Cable:     TP117      L: CONTROL ROOM              R:            A: 500        S: CR492      D: ER491      C: <cable typ
+Cable:     TP118      L: CONTROL ROOM              R:            A: 500        S: CR492      D: ER491      C: <cable typ
+Cable:     TP119      L: CONTROL ROOM              R:            A: 500        S: CR492      D: ER491      C: <cable typ
+Cable:     DM114      L: CONTROL ROOM              R:            A: 500        S: CR492      D: ER491      C: <cable typ
+Cable:     DM115      L: CONTROL ROOM              R:            A: 500        S: CR492      D: ER491      C: <cable typ
+Cable:     TP120      L: CONTROL ROOM              R:            A: 500        S: CR493      D: ER491      C: <cable typ
+Cable:     TP121      L: CONTROL ROOM              R:            A: 500        S: CR493      D: ER491      C: <cable typ
+Cable:     TP122      L: CONTROL ROOM              R:            A: 500        S: CR493      D: ER491      C: <cable typ
+Cable:     TP123      L: CONTROL ROOM              R:            A: 500        S: CR493      D: ER491      C: <cable typ
+Cable:     DM116      L: CONTROL ROOM              R:            A: 500        S: CR493      D: ER491      C: <cable typ
+Cable:     DM117      L: CONTROL ROOM              R:            A: 500        S: CR493      D: ER491      C: <cable typ
+Cable:     DM118      L: CONTROL ROOM              R:            A: 500        S: CR493      D: ER491      C: <cable typ
+Cable:     DM119      L: CONTROL ROOM              R:            A: 500        S: CR493      D: ER491      C: <cable typ
+Cable:     MF101      L: TECH ROOM                 R: 117        A: 0          S: ER401      D: ER491      C: <cable typ
+Cable:     MF102      L: TECH ROOM                 R: 117        A: 0          S: ER401      D: ER491      C: <cable typ
+Cable:     MF103      L: TECH ROOM                 R: 117        A: 0          S: ER401      D: ER491      C: <cable typ
+Cable:     MF104      L: TECH ROOM                 R: 117        A: 0          S: ER401      D: ER491      C: <cable typ
+Cable:     MF105      L: TECH ROOM                 R: 117        A: 0          S: ER401      D: ER491      C: <cable typ
+Cable:     MF106      L: TECH ROOM                 R: 117        A: 0          S: ER401      D: ER491      C: <cable typ
+Cable:     MF107      L: TECH ROOM                 R: 117        A: 0          S: ER401      D: ER491      C: <cable typ
+Cable:     MF108      L: TECH ROOM                 R: 117        A: 0          S: ER401      D: ER491      C: <cable typ
+Cable:     MF109      L: TECH ROOM                 R: 117        A: 0          S: ER401      D: ER491      C: <cable typ
+Cable:     MF110      L: TECH ROOM                 R: 117        A: 0          S: ER401      D: ER491      C: <cable typ
+Cable:     MF111      L: TECH ROOM                 R: 117        A: 0          S: ER401      D: ER491      C: <cable typ
+Cable:     MF112      L: TECH ROOM                 R: 117        A: 0          S: ER401      D: ER491      C: <cable typ
+Cable:     TP283      L: CONFERENCE 1              R: 206        A: 1100       S: CN601      D: ER601      C: <cable typ
+Cable:     TP292      L: CONFERENCE 2              R: 205        A: 1100       S: CN651      D: ER601      C: <cable typ
