@@ -55,7 +55,7 @@ namespace FaceplateGeneratorCore.XunitTests
         {
             using (StreamWriter writer = new StreamWriter(filePath))
             {
-                var header = $"{"",-10} {"Id",-10} {"Location",-28} {"Room",-13} {"Affl",-13} {"SourcePanelId",-13} {"DestinationPanelId",-13} {"CableType",-13}";
+                var header = $"{"",-10} {"Id",-10} {"Description",-28} {"Location",-28} {"Room",-13} {"Affl",-13} {"SourcePanelId",-13} {"DestinationPanelId",-13} {"CableType",-13}";
                 writer.WriteLine(header);
 
                 foreach (var s in strings)

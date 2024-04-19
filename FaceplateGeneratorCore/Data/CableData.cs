@@ -25,14 +25,15 @@
 
         public override string ToString()
         {
-            string truncatedLocation = Location.Length > 25 ? Location.Substring(0, 25) : Location;
-            string truncatedRoom = Room.Length > 10 ? Room.Substring(0, 10) : Room;
-            string truncatedAffl = Affl.Length > 10 ? Affl.Substring(0, 10) : Affl;
-            string truncatedSourcePanelId = SourcePanelId.Length > 10 ? SourcePanelId.Substring(0, 10) : SourcePanelId;
-            string truncatedDestinationPanelId = DestinationPanelId.Length > 10 ? DestinationPanelId.Substring(0, 10) : DestinationPanelId;
-            string truncatedCableType = CableType.Length > 10 ? CableType.Substring(0, 10) : CableType;
+            string truncatedDescription = Description.Length > 25 ? Description[..25] : Description;
+            string truncatedLocation = Location.Length > 25 ? Location[..25] : Location;
+            string truncatedRoom = Room.Length > 10 ? Room[..10] : Room;
+            string truncatedAffl = Affl.Length > 10 ? Affl[..10] : Affl;
+            string truncatedSourcePanelId = SourcePanelId.Length > 10 ? SourcePanelId[..10] : SourcePanelId;
+            string truncatedDestinationPanelId = DestinationPanelId.Length > 10 ? DestinationPanelId[..10] : DestinationPanelId;
+            string truncatedCableType = CableType.Length > 10 ? CableType[..10] : CableType;
 
-            return $"{"Cable:",-10} {Id,-10} L: {truncatedLocation,-25} R: {truncatedRoom,-10} A: {truncatedAffl,-10} S: {truncatedSourcePanelId,-10} D: {truncatedDestinationPanelId,-10} C: {truncatedCableType,-10}";
+            return $"{"Cable:",-10} {Id,-10} D: {truncatedDescription,-25} L: {truncatedLocation,-25} R: {truncatedRoom,-10} A: {truncatedAffl,-10} FROM: {truncatedSourcePanelId,-10} TO: {truncatedDestinationPanelId,-10} C: {truncatedCableType,-10}";
         }
 
     }

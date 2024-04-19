@@ -73,20 +73,6 @@ namespace FaceplateDataExtractor.Excel
             columns[locationLayout.Name] = locationLayout;
             columns[roomLayout.Name] = roomLayout;
             columns[afflLayout.Name] = afflLayout;
-            //columns[technicalDataQtyLayout.Name] = technicalDataQtyLayout;
-            //columns[technicalDataDestLayout.Name] = technicalDataDestLayout;
-            //columns[mmFiberQtyLayout.Name] = mmFiberQtyLayout;
-            //columns[mmFiberDestLayout.Name] = mmFiberDestLayout;
-            //columns[vtlQtyLayout.Name] = vtlQtyLayout;
-            //columns[vtlDestLayout.Name] = vtlDestLayout;
-            //columns[digMediaQtyLayout.Name] = digMediaQtyLayout;
-            //columns[digMediaDestLayout.Name] = digMediaDestLayout;
-            //columns[avControlQtyLayout.Name] = avControlQtyLayout;
-            //columns[avControlDestLayout.Name] = avControlDestLayout;
-            //columns[audioDigiAnlgSendQtyLayout.Name] = audioDigiAnlgSendQtyLayout;
-            //columns[audioDigiAnlgSendDestLayout.Name] = audioDigiAnlgSendDestLayout;
-            //columns[audioDigiAnlgReturnQtyLayout.Name] = audioDigiAnlgReturnQtyLayout;
-            //columns[audioDigiAnlgReturnDestLayout.Name] = audioDigiAnlgReturnDestLayout;
 
             var columnGroups = new Dictionary<string, ColumnSet>() {
                 {technicalDataGroup.Name, technicalDataGroup },

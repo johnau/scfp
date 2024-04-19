@@ -36,13 +36,36 @@ namespace FaceplateDataExtractor.XunitTests
         }
 
         [Fact]
-        public void TestOtherMethod()
+        public void ControlledDataExtractor_WithDefaultSettings_WillSucceed()
         {
             var assemblyDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             var resourceFolderPath = Path.Combine(assemblyDirectory!, "resources");
             var fileName = "20200320 - 1010 (0) CABLE SCHEDULE ken and marty6.xlsx";
             var filePath = Path.Combine(resourceFolderPath, fileName);
 
+            var extractor = DataExtractorFactory.CreateWithMasterTemplateFixedLayout(filePath);
+            var success = extractor.TryExtractData(0, out var data, out var rejectedData);
+            Assert.True(success);
+
+            foreach (var d in data)
+            {
+                Debug.WriteLine($"Entry: PanelId={d.PanelId} | Description={d.Description} | Location={d.Location} | Room={d.Room} | AFFL={d.AboveFinishedFloorLevel}");
+
+                foreach (var system in d.CableSystemDatas)
+                {
+                    //Debug.WriteLine($"SYSTEM: {system.SystemType} {system.CableType} {system.Quantity} {system.Destination}");
+                    Debug.WriteLine($"SYSTEM: {system.SystemType} | {system.Quantity} | {system.Destination}");
+                }
+            }
+        }
+
+        [Fact]
+        public void ControlledDataExtractor_WithManualSettings_WillSucceed()
+        {
+            var assemblyDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            var resourceFolderPath = Path.Combine(assemblyDirectory!, "resources");
+            var fileName = "20200320 - 1010 (0) CABLE SCHEDULE ken and marty6.xlsx";
+            var filePath = Path.Combine(resourceFolderPath, fileName);
 
             var dataStartRow = 6;
             var dataEndRow = 200;
@@ -102,27 +125,12 @@ namespace FaceplateDataExtractor.XunitTests
                 [audioDigiAnlgReturnQtyLayout, audioDigiAnlgReturnDestLayout]
             );
 
-
             var columns = new Dictionary<string, ColumnLayout>();
             columns[panelIdLayout.Name] = panelIdLayout;
             columns[descriptionLayout.Name] = descriptionLayout;
             columns[locationLayout.Name] = locationLayout;
             columns[roomLayout.Name] = roomLayout;
             columns[afflLayout.Name] = afflLayout;
-            //columns[technicalDataQtyLayout.Name] = technicalDataQtyLayout;
-            //columns[technicalDataDestLayout.Name] = technicalDataDestLayout;
-            //columns[mmFiberQtyLayout.Name] = mmFiberQtyLayout;
-            //columns[mmFiberDestLayout.Name] = mmFiberDestLayout;
-            //columns[vtlQtyLayout.Name] = vtlQtyLayout;
-            //columns[vtlDestLayout.Name] = vtlDestLayout;
-            //columns[digMediaQtyLayout.Name] = digMediaQtyLayout;
-            //columns[digMediaDestLayout.Name] = digMediaDestLayout;
-            //columns[avControlQtyLayout.Name] = avControlQtyLayout;
-            //columns[avControlDestLayout.Name] = avControlDestLayout;
-            //columns[audioDigiAnlgSendQtyLayout.Name] = audioDigiAnlgSendQtyLayout;
-            //columns[audioDigiAnlgSendDestLayout.Name] = audioDigiAnlgSendDestLayout;
-            //columns[audioDigiAnlgReturnQtyLayout.Name] = audioDigiAnlgReturnQtyLayout;
-            //columns[audioDigiAnlgReturnDestLayout.Name] = audioDigiAnlgReturnDestLayout;
 
             var columnGroups = new Dictionary<string, ColumnSet>() {
                 {technicalDataGroup.Name, technicalDataGroup },
