@@ -12,7 +12,7 @@ public interface IIdentifierGenerator
     /// Returns the next Id in the sequence
     /// </summary>
     /// <returns></returns>
-    string NextId(IdentifierType type);
+    string NextId(IdentifierType type, string idOwner);
 
     void EndIdBatch(IdentifierType type);
 

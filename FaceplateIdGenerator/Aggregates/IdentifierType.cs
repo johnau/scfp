@@ -7,7 +7,7 @@
         AV_CONTROL,
         DIGITAL_MEDIA,
         MULTIMODE_FIBER,
-        TECH_PANEL,
+        TECH_DATA,
         VIDEO_TIE_LINE,
     }
 }

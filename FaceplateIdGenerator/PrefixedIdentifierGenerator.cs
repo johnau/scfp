@@ -6,6 +6,7 @@ namespace FaceplateIdGenerator
     {
         private readonly Dictionary<IdentifierType, Identifier> identifiers = [];
         private readonly Dictionary<IdentifierType, List<string>> generatedIds = [];
+        private readonly Dictionary<IdentifierType, string> lastIdParent = []; // store the panel id assosciated with the generated id to trigger EndIdBatch()
 
         public List<string> EndSequence(IdentifierType type)
         {
@@ -21,15 +22,27 @@ namespace FaceplateIdGenerator
             return generatedIdList;
         }
 
-        public string NextId(IdentifierType type)
+        public string NextId(IdentifierType type, string idOwner)
         {
             if (!identifiers.TryGetValue(type, out var identifier))
-            {
                 throw new Exception("There is no Id sequence started");
+            
+            if (!lastIdParent.TryGetValue(type, out var lastOwner))
+                throw new Exception("Expected sequence does not exist");
+
+            if (lastOwner == string.Empty)
+            {
+                lastIdParent[type] = idOwner;
+            }
+            else if (idOwner != lastOwner && lastOwner != string.Empty)
+            {
+                EndIdBatch(type);
+                lastIdParent[type] = idOwner;
             }
 
             var nextId = identifier.IncrementId();
             generatedIds[type].Add(nextId);
+
             return nextId;
         }
 
@@ -69,7 +82,7 @@ namespace FaceplateIdGenerator
                 { IdentifierType.AV_CONTROL, () => new AvControlIdentifier() },
                 { IdentifierType.DIGITAL_MEDIA, () => new DigitalMediaIdentifier() },
                 { IdentifierType.MULTIMODE_FIBER, () => new MultimodeFiberIdentifier() },
-                { IdentifierType.TECH_PANEL, () => new TechPanelIdentifier() },
+                { IdentifierType.TECH_DATA, () => new TechPanelIdentifier() },
                 { IdentifierType.VIDEO_TIE_LINE, () => new VideoTieLineIdentifier() }
             };
 
@@ -84,6 +97,7 @@ namespace FaceplateIdGenerator
 
             // New empty list
             generatedIds[type] = [];
+            lastIdParent[type] = "";
         }
     }
 }

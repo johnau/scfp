@@ -1,16 +1,6 @@
-﻿using DocumentFormat.OpenXml.Office2010.Excel;
-using DocumentFormat.OpenXml.Spreadsheet;
-using DocumentFormat.OpenXml.Wordprocessing;
-using FaceplateDataExtractor.Model;
-using FaceplateGeneratorCore.Data;
-using FaceplateGeneratorCore.Service;
-using System;
-using System.Collections.Generic;
+﻿using FaceplateGeneratorCore.Service;
 using System.Diagnostics;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FaceplateGeneratorCore.XunitTests
 {
@@ -27,6 +17,10 @@ namespace FaceplateGeneratorCore.XunitTests
 
             var service = new DataExtractorService();
             var cables = service.ExtractFromMasterExcelTemplate(filePath);
+
+            //sorting for tests
+
+
             var sortedById = cables.OrderBy(data => data.Id)
                                     .Select(cable => cable.ToString())
                                     .ToList();

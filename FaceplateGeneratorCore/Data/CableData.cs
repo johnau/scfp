@@ -1,8 +1,11 @@
-﻿namespace FaceplateGeneratorCore.Data
+﻿using FaceplateDataExtractor.Model;
+
+namespace FaceplateGeneratorCore.Data
 {
     public class CableData
     {
-        public string Id { get; }
+        public string Id { get; private set; }
+        public SystemType SystemType { get; }
         public string Description { get; }
         public string Location { get; }
         public string Room { get; }
@@ -11,9 +14,11 @@
         public string SourcePanelId { get; }
         public string DestinationPanelId { get; }
 
-        public CableData(string id, string description, string location, string room, string affl, string cableType, string sourcePanelId, string destinationPanelId)
+        public CableData(SystemType systemType, string id, string description, string location, string room, string affl, string cableType, string sourcePanelId, string destinationPanelId)
         {
+
             Id = id;
+            SystemType = systemType;
             Description = description;
             Room = room;
             Location = location;
@@ -34,6 +39,11 @@
             string truncatedCableType = CableType.Length > 10 ? CableType[..10] : CableType;
 
             return $"{"Cable:",-10} {Id,-10} D: {truncatedDescription,-25} L: {truncatedLocation,-25} R: {truncatedRoom,-10} A: {truncatedAffl,-10} FROM: {truncatedSourcePanelId,-10} TO: {truncatedDestinationPanelId,-10} C: {truncatedCableType,-10}";
+        }
+
+        public void AssignId(string id)
+        {
+            Id = id;
         }
 
     }
