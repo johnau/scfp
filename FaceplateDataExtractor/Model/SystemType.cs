@@ -51,22 +51,28 @@ namespace FaceplateDataExtractor.Model
         /// <summary>
         /// 
         /// </summary>
-        [StringArrayValue(["AV Control Data"])] 
+        [StringArrayValue(["AV Control Data", "AV Control"])] 
         AV_CONTROL_DATA,
         /// <summary>
-        /// There is an issue detecting these columns still
+        /// 
         /// </summary>
-        [StringArrayValue(["Audio Digital/Analogue", "Send"])] 
+        /// <remarks>
+        /// TODO: Check issue detecting these columns still
+        /// </remarks>
+        [StringArrayValue(["Audio Digital/Analog Send", "Audio Digital/Analogue Send"])] 
         AUDIO_DIGITAL_ANALOG_SEND,
         /// <summary>
-        /// There is an issue detecting these columns still
+        /// 
         /// </summary>
-        [StringArrayValue(["Audio Digital/Analogue", "Return"])] 
+        /// <remarks>
+        /// TODO: Check issue detecting these columns still
+        /// </remarks>
+        [StringArrayValue(["Audio Digital/Analogue Return", "Audio Digital/Analog Return"])] 
         AUDIO_DIGITAL_ANALOG_RECEIVE,
         /// <summary>
         /// 
         /// </summary>
-        [StringArrayValue(["Ethernet Audio (Dante)"])] 
+        [StringArrayValue(["Ethernet Audio (Dante)", "Dante Ethernet Audio"])] 
         DANTE_ETHERNET_AUDIO,
         /// <summary>
         /// 
@@ -106,7 +112,7 @@ namespace FaceplateDataExtractor.Model
         /// <summary>
         /// 
         /// </summary>
-        [StringArrayValue(["Blue/Work Light Control"])] 
+        [StringArrayValue(["Blue/Work Light Control", "Work Light Control"])] 
         BLUE_WORK_LIGHT_CONTROL,
         /// <summary>
         /// 
@@ -121,7 +127,7 @@ namespace FaceplateDataExtractor.Model
         /// <summary>
         /// 
         /// </summary>
-        [StringArrayValue(["Pendent Control (with ESTOP)"])] 
+        [StringArrayValue(["Pendent Control (with ESTOP)", "Pendent Control"])] 
         PENDENT_CONTROL_WITH_ESTOP,
         /// <summary>
         /// 
@@ -136,8 +142,8 @@ namespace FaceplateDataExtractor.Model
         /// <summary>
         /// 
         /// </summary>
-        [StringArrayValue(["Blue/Work Light Outlet"])] 
-        BLUE_AND_WHITE_WORK_LIGHT_CONTROL,
+        [StringArrayValue(["Blue/Work Light Outlet", "Work Light Oulet"])] 
+        BLUE_AND_WHITE_WORK_LIGHT_OUTLET,
         /// <summary>
         /// 
         /// </summary>

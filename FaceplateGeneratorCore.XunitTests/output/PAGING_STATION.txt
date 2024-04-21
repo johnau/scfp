@@ -1,0 +1,26 @@
+           Id         Description                  Location                     Room          Affl          Panel Id         Dest Rack Id   SystemType   
+Cable:     PS001      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER401      SYS: PAGING_STATION C: <cable typ
+Cable:     PS002      D: TECH PANEL (SM Panel)     L: PERF LOCK                 R: G23        A: 300        FROM: TP201A     TO: ER401      SYS: PAGING_STATION C: <cable typ
+Cable:     PS003      D: TECH PANEL (SM Panel)     L: STAGE                     R: G15        A: 300        FROM: TP202      TO: ER401      SYS: PAGING_STATION C: <cable typ
+Cable:     PS4        D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS5        D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS6        D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS7        D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS8        D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS9        D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS10       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS11       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS12       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS13       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS14       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS15       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS16       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS17       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS18       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS19       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS20       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS21       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS22       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS23       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS24       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     PS025      D: HOUSE MANAGERS PANEL      L: FUNCTION/FOYER            R: G01        A: 1100       FROM: FY231      TO: ER211      SYS: PAGING_STATION C: <cable typ

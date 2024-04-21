@@ -10,10 +10,11 @@ namespace FaceplateDataExtractor
             var fieldInfo = type.GetField(value.ToString());
             var stringArrayValues = fieldInfo!.GetCustomAttributes(typeof(StringArrayValueAttribute), false) as StringArrayValueAttribute[];
 
-            var strings = new string[stringArrayValues!.Length];
-            for (int i = 0; i < stringArrayValues!.Length; i++)
+            var strs = stringArrayValues![0].Value; // this is a bad usage of this
+            var strings = new string[strs.Length];
+            for (int i = 0; i < strs.Length; i++)
             {
-                strings[i] = stringArrayValues[0].Value[i];
+                strings[i] = strs[i];
             }
 
             return strings.Length > 0 ? strings : [];

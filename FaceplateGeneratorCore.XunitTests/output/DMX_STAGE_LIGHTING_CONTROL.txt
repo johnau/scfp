@@ -1,0 +1,76 @@
+           Id         Description                  Location                     Room          Affl          Panel Id         Dest Rack Id   SystemType   
+Cable:     DMX001     D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB201      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX002     D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB202      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX003     D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB203      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX004     D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB204      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX005     D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB205      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX006     D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB206      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX007     D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB207      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX008     D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB208      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX009     D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB251      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX010     D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB252      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX011     D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB253      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX012     D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB254      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX013     D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB255      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX014     D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB256      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX015     D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB257      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX016     D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB258      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX017     D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB259      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX018     D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX451      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX019     D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX451      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX020     D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX452      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX021     D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX452      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX022     D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX453      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX023     D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX453      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX024     D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX454      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX025     D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX454      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX026     D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX651      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX027     D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX651      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX028     D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX652      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX029     D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX652      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX030     D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX653      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX031     D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX653      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX032     D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX654      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX033     D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX654      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX034     D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX655      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX035     D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX655      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX036     D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX656      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX037     D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX656      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX038     D: SPEAKER - FRONT FILL      L: STAGE EDGE                R:            A: 1600       FROM: SX251      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX039     D: SPEAKER - FRONT FILL      L: STAGE EDGE                R:            A: 1600       FROM: SX252      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX040     D: SPEAKER - FRONT FILL      L: STAGE EDGE                R:            A: 1600       FROM: SX253      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX041     D: SPEAKER - FRONT FILL      L: STAGE EDGE                R:            A: 1600       FROM: SX254      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX042     D: SPEAKER - FRONT FILL      L: STAGE EDGE                R:            A: 1600       FROM: SX255      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX043     D: SPEAKER - FRONT FILL      L: STAGE EDGE                R:            A: 1600       FROM: SX256      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX044     D: SPEAKER                   L: LEVEL 1 BALCONY           R:            A: ON BAR     FROM: SX451      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX045     D: SPEAKER                   L: LEVEL 1 BALCONY           R:            A: ON BAR     FROM: SX451      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX046     D: SPEAKER                   L: LEVEL 1 BALCONY           R:            A: ON BAR     FROM: SX452      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX047     D: SPEAKER                   L: LEVEL 1 BALCONY           R:            A: ON BAR     FROM: SX452      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX048     D: SPEAKER (ARRAY)           L: AUDITORIUM                R: G16        A: CEILING    FROM: SX851A     TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX049     D: SPEAKER (ARRAY)           L: AUDITORIUM                R: G16        A: CEILING    FROM: SX851A     TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX050     D: SPEAKER (ARRAY)           L: AUDITORIUM                R: G16        A: CEILING    FROM: SX851A     TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX051     D: SPEAKER (ARRAY)           L: AUDITORIUM                R: G16        A: CEILING    FROM: SX851A     TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX052     D: SPEAKER (SUBS)            L: AUDITORIUM                R: G16        A: CEILING    FROM: SX851B     TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX053     D: SPEAKER (SUBS)            L: AUDITORIUM                R: G16        A: CEILING    FROM: SX851B     TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX054     D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX852      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX055     D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX852      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX056     D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX852      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX057     D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX852      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX058     D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX853      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX059     D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX853      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX060     D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX853      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX061     D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX853      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX062     D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX854      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX063     D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX854      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX064     D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX854      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX065     D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX854      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX066     D: SPEAKER (ARRAY)           L: AUDITORIUM                R: G16        A: CEILING    FROM: SX855A     TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX067     D: SPEAKER (ARRAY)           L: AUDITORIUM                R: G16        A: CEILING    FROM: SX855A     TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX068     D: SPEAKER (ARRAY)           L: AUDITORIUM                R: G16        A: CEILING    FROM: SX855A     TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX069     D: SPEAKER (ARRAY)           L: AUDITORIUM                R: G16        A: CEILING    FROM: SX855A     TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX070     D: SPEAKER (SUBS)            L: AUDITORIUM                R: G16        A: CEILING    FROM: SX855B     TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX071     D: SPEAKER (SUBS)            L: AUDITORIUM                R: G16        A: CEILING    FROM: SX855B     TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX072     D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX073     D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX074     D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ
+Cable:     DMX075     D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      SYS: DMX_STAGE_LIGHTING_CONTROL C: <cable typ

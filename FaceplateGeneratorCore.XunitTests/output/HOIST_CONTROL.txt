@@ -1,0 +1,3 @@
+           Id         Description                  Location                     Room          Affl          Panel Id         Dest Rack Id   SystemType   
+Cable:     MX001      D: TECH PANEL (SM Panel)     L: PERF LOCK                 R: G23        A: 300        FROM: TP201A     TO: ER491      SYS: HOIST_CONTROL C: <cable typ
+Cable:     MX002      D: TECH PANEL (SM Panel)     L: STAGE                     R: G15        A: 300        FROM: TP202      TO: ER491      SYS: HOIST_CONTROL C: <cable typ

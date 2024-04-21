@@ -13,8 +13,8 @@
     /// </remarks>
     public interface IDxfIngestor
     {
-        public DxfDrawing ImportDrawingFromFile(string filePath);
+        public DxfDrawing? ImportDrawingFromFile(string filePath);
 
-        public DxfDrawing ImportDrawingFromFile(string filePath, ImportSettings settings);
+        public DxfDrawing? ImportDrawingFromFile(string filePath, ImportSettings settings);
     }
 }

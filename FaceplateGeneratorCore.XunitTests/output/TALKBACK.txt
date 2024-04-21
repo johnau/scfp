@@ -1,0 +1,100 @@
+           Id         Description                  Location                     Room          Affl          Panel Id         Dest Rack Id   SystemType   
+Cable:     TB001      D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB002      D: TECH PANEL                L: SCENE DOCK G24            R:            A: 500        FROM: BS218      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB003      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB004      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB005      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB006      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB007      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB008      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB009      D: LIGHTING CONTROL          L: CONTROL ROOM              R:            A: 500        FROM: CR491      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB010      D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB011      D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB012      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB013      D: DIMMER RACK               L: TECH                      R: 220        A: 500        FROM: DIM601     TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB014      D: FOLLOW SPOT               L: LEVEL 2 BALCONY           R:            A: 150        FROM: FS651      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB015      D: FOLLOW SPOT               L: LEVEL 2 BALCONY           R:            A: 150        FROM: FS652      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB016      D: TECH PANEL                L: SUB STAGE                 R: B01        A: 300        FROM: TP002      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB017      D: TECH PANEL (SM Panel)     L: PERF LOCK                 R: G23        A: 300        FROM: TP201A     TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB018      D: TECH PANEL (SM Panel)     L: STAGE                     R: G15        A: 300        FROM: TP202      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB019      D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP203      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB020      D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP204      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB021      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB022      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB023      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB024      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB025      D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP601      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB026      D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP602      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB027      D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP603      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB028      D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP604      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB029      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP801      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB030      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP802      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB031      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP803      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB032      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP804      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB033      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP851      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB034      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP852      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB035      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB036      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER491      SYS: TALKBACK   C: <cable typ
+Cable:     TB37       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB38       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB39       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB40       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB41       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB42       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB43       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB44       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB45       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB46       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB47       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB48       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB049      D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      SYS: TALKBACK   C: <cable typ
+Cable:     TB050      D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      SYS: TALKBACK   C: <cable typ
+Cable:     TB051      D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN661      TO: EN601      SYS: TALKBACK   C: <cable typ
+Cable:     TB052      D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN662      TO: EN601      SYS: TALKBACK   C: <cable typ
+Cable:     TB53       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB54       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB55       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB56       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB57       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB58       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB59       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB60       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB61       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB62       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB63       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB64       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB65       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB66       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB67       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB68       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB69       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB70       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB71       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB72       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB073      D: DIMMER RACK               L: FURNITURE STORE           R: 209        A: REF DWG    FROM: DIM602     TO: ER601      SYS: TALKBACK   C: <cable typ
+Cable:     TB74       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB75       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB76       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB77       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB78       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB79       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB80       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB81       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB82       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB83       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB84       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB85       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB86       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB87       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB88       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB89       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB90       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB91       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB92       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB93       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB94       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB95       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB96       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     TB097      D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH611      TO: EN601      SYS: TALKBACK   C: <cable typ
+Cable:     TB098      D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH612      TO: EN601      SYS: TALKBACK   C: <cable typ
+Cable:     TB099      D: TECH PANEL/FLOOR BOX      L: REHEARSAL                 R: 203        A: 0          FROM: RH613      TO: EN601      SYS: TALKBACK   C: <cable typ

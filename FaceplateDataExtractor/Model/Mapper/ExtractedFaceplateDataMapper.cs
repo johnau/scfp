@@ -274,7 +274,7 @@ namespace FaceplateDataExtractor.Model.Mapper
 
             var headerCombinedString = StringsHelper.ListToString(cellData.HeaderText);
             // check the column header against the ExpectedMetadataHeaders
-            return ContainsMatchingType(headerCombinedString, out metadataType);
+            return EnumHelper.ContainsMatchingType(headerCombinedString, out metadataType);
         }
 
         /// <summary>
@@ -305,7 +305,7 @@ namespace FaceplateDataExtractor.Model.Mapper
 
             // could escape early here...
 
-            return ContainsMatchingType(firstHeader, out systemType);
+            return EnumHelper.ContainsMatchingType(firstHeader, out systemType);
 
             //firstHeader = StringsHelper.Sanitize(firstHeader);
 
@@ -378,7 +378,7 @@ namespace FaceplateDataExtractor.Model.Mapper
                 break;
             }
 
-            return ContainsMatchingType(secondHeader, out cableType);
+            return EnumHelper.ContainsMatchingType(secondHeader, out cableType);
 
             //// Use string values assosciated with Enum values to determine a matching type
             //foreach (CableType _cableType in Enum.GetValues(typeof(CableType)))
@@ -426,7 +426,7 @@ namespace FaceplateDataExtractor.Model.Mapper
                 break;
             }
 
-            return ContainsMatchingType(lastHeader, out columnValueType);
+            return EnumHelper.ContainsMatchingType(lastHeader, out columnValueType);
 
             //// Use string values assosciated with Enum values to determine a matching type
             //foreach (ColumnValueType _columnValueType in Enum.GetValues(typeof(ColumnValueType)))
@@ -463,67 +463,6 @@ namespace FaceplateDataExtractor.Model.Mapper
             //}
 
             //return false;
-        }
-
-        /// <summary>
-        /// </summary>
-        /// <remarks>
-        /// Enum type used with this method should ensure that a default value is considered.
-        /// If no matches are found, the default value is returned.
-        /// </remarks>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="s"></param>
-        /// <param name="type"></param>
-        /// <returns>Finds the longest match and returns, or returns Enum default value</returns>
-        /// <exception cref="Exception"></exception>
-        public static bool ContainsMatchingType<T>(string s, out T type) where T : Enum
-        {
-            s = StringsHelper.Sanitize(s);
-
-            var matches = new Dictionary<T, string>();
-
-            foreach (T _type in Enum.GetValues(typeof(T)))
-            {
-                var enumTypeValueOptions = _type.GetStringArrayValue();
-                for (int i = 0; i < enumTypeValueOptions.Length; i++)
-                {
-                    var currentMatch = enumTypeValueOptions[i];
-                    if (s.Contains(currentMatch, StringComparison.OrdinalIgnoreCase))
-                    {
-                        matches.Add(_type, currentMatch);
-                    }
-                }
-            }
-
-            if (matches.Count == 0)
-            {
-                type = default!; // ignoring nulls - enums should ensure NONE is first (= 0 = default)
-                return false;
-            }
-
-            // sort the matches and find the one with the most matched characters.
-            // This is a little janky since it's possible that two items match the same character
-            // length and we can get the wrong one.
-            // For now it should be ok, and most cases should be ok.
-            // This can be reviewed when we shift the enums to the database.
-            var longestMatch = "";
-            T longestMatchValue = default!;
-            foreach (var match in matches)
-            {
-                var e = match.Key;
-                var str = match.Value;
-                if (str.Length > longestMatch.Length)
-                {
-                    longestMatch = str;
-                    longestMatchValue = e;
-                } else if (str.Length == longestMatch.Length)
-                {
-                    throw new Exception($"The enum {typeof(T)} needs to be modified since there are two or more values that are colliding during detection. ({str} and {longestMatch})  This error was somewhat expected at some point...");
-                }
-            }
-
-            type = longestMatchValue;
-            return true;
         }
     }
 }

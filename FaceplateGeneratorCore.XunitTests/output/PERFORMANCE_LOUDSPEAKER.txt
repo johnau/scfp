@@ -1,0 +1,9 @@
+           Id         Description                  Location                     Room          Affl          Panel Id         Dest Rack Id   SystemType   
+Cable:     PA001      D: VOL CTRL                  L: PRINC. DR. RM. 1 G26      R:            A: 1200       FROM: BS202      TO: ER401      SYS: PERFORMANCE_LOUDSPEAKER C: <cable typ
+Cable:     PA002      D: VOL CTRL                  L: MULTI-PURPOSE RM/GREEG32  R:            A: 1200       FROM: BS204      TO: ER401      SYS: PERFORMANCE_LOUDSPEAKER C: <cable typ
+Cable:     PA003      D: VOL CTRL                  L: DR. RM. G39               R:            A: 1200       FROM: BS206      TO: ER401      SYS: PERFORMANCE_LOUDSPEAKER C: <cable typ
+Cable:     PA004      D: VOL CTRL                  L: DR. RM. G29               R:            A: 1200       FROM: BS208      TO: ER401      SYS: PERFORMANCE_LOUDSPEAKER C: <cable typ
+Cable:     PA005      D: VOL CTRL                  L: PRINC. DR. RM. 2 G20      R:            A: 1200       FROM: BS210      TO: ER401      SYS: PERFORMANCE_LOUDSPEAKER C: <cable typ
+Cable:     PA006      D: VOL CTRL                  L: STAGE DOOR G41            R:            A: 1200       FROM: BS212      TO: ER401      SYS: PERFORMANCE_LOUDSPEAKER C: <cable typ
+Cable:     PA007      D: VOL CTRL                  L: WORKSHOP G35              R:            A: 1200       FROM: BS216      TO: ER401      SYS: PERFORMANCE_LOUDSPEAKER C: <cable typ
+Cable:     PA008      D: VOL CTRL                  L: GUEST DRESS ROOM 212      R:            A: 1200       FROM: BS601      TO: ER401      SYS: PERFORMANCE_LOUDSPEAKER C: <cable typ

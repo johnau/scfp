@@ -1,0 +1,151 @@
+           Id         Description                  Location                     Room          Affl          Panel Id         Dest Rack Id   SystemType   
+Cable:     AV001      D: AVCONTROL PANEL           L: STAGE                     R: G15        A: 1100       FROM: AV202      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV002      D: PROJECTOR                 L: AUDITORIUM                R: G16        A: SOFFIT     FROM: AV451      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV003      D: PROJECTION SCREEN         L: STAGE                     R: G15        A: ON BAR     FROM: AV801      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV004      D: SCREEN                    L: PRINC. DR. RM. 1          R: G26        A: 2000       FROM: BS201      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV005      D: VOL CTRL                  L: PRINC. DR. RM. 1 G26      R:            A: 1200       FROM: BS202      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV006      D: SCREEN                    L: MULTI-PURPOSE RM/GREEG32  R:            A: 2000       FROM: BS203      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV007      D: VOL CTRL                  L: MULTI-PURPOSE RM/GREEG32  R:            A: 1200       FROM: BS204      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV008      D: SCREEN                    L: DR. RM. G39               R:            A: 2000       FROM: BS205      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV009      D: VOL CTRL                  L: DR. RM. G39               R:            A: 1200       FROM: BS206      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV010      D: SCREEN                    L: DR. RM. G29               R:            A: 2000       FROM: BS207      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV011      D: VOL CTRL                  L: DR. RM. G29               R:            A: 1200       FROM: BS208      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV012      D: SCREEN                    L: PRINC. DR. RM. 2 G20      R:            A: 2000       FROM: BS209      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV013      D: VOL CTRL                  L: PRINC. DR. RM. 2 G20      R:            A: 1200       FROM: BS210      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV014      D: SCREEN                    L: STAGE DOOR G41            R:            A: 2000       FROM: BS211      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV015      D: VOL CTRL                  L: STAGE DOOR G41            R:            A: 1200       FROM: BS212      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV016      D: SCREEN                    L: LOBBY G44                 R:            A: 2000       FROM: BS213      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV017      D: SCREEN                    L: SCENE DOCK G24            R:            A: 2500       FROM: BS214      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV018      D: SCREEN                    L: WORKSHOP G35              R:            A: 2000       FROM: BS215      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV019      D: VOL CTRL                  L: WORKSHOP G35              R:            A: 1200       FROM: BS216      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV020      D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV021      D: SCREEN                    L: VENUE MAN. OFFICE 102     R:            A: 2000       FROM: BS401      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV022      D: TECH PANEL                L: VENUE MAN. OFFICE 102     R:            A: 1100       FROM: BS402      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV023      D: VOL CTRL                  L: GUEST DRESS ROOM 212      R:            A: 1200       FROM: BS601      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV024      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV025      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV026      D: TECH PANEL (SM Panel)     L: PERF LOCK                 R: G23        A: 300        FROM: TP201A     TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV027      D: TECH PANEL (SM Panel)     L: PERF LOCK                 R: G23        A: 300        FROM: TP201A     TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV028      D: TECH PANEL (SM Panel)     L: STAGE                     R: G15        A: 300        FROM: TP202      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV029      D: TECH PANEL (SM Panel)     L: STAGE                     R: G15        A: 300        FROM: TP202      TO: ER401      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV30       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV31       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV32       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV33       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV34       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV35       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV36       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV37       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV38       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV39       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV40       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV41       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV42       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV43       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV44       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV45       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV46       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV47       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV48       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV049      D: AV CONTROL                L: CONFERENCE 1              R: 206        A: 1100       FROM: CN601      TO: ER601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV050      D: AV CONTROL                L: CONFERENCE 2              R: 205        A: 1100       FROM: CN651      TO: ER601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV051      D: PROJECTOR                 L: CONFERENCE 1              R: 206        A: PIPE GRID  FROM: CN721A     TO: ER601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV052      D: PROJECTOR                 L: CONFERENCE 1              R: 206        A: PIPE GRID  FROM: CN721B     TO: ER601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV053      D: PROJECTION SCREEN         L: CONFERENCE 1              R: 206        A: PIPE GRID  FROM: CN722      TO: ER601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV054      D: PROJECTION SCREEN         L: CONFERENCE 1              R: 206        A: PIPE GRID  FROM: CN723      TO: ER601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV055      D: PROJECTION SCREEN         L: CONFERENCE 1              R: 206        A: PIPE GRID  FROM: CN724      TO: ER601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV056      D: PROJECTOR                 L: CONFERENCE 2              R: 205        A: PIPE GRID  FROM: CN771A     TO: ER601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV057      D: PROJECTOR                 L: CONFERENCE 2              R: 205        A: PIPE GRID  FROM: CN771B     TO: ER601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV058      D: PROJECTION SCREEN         L: CONFERENCE 2              R: 205        A: PIPE GRID  FROM: CN772      TO: ER601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV059      D: PROJECTION SCREEN         L: CONFERENCE 2              R: 205        A: PIPE GRID  FROM: CN773      TO: ER601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV060      D: PROJECTION SCREEN         L: CONFERENCE 2              R: 205        A: PIPE GRID  FROM: CN774      TO: ER601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV061      D: TECH PANEL                L: FOYER                     R: 207        A: 300        FROM: FY601      TO: ER601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV062      D: TECH PANEL                L: FOYER                     R: 207        A: 300        FROM: FY602      TO: ER601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV63       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV64       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV65       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV66       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV67       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV68       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV69       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV70       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV71       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV72       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV073      D: AV CONTROL                L: REHEARSAL                 R: 203        A: 1100       FROM: RH601      TO: EN601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV74       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV75       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV76       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV77       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV78       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV79       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV80       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV81       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV82       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV83       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV84       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV85       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV86       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV87       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV88       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV89       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV90       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV91       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV92       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV93       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV94       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV95       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV96       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV097      D: PROJECTOR                 L: REHEARSAL                 R: 203        A: PIPE GRID  FROM: RH731A     TO: ER601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV098      D: PROJECTOR                 L: REHEARSAL                 R: 203        A: PIPE GRID  FROM: RH731B     TO: ER601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV099      D: PROJECTION SCREEN         L: REHEARSAL                 R: 203        A: PIPE GRID  FROM: RH732      TO: ER601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV100      D: PROJECTION SCREEN         L: REHEARSAL                 R: 203        A: PIPE GRID  FROM: RH733      TO: ER601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV101      D: PROJECTION SCREEN         L: REHEARSAL                 R: 203        A: PIPE GRID  FROM: RH734      TO: ER601      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV102      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV103      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV104      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV105      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV106      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV107      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV108      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV109      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV110      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV111      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV112      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV113      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV114      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV115      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV116      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV117      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV118      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV119      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV120      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV121      D: TECH PANEL/FLOOR BOX      L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY201      TO: ER211      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV122      D: TECH PANEL                L: FUNCTION/FOYER            R: G01        A: 300        FROM: FY202      TO: ER211      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV123      D: TECH PANEL/FLOOR BOX      L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY211      TO: ER211      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV124      D: TECH PANEL/FLOOR BOX      L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY213      TO: ER211      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV125      D: TECH PANEL                L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY214      TO: ER211      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV126      D: HOUSE MANAGERS PANEL      L: FUNCTION/FOYER            R: G01        A: 1100       FROM: FY231      TO: ER211      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV127      D: TECH PANEL/FLOOR BOX      L: FOYER                     R: 113        A: 0          FROM: FY401      TO: ER211      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV128      D: TECH PANEL                L: FOYER                     R: 113        A: 300        FROM: FY402      TO: ER211      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV129      D: TECH PANEL/FLOOR BOX      L: FOYER                     R: 113        A: 0          FROM: FY403      TO: ER211      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV130      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV131      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV132      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV133      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV134      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV135      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV136      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV137      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV138      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV139      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV140      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV141      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV142      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV143      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV144      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     AV145      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV146      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV147      D: LIGHTING CONTROL          L: CONTROL ROOM              R:            A: 500        FROM: CR491      TO: ER491      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV148      D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV149      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      SYS: AV_CONTROL_DATA C: <cable typ
+Cable:     AV150      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      SYS: AV_CONTROL_DATA C: <cable typ

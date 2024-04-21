@@ -1,0 +1,278 @@
+           Id         Description                  Location                     Room          Affl          Panel Id         Dest Rack Id   SystemType   
+Cable:     DA001      D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA002      D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA003      D: TECH PANEL                L: SCENE DOCK G24            R:            A: 500        FROM: BS218      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA004      D: TECH PANEL                L: SCENE DOCK G24            R:            A: 500        FROM: BS218      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA005      D: TECH PANEL                L: VENUE MAN. OFFICE 102     R:            A: 1100       FROM: BS402      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA006      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB201      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA007      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB201      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA008      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB202      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA009      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB202      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA010      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB203      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA011      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB203      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA012      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB204      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA013      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB204      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA014      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB205      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA015      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB205      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA016      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB206      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA017      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB206      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA018      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB207      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA019      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB207      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA020      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB208      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA021      D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB208      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA022      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB251      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA023      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB251      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA024      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB252      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA025      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB252      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA026      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB253      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA027      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB253      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA028      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB254      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA029      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB254      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA030      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB255      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA031      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB255      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA032      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB256      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA033      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB256      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA034      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB257      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA035      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB257      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA036      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB258      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA037      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB258      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA038      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB259      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA039      D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB259      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA040      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX451      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA041      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX452      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA042      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX453      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA043      D: LX BALCONY BAR            L: AUDITORIUM                R: G16        A: ON BAR     FROM: LX454      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA044      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX651      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA045      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX652      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA046      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX653      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA047      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX654      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA048      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX655      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA049      D: LX BALCONY BAR            L: LEVEL 2 BALCONY           R:            A: ON BAR     FROM: LX656      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA050      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX801      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA051      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX801      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA052      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX801      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA053      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX802      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA054      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX802      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA055      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX802      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA056      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX803      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA057      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX803      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA058      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX803      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA059      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX804      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA060      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX804      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA061      D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX804      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA062      D: LX BAR (ORCH)             L: AUDITORIUM                R: G16        A: CEILING    FROM: LX851      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA063      D: LX BAR (ORCH)             L: AUDITORIUM                R: G16        A: CEILING    FROM: LX851      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA064      D: LX BAR (ORCH)             L: AUDITORIUM                R: G16        A: CEILING    FROM: LX851      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA065      D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX861      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA066      D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX861      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA067      D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX861      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA068      D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX862      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA069      D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX862      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA070      D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX862      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA071      D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX863      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA072      D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX863      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA073      D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX863      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA074      D: SPEAKER                   L: LEVEL 1 BALCONY           R:            A: ON BAR     FROM: SX451      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA075      D: SPEAKER                   L: LEVEL 1 BALCONY           R:            A: ON BAR     FROM: SX452      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA076      D: SPEAKER (ARRAY)           L: AUDITORIUM                R: G16        A: CEILING    FROM: SX851A     TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA077      D: SPEAKER (ARRAY)           L: AUDITORIUM                R: G16        A: CEILING    FROM: SX851A     TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA078      D: SPEAKER (SUBS)            L: AUDITORIUM                R: G16        A: CEILING    FROM: SX851B     TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA079      D: SPEAKER (SUBS)            L: AUDITORIUM                R: G16        A: CEILING    FROM: SX851B     TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA080      D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX852      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA081      D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX852      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA082      D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX853      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA083      D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX853      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA084      D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX854      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA085      D: SPEAKER                   L: AUDITORIUM                R: G16        A: CEILING    FROM: SX854      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA086      D: SPEAKER (ARRAY)           L: AUDITORIUM                R: G16        A: CEILING    FROM: SX855A     TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA087      D: SPEAKER (ARRAY)           L: AUDITORIUM                R: G16        A: CEILING    FROM: SX855A     TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA088      D: SPEAKER (SUBS)            L: AUDITORIUM                R: G16        A: CEILING    FROM: SX855B     TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA089      D: SPEAKER (SUBS)            L: AUDITORIUM                R: G16        A: CEILING    FROM: SX855B     TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA090      D: TECH PANEL (SM Panel)     L: PERF LOCK                 R: G23        A: 300        FROM: TP201A     TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA091      D: TECH PANEL (SM Panel)     L: STAGE                     R: G15        A: 300        FROM: TP202      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA092      D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP203      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA093      D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP203      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA094      D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP204      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA095      D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP204      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA096      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA097      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA098      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA099      D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA100      D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP601      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA101      D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP602      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA102      D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP603      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA103      D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP604      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA104      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP851      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA105      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP852      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA106      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA107      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA108      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA109      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA110      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA111      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA112      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA113      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA114      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA115      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA116      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA117      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA118      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA119      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA120      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA121      D: LIGHTING                  L: BREAK OUT                 R: 204        A: CEILING    FROM: BR701      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA122      D: LIGHTING                  L: BREAK OUT                 R: 204        A: CEILING    FROM: BR702      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA123      D: LIGHTING                  L: BREAK OUT                 R: 204        A: CEILING    FROM: BR703      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA124      D: LIGHTING                  L: BREAK OUT                 R: 204        A: CEILING    FROM: BR704      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA125      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA126      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA127      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA128      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA129      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA130      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA131      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA132      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA133      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA134      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA135      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA136      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA137      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA138      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA139      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA140      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA141      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA142      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA143      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA144      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA145      D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA146      D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA147      D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA148      D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA149      D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN661      TO: EN601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA150      D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN661      TO: EN601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA151      D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN662      TO: EN601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA152      D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN662      TO: EN601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA153      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA154      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA155      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA156      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA157      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA158      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA159      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA160      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA161      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA162      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA163      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA164      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA165      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA166      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA167      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA168      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA169      D: LIGHTING                  L: CONFERENCE 1              R: 206        A: PIPE GRID  FROM: CN708      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA170      D: SPEAKER POINT             L: CONFERENCE 1              R: 206        A: PIPE GRID  FROM: CN711      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA171      D: SPEAKER POINT             L: CONFERENCE 1              R: 206        A: PIPE GRID  FROM: CN712      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA172      D: SPEAKER POINT             L: CONFERENCE 1              R: 206        A: PIPE GRID  FROM: CN713      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA173      D: SPEAKER POINT             L: CONFERENCE 1              R: 206        A: PIPE GRID  FROM: CN714      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA174      D: LIGHTING                  L: CONFERENCE 2              R: 205        A: PIPE GRID  FROM: CN758      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA175      D: SPEAKER POINT             L: CONFERENCE 2              R: 205        A: PIPE GRID  FROM: CN761      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA176      D: SPEAKER POINT             L: CONFERENCE 2              R: 205        A: PIPE GRID  FROM: CN762      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA177      D: SPEAKER POINT             L: CONFERENCE 2              R: 205        A: PIPE GRID  FROM: CN763      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA178      D: SPEAKER POINT             L: CONFERENCE 2              R: 205        A: PIPE GRID  FROM: CN764      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA179      D: TECH PANEL                L: FOYER                     R: 207        A: 300        FROM: FY601      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA180      D: TECH PANEL                L: FOYER                     R: 207        A: 300        FROM: FY601      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA181      D: TECH PANEL                L: FOYER                     R: 207        A: 300        FROM: FY602      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA182      D: TECH PANEL                L: FOYER                     R: 207        A: 300        FROM: FY602      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA183      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA184      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA185      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA186      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA187      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA188      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA189      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA190      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA191      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA192      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA193      D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH611      TO: EN601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA194      D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH611      TO: EN601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA195      D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH612      TO: EN601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA196      D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH612      TO: EN601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA197      D: TECH PANEL/FLOOR BOX      L: REHEARSAL                 R: 203        A: 0          FROM: RH613      TO: EN601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA198      D: TECH PANEL/FLOOR BOX      L: REHEARSAL                 R: 203        A: 0          FROM: RH613      TO: EN601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA199      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA200      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA201      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA202      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA203      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA204      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA205      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA206      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA207      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA208      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA209      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA210      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA211      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA212      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA213      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA214      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA215      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA216      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA217      D: LIGHTING                  L: REHEARSAL                 R: 203        A: PIPE GRID  FROM: RH708      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA218      D: SPEAKER POINT             L: REHEARSAL                 R: 203        A: PIPE GRID  FROM: RH711      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA219      D: SPEAKER POINT             L: REHEARSAL                 R: 203        A: PIPE GRID  FROM: RH712      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA220      D: SPEAKER POINT             L: REHEARSAL                 R: 203        A: PIPE GRID  FROM: RH713      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA221      D: SPEAKER POINT             L: REHEARSAL                 R: 203        A: PIPE GRID  FROM: RH714      TO: ER601      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA222      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA223      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA224      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA225      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA226      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA227      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA228      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA229      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA230      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA231      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA232      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA233      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA234      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA235      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA236      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA237      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA238      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA239      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA240      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA241      D: TECH PANEL/FLOOR BOX      L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY201      TO: ER211      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA242      D: TECH PANEL                L: FUNCTION/FOYER            R: G01        A: 300        FROM: FY202      TO: ER211      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA243      D: TECH PANEL/FLOOR BOX      L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY211      TO: ER211      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA244      D: TECH PANEL/FLOOR BOX      L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY211      TO: ER211      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA245      D: TECH PANEL/FLOOR BOX      L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY213      TO: ER211      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA246      D: TECH PANEL/FLOOR BOX      L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY213      TO: ER211      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA247      D: TECH PANEL                L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY214      TO: ER211      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA248      D: TECH PANEL                L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY214      TO: ER211      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA249      D: HOUSE MANAGERS PANEL      L: FUNCTION/FOYER            R: G01        A: 1100       FROM: FY231      TO: ER211      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA250      D: TECH PANEL/FLOOR BOX      L: FOYER                     R: 113        A: 0          FROM: FY401      TO: ER211      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA251      D: TECH PANEL/FLOOR BOX      L: FOYER                     R: 113        A: 0          FROM: FY401      TO: ER211      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA252      D: TECH PANEL                L: FOYER                     R: 113        A: 300        FROM: FY402      TO: ER211      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA253      D: TECH PANEL                L: FOYER                     R: 113        A: 300        FROM: FY402      TO: ER211      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA254      D: TECH PANEL/FLOOR BOX      L: FOYER                     R: 113        A: 0          FROM: FY403      TO: ER211      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA255      D: TECH PANEL/FLOOR BOX      L: FOYER                     R: 113        A: 0          FROM: FY403      TO: ER211      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA256      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA257      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA258      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA259      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA260      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA261      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA262      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA263      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA264      D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     DA265      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA266      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA267      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA268      D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA269      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA270      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA271      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA272      D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA273      D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA274      D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA275      D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA276      D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      SYS: DANTE_ETHERNET_AUDIO C: <cable typ
+Cable:     DA277      D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      SYS: DANTE_ETHERNET_AUDIO C: <cable typ

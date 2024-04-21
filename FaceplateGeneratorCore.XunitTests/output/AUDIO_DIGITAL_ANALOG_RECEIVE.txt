@@ -1,0 +1,383 @@
+           Id         Description                  Location                     Room          Affl          Panel Id         Dest Rack Id   SystemType   
+Cable:     A001       D: SHOW RELAY MICROPHONE     L: AUDITORIUM                R: G16        A: ON ORCH BA FROM: AV851      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A002       D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A003       D: TECH PANEL                L: WORKSHOP G35              R:            A: 1200       FROM: BS217      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A004       D: TECH PANEL                L: SCENE DOCK G24            R:            A: 500        FROM: BS218      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A005       D: TECH PANEL                L: SCENE DOCK G24            R:            A: 500        FROM: BS218      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A006       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB201      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A007       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB201      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A008       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB201      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A009       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB201      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A010       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB202      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A011       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB202      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A012       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB202      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A013       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB202      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A014       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB203      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A015       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB203      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A016       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB203      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A017       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB203      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A018       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB204      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A019       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB204      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A020       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB204      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A021       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB204      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A022       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB205      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A023       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB205      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A024       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB205      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A025       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB205      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A026       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB206      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A027       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB206      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A028       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB206      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A029       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB206      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A030       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB207      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A031       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB207      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A032       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB207      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A033       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB207      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A034       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB208      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A035       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB208      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A036       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB208      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A037       D: FLOORBOXES                L: STAGE                     R: G15        A: 0          FROM: FB208      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A038       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB251      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A039       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB251      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A040       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB251      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A041       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB251      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A042       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB252      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A043       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB252      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A044       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB252      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A045       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB252      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A046       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB253      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A047       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB253      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A048       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB253      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A049       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB253      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A050       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB254      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A051       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB254      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A052       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB254      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A053       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB254      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A054       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB255      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A055       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB255      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A056       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB255      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A057       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB255      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A058       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB256      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A059       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB256      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A060       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB256      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A061       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB256      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A062       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB257      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A063       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB257      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A064       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB257      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A065       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB257      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A066       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB258      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A067       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB258      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A068       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB258      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A069       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB258      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A070       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB259      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A071       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB259      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A072       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB259      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A073       D: FLOORBOXES                L: AUDITORIUM                R: G16        A: 0          FROM: FB259      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A074       D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX801      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A075       D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX801      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A076       D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX801      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A077       D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX802      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A078       D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX802      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A079       D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX802      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A080       D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX803      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A081       D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX803      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A082       D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX803      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A083       D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX804      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A084       D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX804      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A085       D: LX BAR                    L: STAGE                     R: G15        A: CEILING    FROM: LX804      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A086       D: LX BAR (ORCH)             L: AUDITORIUM                R: G16        A: CEILING    FROM: LX851      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A087       D: LX BAR (ORCH)             L: AUDITORIUM                R: G16        A: CEILING    FROM: LX851      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A088       D: LX BAR (ORCH)             L: AUDITORIUM                R: G16        A: CEILING    FROM: LX851      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A089       D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX861      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A090       D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX861      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A091       D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX861      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A092       D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX862      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A093       D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX862      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A094       D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX862      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A095       D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX863      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A096       D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX863      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A097       D: LX BAR                    L: CABLE NET                 R:            A: ON CABLENE FROM: LX863      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A098       D: TECH PANEL                L: SUB STAGE                 R: B01        A: 300        FROM: TP001      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A099       D: TECH PANEL                L: SUB STAGE                 R: B01        A: 300        FROM: TP002      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A100       D: TECH PANEL                L: SUB STAGE                 R: B01        A: 300        FROM: TP003      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A101       D: TECH PANEL (SM Panel)     L: PERF LOCK                 R: G23        A: 300        FROM: TP201A     TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A102       D: TECH PANEL (SM Panel)     L: STAGE                     R: G15        A: 300        FROM: TP202      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A103       D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP203      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A104       D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP203      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A105       D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP204      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A106       D: TECH PANEL                L: STAGE                     R: G15        A: 300        FROM: TP204      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A107       D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A108       D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A109       D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A110       D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A111       D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A112       D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A113       D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A114       D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP251      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A115       D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A116       D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A117       D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A118       D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A119       D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A120       D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A121       D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A122       D: TECH PANEL                L: FORESTAGE                 R: B02        A: 300        FROM: TP252      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A123       D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP601      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A124       D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP601      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A125       D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP602      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A126       D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP602      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A127       D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP603      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A128       D: TECH PANEL                L: TECH (GALLERY)            R: 218        A: 300        FROM: TP603      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A129       D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP604      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A130       D: TECH PANEL                L: TECH (GALLERY)            R: 219        A: 300        FROM: TP604      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A131       D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP851      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A132       D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP852      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A133       D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A134       D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A135       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A136       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A137       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A138       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A139       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A140       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A141       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A142       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A143       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A144       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A145       D: LIGHTING                  L: BREAK OUT                 R: 204        A: CEILING    FROM: BR701      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A146       D: LIGHTING                  L: BREAK OUT                 R: 204        A: CEILING    FROM: BR701      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A147       D: LIGHTING                  L: BREAK OUT                 R: 204        A: CEILING    FROM: BR704      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A148       D: LIGHTING                  L: BREAK OUT                 R: 204        A: CEILING    FROM: BR704      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A149       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A150       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A151       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A152       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A153       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A154       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A155       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A156       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A157       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A158       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A159       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A160       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A161       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A162       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A163       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A164       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A165       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A166       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A167       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A168       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A169       D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A170       D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A171       D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A172       D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A173       D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A174       D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A175       D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A176       D: TECH PANEL                L: CONFERENCE 1              R: 206        A: 300        FROM: CN611      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A177       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A178       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A179       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A180       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A181       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A182       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A183       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A184       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 1              R: 206        A: 0          FROM: CN612      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A185       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN661      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A186       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN661      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A187       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN661      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A188       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN661      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A189       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN661      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A190       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN661      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A191       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN661      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A192       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN661      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A193       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN662      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A194       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN662      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A195       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN662      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A196       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN662      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A197       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN662      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A198       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN662      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A199       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN662      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A200       D: TECH PANEL/FLOOR BOX      L: CONFERENCE 2              R: 205        A: 0          FROM: CN662      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A201       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A202       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A203       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A204       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A205       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A206       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A207       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A208       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A209       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A210       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A211       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A212       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A213       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A214       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A215       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A216       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A217       D: LIGHTING                  L: CONFERENCE 1              R: 206        A: PIPE GRID  FROM: CN708      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A218       D: SPEAKER POINT             L: CONFERENCE 1              R: 206        A: PIPE GRID  FROM: CN711      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A219       D: SPEAKER POINT             L: CONFERENCE 1              R: 206        A: PIPE GRID  FROM: CN712      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A220       D: SPEAKER POINT             L: CONFERENCE 1              R: 206        A: PIPE GRID  FROM: CN713      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A221       D: SPEAKER POINT             L: CONFERENCE 1              R: 206        A: PIPE GRID  FROM: CN714      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A222       D: LIGHTING                  L: CONFERENCE 2              R: 205        A: PIPE GRID  FROM: CN758      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A223       D: SPEAKER POINT             L: CONFERENCE 2              R: 205        A: PIPE GRID  FROM: CN761      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A224       D: SPEAKER POINT             L: CONFERENCE 2              R: 205        A: PIPE GRID  FROM: CN762      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A225       D: SPEAKER POINT             L: CONFERENCE 2              R: 205        A: PIPE GRID  FROM: CN763      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A226       D: SPEAKER POINT             L: CONFERENCE 2              R: 205        A: PIPE GRID  FROM: CN764      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A227       D: TECH PANEL                L: FOYER                     R: 207        A: 300        FROM: FY601      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A228       D: TECH PANEL                L: FOYER                     R: 207        A: 300        FROM: FY601      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A229       D: TECH PANEL                L: FOYER                     R: 207        A: 300        FROM: FY602      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A230       D: TECH PANEL                L: FOYER                     R: 207        A: 300        FROM: FY602      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A231       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A232       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A233       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A234       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A235       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A236       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A237       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A238       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A239       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A240       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A241       D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH611      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A242       D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH611      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A243       D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH611      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A244       D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH611      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A245       D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH611      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A246       D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH611      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A247       D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH611      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A248       D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH611      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A249       D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH612      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A250       D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH612      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A251       D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH612      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A252       D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH612      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A253       D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH612      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A254       D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH612      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A255       D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH612      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A256       D: TECH PANEL                L: REHEARSAL                 R: 203        A: 300        FROM: RH612      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A257       D: TECH PANEL/FLOOR BOX      L: REHEARSAL                 R: 203        A: 0          FROM: RH613      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A258       D: TECH PANEL/FLOOR BOX      L: REHEARSAL                 R: 203        A: 0          FROM: RH613      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A259       D: TECH PANEL/FLOOR BOX      L: REHEARSAL                 R: 203        A: 0          FROM: RH613      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A260       D: TECH PANEL/FLOOR BOX      L: REHEARSAL                 R: 203        A: 0          FROM: RH613      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A261       D: TECH PANEL/FLOOR BOX      L: REHEARSAL                 R: 203        A: 0          FROM: RH613      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A262       D: TECH PANEL/FLOOR BOX      L: REHEARSAL                 R: 203        A: 0          FROM: RH613      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A263       D: TECH PANEL/FLOOR BOX      L: REHEARSAL                 R: 203        A: 0          FROM: RH613      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A264       D: TECH PANEL/FLOOR BOX      L: REHEARSAL                 R: 203        A: 0          FROM: RH613      TO: EN601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A265       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A266       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A267       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A268       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A269       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A270       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A271       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A272       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A273       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A274       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A275       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A276       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A277       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A278       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A279       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A280       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A281       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A282       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A283       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A284       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A285       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A286       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A287       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A288       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A289       D: LIGHTING                  L: REHEARSAL                 R: 203        A: PIPE GRID  FROM: RH708      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A290       D: SPEAKER POINT             L: REHEARSAL                 R: 203        A: PIPE GRID  FROM: RH711      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A291       D: SPEAKER POINT             L: REHEARSAL                 R: 203        A: PIPE GRID  FROM: RH712      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A292       D: SPEAKER POINT             L: REHEARSAL                 R: 203        A: PIPE GRID  FROM: RH713      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A293       D: SPEAKER POINT             L: REHEARSAL                 R: 203        A: PIPE GRID  FROM: RH714      TO: ER601      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A294       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A295       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A296       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A297       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A298       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A299       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A300       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A301       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A302       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A303       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A304       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A305       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A306       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A307       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A308       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A309       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A310       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A311       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A312       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A313       D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A314       D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A315       D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A316       D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A317       D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A318       D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A319       D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A320       D: CONTROL FLOORBOX          L: AUDITORIUM                R: G16        A: 0          FROM: CR251      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A321       D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A322       D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A323       D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A324       D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A325       D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A326       D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A327       D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A328       D: AUDITORIUM CONTROL        L: AUDITORIUM                R: G16        A: IN RISER   FROM: CR451      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A329       D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A330       D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A331       D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A332       D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A333       D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A334       D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A335       D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A336       D: AUDIO CONTROL             L: CONTROL ROOM              R:            A: 500        FROM: CR492      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A337       D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A338       D: AV CONTROL                L: CONTROL ROOM              R:            A: 500        FROM: CR493      TO: ER491      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A339       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A340       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A341       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A342       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A343       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A344       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A345       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A346       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A347       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A348       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A349       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A350       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A351       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A352       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A353       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A354       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A355       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A356       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A357       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A358       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A359       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A360       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     A361       D: TECH PANEL/FLOOR BOX      L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY201      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A362       D: TECH PANEL/FLOOR BOX      L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY201      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A363       D: TECH PANEL                L: FUNCTION/FOYER            R: G01        A: 300        FROM: FY202      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A364       D: TECH PANEL                L: FUNCTION/FOYER            R: G01        A: 300        FROM: FY202      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A365       D: TECH PANEL/FLOOR BOX      L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY211      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A366       D: TECH PANEL/FLOOR BOX      L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY211      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A367       D: TECH PANEL/FLOOR BOX      L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY211      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A368       D: TECH PANEL/FLOOR BOX      L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY211      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A369       D: TECH PANEL/FLOOR BOX      L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY213      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A370       D: TECH PANEL/FLOOR BOX      L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY213      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A371       D: TECH PANEL/FLOOR BOX      L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY213      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A372       D: TECH PANEL/FLOOR BOX      L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY213      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A373       D: TECH PANEL                L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY214      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A374       D: TECH PANEL                L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY214      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A375       D: TECH PANEL                L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY214      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A376       D: TECH PANEL                L: FUNCTION/FOYER            R: G01        A: 0          FROM: FY214      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A377       D: TECH PANEL/FLOOR BOX      L: FOYER                     R: 113        A: 0          FROM: FY401      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A378       D: TECH PANEL/FLOOR BOX      L: FOYER                     R: 113        A: 0          FROM: FY401      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A379       D: TECH PANEL                L: FOYER                     R: 113        A: 300        FROM: FY402      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A380       D: TECH PANEL                L: FOYER                     R: 113        A: 300        FROM: FY402      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A381       D: TECH PANEL/FLOOR BOX      L: FOYER                     R: 113        A: 0          FROM: FY403      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ
+Cable:     A382       D: TECH PANEL/FLOOR BOX      L: FOYER                     R: 113        A: 0          FROM: FY403      TO: ER211      SYS: AUDIO_DIGITAL_ANALOG_RECEIVE C: <cable typ

@@ -1,0 +1,3 @@
+CableId, Panel Id, Description, Location, Room, Affl, Dest Rack Id, CableId, Qty, Keystone
+MX001, TP201A, TECH PANEL (SM Panel), PERF LOCK, G23, 300, ER491, MX001, 1, 1
+MX002, TP202, TECH PANEL (SM Panel), STAGE, G15, 300, ER491, MX002, 1, 2

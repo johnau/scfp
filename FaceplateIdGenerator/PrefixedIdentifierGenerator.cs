@@ -1,4 +1,5 @@
 ﻿using FaceplateIdGenerator.Aggregates;
+using System.Diagnostics;
 
 namespace FaceplateIdGenerator
 {
@@ -24,6 +25,9 @@ namespace FaceplateIdGenerator
 
         public string NextId(IdentifierType type, string idOwner)
         {
+            if (type == IdentifierType.NONE)
+                throw new Exception("Should not provide non type");
+
             if (!identifiers.TryGetValue(type, out var identifier))
                 throw new Exception("There is no Id sequence started");
             
@@ -68,21 +72,39 @@ namespace FaceplateIdGenerator
         {
             foreach (IdentifierType type in Enum.GetValues(typeof(IdentifierType)))
             {
+                if (type == IdentifierType.NONE) continue;
+
                 StartNewSequence(type);
             }
         }
 
         public void StartNewSequence(IdentifierType type, bool force = false)
         {
+            if (type == IdentifierType.NONE)
+            {
+                Debug.WriteLine($"!! NONE Type System Identifier received, no action in Id Generator");
+                return;
+            }
+
             // Dictionary to map IdentifierType enum values to identifier types
             Dictionary<IdentifierType, Func<Identifier>> identifierCreators = new()
             {
                 { IdentifierType.AUDIO, () => new AudioIdentifier() },
                 { IdentifierType.AUDIO_VISUAL, () => new AudioVisualIdentifier() },
                 { IdentifierType.AV_CONTROL, () => new AvControlIdentifier() },
+                { IdentifierType.DANTE_ETHERNET_AUDIO, () => new DanteEthernetAudioIdentifier() },
                 { IdentifierType.DIGITAL_MEDIA, () => new DigitalMediaIdentifier() },
+                { IdentifierType.DMX_LIGHTING_CONTROL, () => new DmxLightingControlIdentifier() },
+                { IdentifierType.ESTOP, () => new EstopIdentifier() },
+                { IdentifierType.HOIST_CONTROL, () => new HoistControlIdentifier() },
+                { IdentifierType.HOUSE_CURTAIN_CONTROL, () => new HouseCurtainControlIdentifier() },
                 { IdentifierType.MULTIMODE_FIBER, () => new MultimodeFiberIdentifier() },
-                { IdentifierType.TECH_DATA, () => new TechPanelIdentifier() },
+                { IdentifierType.PAGING_SPEAKER, () => new PagingSpeakerIdentifier() },
+                { IdentifierType.PAGING_STATION, () => new PagingStationIdentifier() },
+                { IdentifierType.PERFORMANCE_LOUDSPEAKER, () => new PerformanceLoudSpeakerIdentifier() },
+                { IdentifierType.STAGE_LIGHTING_OUTLET, () => new StageLightingOutletsIdentifier() },
+                { IdentifierType.TALKBACK, () => new TalkbackIdentifier() },
+                { IdentifierType.TECH_DATA, () => new TechDataIdentifier() },
                 { IdentifierType.VIDEO_TIE_LINE, () => new VideoTieLineIdentifier() }
             };
 

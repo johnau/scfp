@@ -1,0 +1,26 @@
+CableId, Panel Id, Description, Location, Room, Affl, Dest Rack Id, CableId, Qty, Keystone
+PS001, CR493, AV CONTROL, CONTROL ROOM, , 500, ER401, PS001, 1, 1
+PS002, TP201A, TECH PANEL (SM Panel), PERF LOCK, G23, 300, ER401, PS002, 1, 2
+PS003, TP202, TECH PANEL (SM Panel), STAGE, G15, 300, ER401, PS003, 1, 3
+PS4, , SPARE, , , , , PS4, -1, 4
+PS5, , SPARE, , , , , PS5, -1, 5
+PS6, , SPARE, , , , , PS6, -1, 6
+PS7, , SPARE, , , , , PS7, -1, 7
+PS8, , SPARE, , , , , PS8, -1, 8
+PS9, , SPARE, , , , , PS9, -1, 9
+PS10, , SPARE, , , , , PS10, -1, 10
+PS11, , SPARE, , , , , PS11, -1, 11
+PS12, , SPARE, , , , , PS12, -1, 12
+PS13, , SPARE, , , , , PS13, -1, 13
+PS14, , SPARE, , , , , PS14, -1, 14
+PS15, , SPARE, , , , , PS15, -1, 15
+PS16, , SPARE, , , , , PS16, -1, 16
+PS17, , SPARE, , , , , PS17, -1, 17
+PS18, , SPARE, , , , , PS18, -1, 18
+PS19, , SPARE, , , , , PS19, -1, 19
+PS20, , SPARE, , , , , PS20, -1, 20
+PS21, , SPARE, , , , , PS21, -1, 21
+PS22, , SPARE, , , , , PS22, -1, 22
+PS23, , SPARE, , , , , PS23, -1, 23
+PS24, , SPARE, , , , , PS24, -1, 24
+PS025, FY231, HOUSE MANAGERS PANEL, FUNCTION/FOYER, G01, 1100, ER211, PS025, 1, 1

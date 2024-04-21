@@ -1,0 +1,85 @@
+           Id         Description                  Location                     Room          Affl          Panel Id         Dest Rack Id   SystemType   
+Cable:     MF001      D: EQUIP RACK                L: CLOAK ROOM                R: G07        A: 0          FROM: ER211      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF002      D: EQUIP RACK                L: CLOAK ROOM                R: G07        A: 0          FROM: ER211      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF003      D: EQUIP RACK                L: CLOAK ROOM                R: G07        A: 0          FROM: ER211      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF004      D: EQUIP RACK                L: CLOAK ROOM                R: G07        A: 0          FROM: ER211      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF005      D: EQUIP RACK                L: CLOAK ROOM                R: G07        A: 0          FROM: ER211      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF006      D: EQUIP RACK                L: CLOAK ROOM                R: G07        A: 0          FROM: ER211      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF007      D: EQUIP RACK                L: CLOAK ROOM                R: G07        A: 0          FROM: ER211      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF008      D: EQUIP RACK                L: CLOAK ROOM                R: G07        A: 0          FROM: ER211      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF009      D: EQUIP RACK                L: CLOAK ROOM                R: G07        A: 0          FROM: ER211      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF010      D: EQUIP RACK                L: CLOAK ROOM                R: G07        A: 0          FROM: ER211      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF011      D: EQUIP RACK                L: CLOAK ROOM                R: G07        A: 0          FROM: ER211      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF012      D: EQUIP RACK                L: CLOAK ROOM                R: G07        A: 0          FROM: ER211      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF013      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF014      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF015      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF016      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF017      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF018      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF019      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF020      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF021      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF022      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF023      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF024      D: EQPT RACK                 L: CONTROL ROOM              R:            A: 0          FROM: ER491      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF025      D: EQPT RACK                 L: FURNITURE STORE           R: 209        A: 0          FROM: ER601      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF026      D: EQPT RACK                 L: FURNITURE STORE           R: 209        A: 0          FROM: ER601      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF027      D: EQPT RACK                 L: FURNITURE STORE           R: 209        A: 0          FROM: ER601      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF028      D: EQPT RACK                 L: FURNITURE STORE           R: 209        A: 0          FROM: ER601      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF029      D: EQPT RACK                 L: FURNITURE STORE           R: 209        A: 0          FROM: ER601      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF030      D: EQPT RACK                 L: FURNITURE STORE           R: 209        A: 0          FROM: ER601      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF031      D: EQPT RACK                 L: FURNITURE STORE           R: 209        A: 0          FROM: ER601      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF032      D: EQPT RACK                 L: FURNITURE STORE           R: 209        A: 0          FROM: ER601      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF033      D: EQPT RACK                 L: FURNITURE STORE           R: 209        A: 0          FROM: ER601      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF034      D: EQPT RACK                 L: FURNITURE STORE           R: 209        A: 0          FROM: ER601      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF035      D: EQPT RACK                 L: FURNITURE STORE           R: 209        A: 0          FROM: ER601      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF036      D: EQPT RACK                 L: FURNITURE STORE           R: 209        A: 0          FROM: ER601      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF037      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP803      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF038      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP803      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF039      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP803      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF040      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP803      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF041      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP804      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF042      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP804      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF043      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP804      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF044      D: TECH PANEL                L: FLY GALLERY               R:            A: 300        FROM: TP804      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF045      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF046      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF047      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF048      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP853      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF049      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF050      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF051      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF052      D: TECH PANEL                L: CABLE NET                 R:            A: 300        FROM: TP854      TO: ER401      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF53       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF54       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF55       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF56       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF57       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF58       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF59       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF60       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF61       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF62       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF63       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF64       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF65       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF66       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF67       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF68       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF69       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF70       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF71       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF72       D: SPARE                     L:                           R:            A:            FROM:            TO:            SYS: NONE       C:           
+Cable:     MF073      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF074      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF075      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF076      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF077      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF078      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF079      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF080      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF081      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF082      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF083      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      SYS: MULTIMODE_FIBER C: <cable typ
+Cable:     MF084      D: EQPT RACK                 L: TECH ROOM                 R: 117        A: 0          FROM: ER401      TO: ER491      SYS: MULTIMODE_FIBER C: <cable typ
