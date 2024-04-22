@@ -14,7 +14,16 @@ class Program
 
         var process = new DataProcessHandler(filePath, sheet);
         process.LoadSettings("settings.json");
-        var cables = process.ProcessFile();
+        try
+        {
+            var cables = process.ProcessFile();
+        } catch (Exception)
+        {
+            Console.WriteLine("The file is in use or inaccessible, the program will now exit, press any key to continue...");
+            Console.ReadKey();
+            return;
+        }
+
         var filteredCables = process.FilterData();
         foreach (var scd in filteredCables)
             Console.WriteLine(scd);

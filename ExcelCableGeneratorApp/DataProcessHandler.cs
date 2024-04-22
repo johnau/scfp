@@ -96,6 +96,7 @@ internal class DataProcessHandler
         var crawler = new ExcelCableCrawler(config);
 
         // read in raw data from the table
+        // may throw exception
         _cableData = crawler.CrawlCableTable(_filePath, _sheetNumber);
 
         return _cableData;
