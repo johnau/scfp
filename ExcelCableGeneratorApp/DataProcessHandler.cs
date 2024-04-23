@@ -8,6 +8,7 @@ using ExcelCableGeneratorApp.Identifier.Aggregates;
 using System.Reflection.Emit;
 using System.Diagnostics;
 using ExcelCableGeneratorApp.Utility;
+using System.Text.RegularExpressions;
 
 namespace ExcelCableGeneratorApp;
 
@@ -21,6 +22,7 @@ internal class DataProcessHandler
     private List<SystemCableData> _filteredCableData;
     private List<SystemCableGroup> _sortedCableData;
     private List<IdentifiedCableGroup> _identifiedData;
+    private List<IdentifiedCableGroup> _cablesByRackData;
     private IdentifierGenerator IdGenerator;
     /// <summary>
     /// 
@@ -37,6 +39,7 @@ internal class DataProcessHandler
         _filteredCableData = [];
         _sortedCableData = [];
         _identifiedData = [];
+        _cablesByRackData = [];
         IdGenerator = new IdentifierGenerator();
     }
 
@@ -165,9 +168,27 @@ internal class DataProcessHandler
         return _identifiedData;
     }
 
+    public List<IdentifiedCableGroup> GroupByRackAcrossEntireSystem()
+    {
+        var allCables = _identifiedData.SelectMany(id => id.Cables).ToList();
+        var groupedByRack = SortHelper.GroupByRack(allCables);
+        foreach (var rackGroup in groupedByRack) 
+        {
+            Debug.WriteLine($"Rack Group: {rackGroup.Name}");
+            foreach (var cable in rackGroup.Cables)
+            {
+                Debug.WriteLine($"-->> {cable}");
+            }
+            _cablesByRackData.Add(rackGroup);
+        }
+
+        return _cablesByRackData;
+    }
+
     private string MatchSystemIdMapping(string systemName)
     {
         var matchedPair = _systemIdMapping.FirstOrDefault(sys => systemName.Contains(sys.Key, StringComparison.OrdinalIgnoreCase));
         return matchedPair.Value;
     }
+
 }

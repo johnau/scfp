@@ -249,6 +249,14 @@ public class ExcelCableCrawler
         return cableData;
     }
 
+    /// <summary>
+    /// Used to extract number value from cell that may contain a number and then some text (ie. NOTE 7)
+    /// </summary>
+    /// <remarks>
+    /// Do not use this for truncating RackIds or PanelIds or anything of that nature.
+    /// </remarks>
+    /// <param name="s"></param>
+    /// <returns></returns>
     private static int ExtractFirstNumberSequence(string s)
     {
         string result = "";

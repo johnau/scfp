@@ -12,7 +12,7 @@ public class IdentifierGenerator
 
     private readonly Dictionary<string, int> _idSequencesLastValue;
     private readonly Dictionary<string, List<(string, int)>> _generatedIds;
-    private readonly Dictionary<string, int> _lastIdParent; // store the panel id 
+    private readonly Dictionary<string, string> _lastIdParent; // store the panel id 
 
     public IdentifierGenerator()
     {
@@ -28,14 +28,14 @@ public class IdentifierGenerator
     /// <returns></returns>
     public (string, int) NextId(string idPrefix, string ownerId)
     {
-        var _ownerId = ExtractFirstNumber(ownerId);
+        //var _ownerId = ExtractFirstNumber(ownerId);
 
         if (!_idSequencesLastValue.ContainsKey(idPrefix))
             throw new Exception("Must start sequence before use!");
 
         var lastId = _idSequencesLastValue[idPrefix];
         var lastOwnerId = _lastIdParent[idPrefix];
-        if (_ownerId != lastOwnerId && lastId > 0)
+        if (ownerId != lastOwnerId && lastId > 0)
             lastId = EndIdBatch(idPrefix);
         
         var nextIdNumber = lastId + 1;
@@ -43,7 +43,7 @@ public class IdentifierGenerator
 
         _generatedIds[idPrefix].Add((nextId, nextIdNumber));
         _idSequencesLastValue[idPrefix] = nextIdNumber;
-        _lastIdParent[idPrefix] = _ownerId;
+        _lastIdParent[idPrefix] = ownerId;
 
         return (nextId, nextIdNumber);
     }
@@ -76,16 +76,20 @@ public class IdentifierGenerator
             throw new Exception($"There was already an ID sequence with prefix: {idPrefix}");
         }
         _generatedIds.Add(idPrefix, []);
-        _lastIdParent.Add(idPrefix, -1);
+        _lastIdParent.Add(idPrefix, "");
     }
 
-    private static int ExtractFirstNumber(string input)
-    {
-        string numberStr = Regex.Match(input, @"\d+").Value;
-        if (int.TryParse(numberStr, out var intValue)) {
-            return intValue;
-        }
 
-        return -1;
-    }
+    //Removed this method completely, after we looked at the data, we do not want to compare the racks by numeric only
+    //They are sorted by quantity, and they need to be identified by teh full ID otherwise we will run into collisions
+    //at some point and the result is not reliable.
+    //private static int ExtractFirstNumber(string input)
+    //{
+    //    string numberStr = Regex.Match(input, @"\d+").Value;
+    //    if (int.TryParse(numberStr, out var intValue)) {
+    //        return intValue;
+    //    }
+
+    //    return -1;
+    //}
 }

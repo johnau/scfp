@@ -24,4 +24,11 @@ internal partial class StringHelper
 
         return value;
     }
+
+    public static string StripAllNonAlphanumericChars(string input)
+    {
+        string pattern = "[^a-zA-Z0-9]";
+        string result = Regex.Replace(input, pattern, "");
+        return result.Length > 0 ? (result.Length > 20 ? result.Substring(0, 20) : result) : "";
+    }
 }
