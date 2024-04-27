@@ -18,10 +18,28 @@ namespace ExcelCableGeneratorApp.Sorting
             return groups;
         }
 
-        public static List<IdentifiedCableGroup> GroupByRack(List<IdentifiedCable> cables)
+        public static List<SystemCableGroup> GroupByLocation(List<SystemCableData> cables) 
+        {
+            var groups = cables.GroupBy(cable => cable.Location)
+                    .Select(group => new SystemCableGroup(group.Key, [.. group]))
+                    .ToList();
+
+            return groups;
+        }
+
+        public static List<IdentifiedCableGroup> GroupByDest(List<IdentifiedCable> cables)
         {
             var groups = cables.GroupBy(idCable => idCable.Cable.DestinationId)
                                 .Select(group => new IdentifiedCableGroup(group.Key + "", [..group]))
+                                .ToList();
+
+            return groups;
+        }
+
+        public static List<IdentifiedCableGroup> GroupBySource(List<IdentifiedCable> cables)
+        {
+            var groups = cables.GroupBy(idCable => idCable.Cable.PanelId)
+                                .Select(group => new IdentifiedCableGroup(group.Key + "", [.. group]))
                                 .ToList();
 
             return groups;

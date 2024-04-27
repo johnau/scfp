@@ -22,7 +22,9 @@ internal class DataProcessHandler
     private List<SystemCableData> _filteredCableData;
     private List<SystemCableGroup> _sortedCableData;
     private List<IdentifiedCableGroup> _identifiedData;
-    private List<IdentifiedCableGroup> _cablesByRackData;
+    private List<IdentifiedCableGroup> _cablesDataBySource;
+    private List<IdentifiedCableGroup> _cablesDataByDestination;
+    
     private IdentifierGenerator IdGenerator;
     /// <summary>
     /// 
@@ -39,7 +41,9 @@ internal class DataProcessHandler
         _filteredCableData = [];
         _sortedCableData = [];
         _identifiedData = [];
-        _cablesByRackData = [];
+        _cablesDataBySource = [];
+        _cablesDataByDestination = [];
+
         IdGenerator = new IdentifierGenerator();
     }
 
@@ -127,6 +131,8 @@ internal class DataProcessHandler
         var cableSystemGroups = SortHelper.GroupBySystem(_filteredCableData);
         foreach (var group in cableSystemGroups)
         {
+            //var locationInnerGroup = SortHelper.GroupByLocation(group.Cables);
+
             var sortedCables = SortHelper.SortSystemGroup(group.Cables);
             _sortedCableData.Add(new SystemCableGroup(group.Name, sortedCables));
         }
@@ -168,10 +174,10 @@ internal class DataProcessHandler
         return _identifiedData;
     }
 
-    public List<IdentifiedCableGroup> GroupByRackAcrossEntireSystem()
+    public List<IdentifiedCableGroup> GroupByDestinationAcrossEntireSystem()
     {
-        var allCables = _identifiedData.SelectMany(id => id.Cables).ToList();
-        var groupedByRack = SortHelper.GroupByRack(allCables);
+        var allCables = _identifiedData.SelectMany(id => id.Cables).ToList(); // this is bad, we can create some indexes that store the cables in various ways
+        var groupedByRack = SortHelper.GroupByDest(allCables);
         foreach (var rackGroup in groupedByRack) 
         {
             Debug.WriteLine($"Rack Group: {rackGroup.Name}");
@@ -179,10 +185,27 @@ internal class DataProcessHandler
             {
                 Debug.WriteLine($"-->> {cable}");
             }
-            _cablesByRackData.Add(rackGroup);
+            _cablesDataByDestination.Add(rackGroup);
         }
 
-        return _cablesByRackData;
+        return _cablesDataByDestination;
+    }
+
+    public List<IdentifiedCableGroup> GroupBySourceAcrossEntireSystem()
+    {
+        var allCables = _identifiedData.SelectMany(id => id.Cables).ToList(); // this is bad, we can create some indexes that store the cables in various ways
+        var groupedByRack = SortHelper.GroupBySource(allCables);
+        foreach (var rackGroup in groupedByRack)
+        {
+            Debug.WriteLine($"Rack Group: {rackGroup.Name}");
+            foreach (var cable in rackGroup.Cables)
+            {
+                Debug.WriteLine($"-->> {cable}");
+            }
+            _cablesDataBySource.Add(rackGroup);
+        }
+
+        return _cablesDataBySource;
     }
 
     private string MatchSystemIdMapping(string systemName)

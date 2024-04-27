@@ -36,7 +36,7 @@ internal class ExcelWriter
         return true;
     }
 
-    public bool WriteCablesToSpreadsheet(string systemName, List<IdentifiedCable> cables)
+    public bool WriteCablesToSpreadsheet(string systemName, List<IdentifiedCable> cables, bool excludeSpare = false)
     {
         _columns.Add("Cable Id", 1);
         _columns.Add("Panel Id", 2);
@@ -113,7 +113,7 @@ internal class ExcelWriter
             var cableIdDigits = data.Id.Digits;
             var cableIdNumber = data.Id.Number;
             var cableIdPrefix = data.Id.Prefix;
-            if (cableIdNumber - lastCableId > 1)
+            if (cableIdNumber - lastCableId > 1 && !excludeSpare)
             {
                 for (int i = lastCableId + 1; i < cableIdNumber; i++)
                 {

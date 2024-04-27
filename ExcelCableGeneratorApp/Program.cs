@@ -8,6 +8,9 @@ using ExcelCableGeneratorApp.Sorting;
 using ExcelCableGeneratorApp.Utility;
 using System.Diagnostics;
 
+/// <summary>
+/// This is a scratch of the application process flow
+/// </summary>
 class Program
 {
     static void Main(string[] args)
@@ -16,6 +19,8 @@ class Program
 
         var filePath = OnStart(args);
         var sheet = 1;
+
+        Console.WriteLine("Compiling cables...");
 
         var process = new DataProcessHandler(filePath, sheet);
         process.LoadSettings("settings.json");
@@ -30,12 +35,16 @@ class Program
             return;
         }
 
+        Console.WriteLine("Filtering cables...");
         var filteredCables = process.FilterData();
 
 
         //foreach (var scd in filteredCables)
         //    Console.WriteLine(scd);
+        Console.WriteLine("Sorting cables...");
         var sortedData = process.SortData();
+
+        Console.WriteLine("Identifying cables...");
         var identifiedData = process.AssignIdsToCables();
         //foreach (var idd in identifiedData)
         //{
@@ -44,11 +53,27 @@ class Program
         //        Console.WriteLine(cable);
         //}
 
-        var byRackData = process.GroupByRackAcrossEntireSystem();
+        Console.WriteLine("Grouping cables by source and destination...");
+        var groupedByDestination = process.GroupByDestinationAcrossEntireSystem();
+        var groupedBySource = process.GroupBySourceAcrossEntireSystem();
 
+        Console.WriteLine("Writing groups to excel...");
+        var destExcelFile = WriteDataToExcel(groupedByDestination, "RackFiles/Destinations", true); //WriteGroupsToSpreadsheets(groupedByDestination, "Destinations");
+        Console.WriteLine($"Wrote to: {destExcelFile}");
+        //WriteGroupsToSpreadsheets(groupedBySource, "Sources");
+        //var sourceExcelFile = WriteDataToExcel(groupedBySource, "RackFiles/Sources", true);
+        var sourceFiles = WriteSourceGroupingsToFiles(groupedBySource, "Sources");
+        Console.WriteLine($"Wrote to: {string.Join(", ", sourceFiles)}");
 
+        // DRAW DXF
 
-        var filesCreated = WriteRackGroupsToFiles(byRackData);
+        /**
+         * 
+         * Files and Database Stuff Below
+         * 
+         */
+        Console.WriteLine("Writing groups to text files");
+        var filesCreated = WriteGroupsToFiles(groupedByDestination, "Destination");
         Console.WriteLine($"Created rack files: {string.Join(", ", filesCreated)}");
 
         // write data to spreadsheet and csv
@@ -171,21 +196,21 @@ class Program
 
     }
 
-    private static string WriteDataToExcel(List<IdentifiedCableGroup> cableGroups, string filename)
+    private static string WriteDataToExcel(List<IdentifiedCableGroup> cableGroups, string filename, bool excludeSpare = false)
     {
         var writer = new ExcelWriter("./", filename);
         writer.CreateWorkbook();
 
         foreach (var group in cableGroups)
         {
-            writer.WriteCablesToSpreadsheet(group.Name, group.Cables);
+            writer.WriteCablesToSpreadsheet(group.Name, group.Cables, excludeSpare);
         }
         
         writer.FinalizeWorkbook();
         return writer.FilePath;
     }
 
-    private static List<string> WriteRackGroupsToFiles(List<IdentifiedCableGroup> rackGroups)
+    private static List<string> WriteGroupsToFiles(List<IdentifiedCableGroup> groups, string groupType)
     {
         var dir = "RackFiles";
         Directory.CreateDirectory(dir);
@@ -193,11 +218,11 @@ class Program
 
         Dictionary<string, Dictionary<string, int>> rackCableQuants = [];
 
-        foreach (var rack in rackGroups)
+        foreach (var rack in groups)
         {
             //var strippedGroupName = StringHelper.StripAllNonAlphanumericChars(rackGroup.Name);
-            var fixedRackName = string.IsNullOrWhiteSpace(rack.Name) ? "NoDest" : rack.Name;
-            var fileName = $"{dir}/{fixedRackName}.txt";
+            var fixedRackName = string.IsNullOrWhiteSpace(rack.Name) ? "No" + groupType : rack.Name;
+            var fileName = $"{dir}/{fixedRackName}_{groupType}.txt";
             
             List<string> cableStrings = [];
 
@@ -215,14 +240,14 @@ class Program
             rackCableQuants.TryAdd(rack.Name, MapCableTypesToQuantityOf(rack.Cables));
         }
 
-        string indexFileName = $"{dir}/Destinations.txt";
+        string indexFileName = $"{dir}/{groupType}s.txt";
         List<string> fileLines = [];
         foreach (var rcq in rackCableQuants)
         {
             var rackName = rcq.Key;
             var systemsAndCableQuants = rcq.Value;
-            var totalInRack = systemsAndCableQuants.Select(x => x.Value).Sum();
-            fileLines.Add($"Destination: {rackName} ({totalInRack} cables total)");
+            var totalCables = systemsAndCableQuants.Select(x => x.Value).Sum();
+            fileLines.Add($"{groupType}: {rackName} ({totalCables} cables total)");
             fileLines.Add("========================");
 
             foreach (var kvp in systemsAndCableQuants)
@@ -231,13 +256,118 @@ class Program
                 fileLines.Add($"{keyTruncate,30}:\t\t {kvp.Value} Cables");
             }
 
-            fileLines.Add("\n\n");
+            fileLines.Add("\n");
         }
         File.WriteAllLines(indexFileName, fileLines);
         filePaths.Add(indexFileName);
 
         return filePaths;
     }
+
+    /// <summary>
+    /// Takes a list of ICG (grouped by source panel id)
+    /// Produces a series of text files (1 per source panel id)
+    /// Each text file contains the 
+    /// - Name of the panel
+    /// - Cables coming to/from this panel (grouped by calbe type)
+    /// - Quantities of each cable type next to the group
+    /// </summary>
+    /// <param name="groups"></param>
+    /// <param name="groupType"></param>
+    /// <returns></returns>
+    private static List<string> WriteSourceGroupingsToFiles(List<IdentifiedCableGroup> groups, string groupType)
+    {
+        var dir = "SourcePanelFiles";
+        Directory.CreateDirectory(dir);
+        List<string> filePaths = [];
+
+        Dictionary<string, Dictionary<string, int>> rackCableQuants = [];
+
+        // loop the groups, group the group contents by cable type
+        foreach (var group in groups)
+        {
+            var cables = group.Cables;
+            var cableTypeGroups = cables.GroupBy(c => c.Cable.CableType)
+                .Select(group => new {
+                        Name = group.Key,
+                        Cables = group.ToList()
+                    })
+                .OrderBy(grp => grp.Name) // order the groups by name (cable type)
+                .ToList();
+
+            //var strippedGroupName = StringHelper.StripAllNonAlphanumericChars(rackGroup.Name);
+            var fixedDest = string.IsNullOrWhiteSpace(group.Name) ? "No" + groupType : group.Name;
+            var fileName = $"{dir}/{fixedDest}_{groupType}.txt";
+
+            List<string> cableStrings = [];
+            cableStrings.Add(group.Name);
+            cableStrings.Add("===================================");
+
+            foreach (var cableTypeGroup in cableTypeGroups)
+            {
+                var count = 1;
+                var _cabName = string.IsNullOrWhiteSpace(cableTypeGroup.Name) ? "No Spec" : cableTypeGroup.Name;
+                
+                cableStrings.Add($"\nCABLES:: {cableTypeGroup.Cables.Count}x {_cabName}");
+                cableStrings.Add(new string('-', 60));
+                foreach (var identifiedCable in cableTypeGroup.Cables)
+                {
+                    var id = identifiedCable.Id.IdFull;
+                    var cable = identifiedCable.Cable;
+
+                    var cableString = "";
+                    if (cable.QuantityType.Contains("SEND", StringComparison.OrdinalIgnoreCase))
+                    {
+                        cableString = $"{count}) {id,-7} (M) | On: {cable.PanelId,-10} | \"{cable.Description}\" @ {cable.Location}, {cable.Room}";
+                    } else if (cable.QuantityType.Contains("RETURN", StringComparison.OrdinalIgnoreCase))
+                    {
+                        cableString = $"{count}) {id,-7} (F) | On: {cable.PanelId,-10} | \"{cable.Description}\" @ {cable.Location}, {cable.Room}";
+                    } else
+                    {
+                        cableString = $"{count}) {id,-7} | On: {cable.PanelId,-10} | \"{cable.Description}\" @ {cable.Location}, {cable.Room}";
+                    }
+                    
+                    cableStrings.Add(cableString);
+
+                    count++;
+                }
+                cableStrings.Add(new string('=', 60));
+            }
+
+            File.WriteAllLines(fileName, cableStrings);
+            filePaths.Add(fileName);
+
+            rackCableQuants.TryAdd(group.Name, MapCableTypesToQuantityOf(group.Cables));
+        }
+
+        string indexFileName = $"{dir}/{groupType}s.txt";
+        List<string> fileLines = [];
+        foreach (var rcq in rackCableQuants)
+        {
+            var rackName = rcq.Key;
+            var systemsAndCableQuants = rcq.Value;
+            var totalCables = systemsAndCableQuants.Select(x => x.Value).Sum();
+            fileLines.Add($"{groupType}: {rackName} ({totalCables} cables total)");
+            fileLines.Add("========================");
+
+            foreach (var kvp in systemsAndCableQuants)
+            {
+                var keyTruncate = kvp.Key.Length > 30 ? kvp.Key[..30] : kvp.Key;
+                fileLines.Add($"{keyTruncate,30}:\t\t {kvp.Value} Cables");
+            }
+
+            fileLines.Add("\n");
+        }
+        File.WriteAllLines(indexFileName, fileLines);
+        filePaths.Add(indexFileName);
+
+        return filePaths;
+    }
+
+    //private static string WriteGroupsToSpreadsheets(List<IdentifiedCableGroup> groups, string groupType)
+    //{
+    //    return WriteDataToExcel(groups, groupType);
+    //}
 
     private static Dictionary<string, int> MapCableTypesToQuantityOf(List<IdentifiedCable> cablesInRack)
     {

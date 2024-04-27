@@ -24,7 +24,7 @@ internal class Label : DrawingObject
     /// <param name="text"></param>
     /// <returns></returns>
     public static Label HeaderLabel(string text) => new Label("Label for Panel", text, 6.0f);
-
+    public override ElementType Type => ElementType.LABEL;
     public string Text { get; private set; }
     public float Height { get; private set; }
     public float MaxWidth { get; private set; }

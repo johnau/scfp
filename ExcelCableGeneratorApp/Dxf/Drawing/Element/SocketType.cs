@@ -2,6 +2,7 @@
 
 internal enum SocketType
 {
+    NONE,
     XLR_FEMALE_TYPE_A,
     XLR_MALE_TYPE_A,
     XLR_FEMALE_TYPE_D,
