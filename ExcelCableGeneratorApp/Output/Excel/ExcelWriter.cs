@@ -73,7 +73,7 @@ internal class ExcelWriter
         var worksheet = workbook.Worksheets.Add(systemName);
         worksheet.SheetView.FreezeRows(1);
         worksheet.Column(3).Width = 30;
-        worksheet.Column(4).Width = 30;
+        worksheet.Column(4).Width = 25;
         worksheet.Column(7).Width = 5;
         worksheet.Column(10).Width = 5;
 
@@ -81,22 +81,21 @@ internal class ExcelWriter
         foreach (var col in _columns)
         {
             worksheet.Cell(1, col.Value).Value = col.Key;
+
+            //format columns based on their name? still ugly, need to refactor whole class
+            if (col.Key.Contains("destination", StringComparison.OrdinalIgnoreCase))
+            {
+
+            }
         }
-        //worksheet.Cell(1, 1).Value = "Cable Id";
-        //worksheet.Cell(1, 2).Value = "Panel Id";
-        //worksheet.Cell(1, 3).Value = "Description";
-        //worksheet.Cell(1, 4).Value = "Location";
-        //worksheet.Cell(1, 5).Value = "Room";
-        //worksheet.Cell(1, 6).Value = "AFFL (MM)";
-        //worksheet.Cell(1, 7).Value = "Quantity Of Outlets";
-        //worksheet.Cell(1, 8).Value = "To/From";
-        //worksheet.Cell(1, 9).Value = "Cable Id";
-        //worksheet.Cell(1, 10).Value = "Keystone";
+
+        // Setup header row
         for (int i = 1; i <= _columns.Count; i++)
         {
             worksheet.Cell(1, i).Style.Fill.BackgroundColor = XLColor.AliceBlue;
             worksheet.Cell(1, i).Style.Font.Bold = true;
-            worksheet.Cell(1, i).Style.Font.FontSize = 18d;
+            worksheet.Cell(1, i).Style.Font.FontSize = 8d;
+            worksheet.Cell(1, i).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Center;
         }
 
         // Write data

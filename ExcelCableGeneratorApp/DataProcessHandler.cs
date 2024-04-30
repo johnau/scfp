@@ -24,7 +24,8 @@ internal class DataProcessHandler
     private List<IdentifiedCableGroup> _identifiedData;
     private List<IdentifiedCableGroup> _cablesDataBySource;
     private List<IdentifiedCableGroup> _cablesDataByDestination;
-    
+    private List<IdentifiedCableGroup> _cablesDataByRoomLocation;
+
     private IdentifierGenerator IdGenerator;
     /// <summary>
     /// 
@@ -43,6 +44,7 @@ internal class DataProcessHandler
         _identifiedData = [];
         _cablesDataBySource = [];
         _cablesDataByDestination = [];
+        _cablesDataByRoomLocation = [];
 
         IdGenerator = new IdentifierGenerator();
     }
@@ -214,4 +216,20 @@ internal class DataProcessHandler
         return matchedPair.Value;
     }
 
+    internal List<IdentifiedCableGroup> GroupByRoomOrLocationAcrossEntireSystem()
+    {
+        var allCables = _identifiedData.SelectMany(id => id.Cables).ToList(); // this is bad, we can create some indexes that store the cables in various ways
+        var groupedByRoomOrLocation = SortHelper.GroupByRoomOrLocation(allCables);
+        foreach (var roomGroup in groupedByRoomOrLocation)
+        {
+            Debug.WriteLine($"Rack Group: {roomGroup.Name}");
+            foreach (var cable in roomGroup.Cables)
+            {
+                Debug.WriteLine($"-->> {cable}");
+            }
+            _cablesDataByRoomLocation.Add(roomGroup);
+        }
+
+        return _cablesDataByRoomLocation;
+    }
 }

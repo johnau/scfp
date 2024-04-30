@@ -1,6 +1,7 @@
 ﻿using ExcelCableGeneratorApp.Extract.Aggregates;
 using ExcelCableGeneratorApp.Identifier.Aggregates;
 using ExcelCableGeneratorApp.Sorting.Aggregates;
+using ExcelCableGeneratorApp.Utility;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
 
@@ -102,6 +103,25 @@ namespace ExcelCableGeneratorApp.Sorting
 
             return cablesSorted;
 
+        }
+
+        internal static List<IdentifiedCableGroup> GroupByRoomOrLocation(List<IdentifiedCable> cables)
+        {
+            var groups = cables.GroupBy(idCable => {
+                var sanitizedRoom = idCable.Cable.Room;
+                var sanitizedLocation = idCable.Cable.Location;
+                if (!string.IsNullOrWhiteSpace(sanitizedRoom))
+                    return sanitizedRoom;
+                else if (!string.IsNullOrWhiteSpace(sanitizedLocation))
+                    return sanitizedLocation;
+                else
+                    return "No Room/Location";
+                })
+                .Select(group => new IdentifiedCableGroup(group.Key + "", [.. group]))
+                .ToList();
+
+            groups = groups.OrderBy(gr => gr.Name).ToList();
+            return groups;
         }
 
 
