@@ -23,5 +23,9 @@
       <_Parameter1>ExcelCableGeneratorApp.XunitTests</_Parameter1>
     </AssemblyAttribute>
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="App\DataIngest\ProcessStep\" />
+  </ItemGroup>
   
   </Project>

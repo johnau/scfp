@@ -1,19 +1,38 @@
 ﻿using netDxf;
 using netDxf.Collections;
+using netDxf.Entities;
 
 namespace ExcelCableGeneratorApp.Dxf.Drawing.Element;
 
 internal class Socket : LabelledDrawingObject
 {
-    public static Socket XLR_Female_TypeA = new Socket("Female XLR Type-A", SocketType.XLR_FEMALE_TYPE_A);
-    public static Socket XLR_Male_TypeA = new Socket("Male XLR Type-A", SocketType.XLR_MALE_TYPE_A);
-    public static Socket XLR_Female_TypeD = new Socket("Female XLR Type-D", SocketType.XLR_FEMALE_TYPE_D);
-    public static Socket XLR_Male_TypeD = new Socket("Male XLR Type-D", SocketType.XLR_MALE_TYPE_D);
-    public static Socket DMX_Female_TypeA = new Socket("Female DMX Type-A", SocketType.DMX_FEMALE_TYPE_A);
-    public static Socket DMX_Male_TypeA = new Socket("Male DMX Type-A", SocketType.DMX_MALE_TYPE_A);
-    public static Socket DMX_Female_TypeD = new Socket("Female DMX Type-D", SocketType.DMX_FEMALE_TYPE_D);
-    public static Socket DMX_Male_TypeD = new Socket("Male DMX Type-D", SocketType.DMX_MALE_TYPE_D);
-    public static Socket CAT6A_Female_TypeD = new Socket("Female Cat6A Type-D", SocketType.CAT6A_FEMALE_TYPE_D);
+    public static Socket Default(SocketType socketType)
+    {
+        return socketType switch
+        {
+            SocketType.NONE => new Socket("x", SocketType.NONE),
+            SocketType.XLR_MALE_TYPE_A => XLR_Male_TypeA,
+            SocketType.XLR_FEMALE_TYPE_A => XLR_Female_TypeA,
+            SocketType.XLR_MALE_TYPE_D => XLR_Male_TypeD,
+            SocketType.XLR_FEMALE_TYPE_D => XLR_Female_TypeD,
+            SocketType.DMX_MALE_TYPE_A => throw new NotImplementedException(),
+            SocketType.DMX_FEMALE_TYPE_A => throw new NotImplementedException(),
+            SocketType.DMX_MALE_TYPE_D => throw new NotImplementedException(),
+            SocketType.DMX_FEMALE_TYPE_D => throw new NotImplementedException(),
+            SocketType.CAT6A_FEMALE_TYPE_D => throw new NotImplementedException(),
+            _ => throw new NotImplementedException(),
+        };
+    }
+        
+    public static Socket XLR_Female_TypeA => new Socket("Female XLR Type-A", SocketType.XLR_FEMALE_TYPE_A);
+    public static Socket XLR_Male_TypeA => new Socket("Male XLR Type-A", SocketType.XLR_MALE_TYPE_A);
+    public static Socket XLR_Female_TypeD => new Socket("Female XLR Type-D", SocketType.XLR_FEMALE_TYPE_D);
+    public static Socket XLR_Male_TypeD => new Socket("Male XLR Type-D", SocketType.XLR_MALE_TYPE_D);
+    public static Socket DMX_Female_TypeA => new Socket("Female DMX Type-A", SocketType.DMX_FEMALE_TYPE_A);
+    public static Socket DMX_Male_TypeA => new Socket("Male DMX Type-A", SocketType.DMX_MALE_TYPE_A);
+    public static Socket DMX_Female_TypeD => new Socket("Female DMX Type-D", SocketType.DMX_FEMALE_TYPE_D);
+    public static Socket DMX_Male_TypeD => new Socket("Male DMX Type-D", SocketType.DMX_MALE_TYPE_D);
+    public static Socket CAT6A_Female_TypeD => new Socket("Female Cat6A Type-D", SocketType.CAT6A_FEMALE_TYPE_D);
 
     public static readonly float SocketToTextGap = 3.0f;
 
@@ -23,6 +42,7 @@ internal class Socket : LabelledDrawingObject
     public SocketType SocketType { get; init; }
     public float SocketHoleRadius { get; private set; }
     public Vector2 SocketHolePosition => Center;
+    public double LabelDistFromSocketCenter { get; set; }
 
     public Socket(string nameTag, SocketType type, float margin_Top = 0, float margin_Bottom = 0, float margin_Left = 0, float margin_Right = 0)
         : base(nameTag, margin_Top, margin_Bottom, margin_Left, margin_Right)
@@ -33,6 +53,7 @@ internal class Socket : LabelledDrawingObject
         SetSocketPropertiesBasedOnType();
         SetLabelVisible(true);
         SetLabelTextHeight(4.0f);
+        LabelDistFromSocketCenter = 18.5;
     }
 
     /// <summary>
@@ -69,6 +90,7 @@ internal class Socket : LabelledDrawingObject
                 SetupTypeDSocket();
                 break;
             default:
+                SocketHoleRadius = 11.0f;
                 break;
         }
     }
@@ -111,9 +133,26 @@ internal class Socket : LabelledDrawingObject
 
     public override bool Draw(DrawingEntities drawing)
     {
+        Label.WidthFactor = 0.85;
         DrawLabel(drawing);
         
         DrawOutline(drawing, AciColor.Green);
+
+        // draw socket hole
+        var pos = VecHelper.FlipYAxis(Position);
+        var socketHole = new Circle(pos, SocketHoleRadius)
+        {
+            Color = AciColor.Magenta
+        };
+        drawing.Add(socketHole);
+
+        // draw fixing holes
+
+        foreach (var fh in _fixingHoles)
+        {
+            fh.SetPosition(fh.Position + Position - Size/2, true);
+            fh.Draw(drawing);
+        }
 
         return true;
     }

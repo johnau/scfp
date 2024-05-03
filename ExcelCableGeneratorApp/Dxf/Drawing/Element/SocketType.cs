@@ -12,4 +12,6 @@ internal enum SocketType
     DMX_FEMALE_TYPE_D,
     DMX_MALE_TYPE_D,
     CAT6A_FEMALE_TYPE_D,
+    FIBER_FEMALE,
+    WTF_SOCKET
 }

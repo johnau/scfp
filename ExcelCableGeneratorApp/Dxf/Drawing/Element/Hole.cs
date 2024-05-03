@@ -12,8 +12,8 @@ namespace ExcelCableGeneratorApp.Dxf.Drawing.Element;
 /// </summary>
 internal class Hole : DrawingObject
 {
-    public static Hole FixingHole_M3 => new Hole("M3 Fixing Hole", 3.1f).MakeCircular();
-    public static Hole FixingHole_M4 => new Hole("M4 Fixing Hole", 4.1f).MakeCircular();
+    public static Hole FixingHole_M3 => new Hole("M3 Fixing Hole", 3.2f).MakeCircular();
+    public static Hole FixingHole_M4 => new Hole("M4 Fixing Hole", 4.2f).MakeCircular();
 
     private double _cornerFilletRadius;
     public override ElementType Type => ElementType.HOLE;
@@ -74,6 +74,7 @@ internal class Hole : DrawingObject
 
     protected override void DrawOutline(DrawingEntities drawing, AciColor color)
     {
+        // should check here to make sure the position is the center point, even though for a hole it usually should be
         if (_cornerFilletRadius == Size.X / 2)
         {
             var centerForDxf = new Vector2(Center.X, -Center.Y);
@@ -82,8 +83,7 @@ internal class Hole : DrawingObject
             drawing.Add(circle);
         }
 
-        base.DrawOutline(drawing, color);
-
+        base.DrawOutline(drawing, AciColor.DarkGray); // still draw the normal bounding box
 
     }
 }

@@ -177,6 +177,10 @@ internal class DrawingObject
     /// <param name="value"></param>
     public void SetNameTag(string value) => NameTag = value;
 
+    /// <summary>
+    /// Get the Vector2 Vertices for this DrawingObject
+    /// </summary>
+    /// <returns>List of Vector2 points, in order: Top Left, Top Right, Bottom Right, Bottom Left</returns>
     public virtual List<Vector2> GetDwgVertices()
     {
         Vector2 topLeft, topRight, bottomLeft, bottomRight;

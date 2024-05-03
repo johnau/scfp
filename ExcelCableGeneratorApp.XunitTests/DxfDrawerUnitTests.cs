@@ -1,6 +1,7 @@
 ﻿using ExcelCableGeneratorApp.Dxf.Aggregates;
 using ExcelCableGeneratorApp.Dxf.Drawing;
 using ExcelCableGeneratorApp.Dxf.Drawing.Element;
+using ExcelCableGeneratorApp.Dxf.Drawing.Factory;
 using netDxf;
 using System.Diagnostics;
 
@@ -13,6 +14,146 @@ public class DxfDrawerUnitTests
     {
         var drawer = new BasicDxfPanelDrawer();
         //drawer.DrawPanels();
+    }
+
+    [Fact]
+    public void CreateTechPanel_1GangWithDummyData_WillSucceed()
+    {
+        var tp = PanelFactory.BuildTechPanel_1Gang();
+
+        // Setup sockets and get relevant index numbers
+        var i1 = tp.SetupNextFreeSocketPoint("A001", SocketType.XLR_FEMALE_TYPE_A);
+        var i2 = tp.SetupNextFreeSocketPoint("A002", SocketType.XLR_FEMALE_TYPE_A);
+        var i3 = tp.SetupNextFreeSocketPoint("A003", SocketType.XLR_FEMALE_TYPE_A);
+        var i4 = tp.SetupNextFreeSocketPoint("A004", SocketType.XLR_FEMALE_TYPE_A);
+
+        var group1 = "ER400";
+        var group2 = "ER401";
+
+        tp.CreateSocketGroup(group1);
+        tp.CreateSocketGroup(group2);
+
+        tp.AddSocketIndexToGroup(i1, group1);
+        tp.AddSocketIndexToGroup(i2, group1);
+        tp.AddSocketIndexToGroup(i3, group2);
+        tp.AddSocketIndexToGroup(i4, group2);
+
+        DxfDocument doc = new();
+        
+        tp.Draw(doc.Entities);
+        doc.Save("./tp_test_1gang.dxf");
+    }
+
+    [Fact]
+    public void CreateTechPanel_2GangWithDummyData_WillSucceed()
+    {
+        var tp = PanelFactory.BuildTechPanel_2Gang();
+
+        // Setup sockets and get relevant index numbers
+        var i1 = tp.SetupNextFreeSocketPoint("A001", SocketType.XLR_FEMALE_TYPE_A);
+        var i2 = tp.SetupNextFreeSocketPoint("A002", SocketType.XLR_FEMALE_TYPE_A);
+        var i3 = tp.SetupNextFreeSocketPoint("A003", SocketType.XLR_FEMALE_TYPE_A);
+        var i4 = tp.SetupNextFreeSocketPoint("A004", SocketType.XLR_FEMALE_TYPE_A);
+
+        var group1 = "ER400";
+        var group2 = "ER401";
+
+        tp.CreateSocketGroup(group1);
+        tp.CreateSocketGroup(group2);
+
+        tp.AddSocketIndexToGroup(i1, group1);
+        tp.AddSocketIndexToGroup(i2, group1);
+        tp.AddSocketIndexToGroup(i3, group2);
+        tp.AddSocketIndexToGroup(i4, group2);
+
+        DxfDocument doc = new();
+
+        tp.Draw(doc.Entities);
+        doc.Save("./tp_test_2gang.dxf");
+    }
+
+    [Fact]
+    public void CreateTechPanel_3GangWithDummyData_WillSucceed()
+    {
+        var tp = PanelFactory.BuildTechPanel_3Gang();
+
+        // Setup sockets and get relevant index numbers
+        var i1 = tp.SetupNextFreeSocketPoint("A001", SocketType.XLR_FEMALE_TYPE_A);
+        var i2 = tp.SetupNextFreeSocketPoint("A002", SocketType.XLR_FEMALE_TYPE_A);
+        var i3 = tp.SetupNextFreeSocketPoint("A003", SocketType.XLR_FEMALE_TYPE_A);
+        var i4 = tp.SetupNextFreeSocketPoint("A004", SocketType.XLR_FEMALE_TYPE_A);
+
+        var group1 = "ER400";
+        var group2 = "ER401";
+
+        tp.CreateSocketGroup(group1);
+        tp.CreateSocketGroup(group2);
+
+        tp.AddSocketIndexToGroup(i1, group1);
+        tp.AddSocketIndexToGroup(i2, group1);
+        tp.AddSocketIndexToGroup(i3, group2);
+        tp.AddSocketIndexToGroup(i4, group2);
+
+        DxfDocument doc = new();
+
+        tp.Draw(doc.Entities);
+        doc.Save("./tp_test_3gang.dxf");
+    }
+
+    [Fact]
+    public void CreateTechPanel_4GangWithDummyData_WillSucceed()
+    {
+        var tp = PanelFactory.BuildTechPanel_4Gang();
+
+        // Setup sockets and get relevant index numbers
+        var i1 = tp.SetupNextFreeSocketPoint("A001", SocketType.XLR_FEMALE_TYPE_A);
+        var i2 = tp.SetupNextFreeSocketPoint("A002", SocketType.XLR_FEMALE_TYPE_A);
+        var i3 = tp.SetupNextFreeSocketPoint("A003", SocketType.XLR_FEMALE_TYPE_A);
+        var i4 = tp.SetupNextFreeSocketPoint("A004", SocketType.XLR_FEMALE_TYPE_A);
+
+        var group1 = "ER400";
+        var group2 = "ER401";
+
+        tp.CreateSocketGroup(group1);
+        tp.CreateSocketGroup(group2);
+
+        tp.AddSocketIndexToGroup(i1, group1);
+        tp.AddSocketIndexToGroup(i2, group1);
+        tp.AddSocketIndexToGroup(i3, group2);
+        tp.AddSocketIndexToGroup(i4, group2);
+
+        DxfDocument doc = new();
+
+        tp.Draw(doc.Entities);
+        doc.Save("./tp_test_4gang.dxf");
+    }
+
+    [Fact]
+    public void CreateTechPanel_5GangWithDummyData_WillSucceed()
+    {
+        var tp = PanelFactory.BuildTechPanel_5Gang();
+
+        // Setup sockets and get relevant index numbers
+        var i1 = tp.SetupNextFreeSocketPoint("A001", SocketType.XLR_FEMALE_TYPE_A);
+        var i2 = tp.SetupNextFreeSocketPoint("A002", SocketType.XLR_FEMALE_TYPE_A);
+        var i3 = tp.SetupNextFreeSocketPoint("A003", SocketType.XLR_FEMALE_TYPE_A);
+        var i4 = tp.SetupNextFreeSocketPoint("A004", SocketType.XLR_FEMALE_TYPE_A);
+
+        var group1 = "ER400";
+        var group2 = "ER401";
+
+        tp.CreateSocketGroup(group1);
+        tp.CreateSocketGroup(group2);
+
+        tp.AddSocketIndexToGroup(i1, group1);
+        tp.AddSocketIndexToGroup(i2, group1);
+        tp.AddSocketIndexToGroup(i3, group2);
+        tp.AddSocketIndexToGroup(i4, group2);
+
+        DxfDocument doc = new();
+
+        tp.Draw(doc.Entities);
+        doc.Save("./tp_test_5gang.dxf");
     }
 
     [Fact]
@@ -51,6 +192,7 @@ public class DxfDrawerUnitTests
         panel.TryAddSocketGroup(socketGroup3);
 
         DxfDocument doc = new DxfDocument();
+        
         panel.Draw(doc.Entities);
         doc.Save("./panel_test.dxf");
 

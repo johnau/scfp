@@ -9,6 +9,12 @@ using System.Reflection.Emit;
 using System.Diagnostics;
 using ExcelCableGeneratorApp.Utility;
 using System.Text.RegularExpressions;
+using ExcelCableGeneratorApp.Dxf.Drawing.Element;
+using ExcelCableGeneratorApp.Convert;
+using ExcelCableGeneratorApp.Dxf;
+using netDxf;
+using ExcelCableGeneratorApp.Dxf.Drawing.Helper;
+using ExcelCableGeneratorApp.Dxf.Aggregates.Data;
 
 namespace ExcelCableGeneratorApp;
 
@@ -27,6 +33,10 @@ internal class DataProcessHandler
     private List<IdentifiedCableGroup> _cablesDataByRoomLocation;
 
     private IdentifierGenerator IdGenerator;
+    private TechPanelBuilder Builder;
+
+
+
     /// <summary>
     /// 
     /// </summary>
@@ -47,6 +57,7 @@ internal class DataProcessHandler
         _cablesDataByRoomLocation = [];
 
         IdGenerator = new IdentifierGenerator();
+        Builder = new TechPanelBuilder();
     }
 
     /// <summary>
@@ -143,7 +154,7 @@ internal class DataProcessHandler
     }
 
     /// <summary>
-    /// Assign id's to data
+    /// Assign id's to data - Grouped by the system type
     /// </summary>
     /// <remarks>
     /// Batches of 24, ended by rack change
@@ -195,16 +206,16 @@ internal class DataProcessHandler
 
     public List<IdentifiedCableGroup> GroupBySourceAcrossEntireSystem()
     {
-        var allCables = _identifiedData.SelectMany(id => id.Cables).ToList(); // this is bad, we can create some indexes that store the cables in various ways
-        var groupedByRack = SortHelper.GroupBySource(allCables);
-        foreach (var rackGroup in groupedByRack)
+        var allCables = _identifiedData.SelectMany(grp => grp.Cables).ToList(); // this is bad, we can create some indexes that store the cables in various ways
+        var groupedBySourcePanelId = SortHelper.GroupBySource(allCables);
+        foreach (var panelGroup in groupedBySourcePanelId)
         {
-            Debug.WriteLine($"Rack Group: {rackGroup.Name}");
-            foreach (var cable in rackGroup.Cables)
+            Debug.WriteLine($"Rack Group: {panelGroup.Name}");
+            foreach (var cable in panelGroup.Cables)
             {
                 Debug.WriteLine($"-->> {cable}");
             }
-            _cablesDataBySource.Add(rackGroup);
+            _cablesDataBySource.Add(panelGroup);
         }
 
         return _cablesDataBySource;
@@ -216,7 +227,7 @@ internal class DataProcessHandler
         return matchedPair.Value;
     }
 
-    internal List<IdentifiedCableGroup> GroupByRoomOrLocationAcrossEntireSystem()
+    public List<IdentifiedCableGroup> GroupByRoomOrLocationAcrossEntireSystem()
     {
         var allCables = _identifiedData.SelectMany(id => id.Cables).ToList(); // this is bad, we can create some indexes that store the cables in various ways
         var groupedByRoomOrLocation = SortHelper.GroupByRoomOrLocation(allCables);
@@ -231,5 +242,87 @@ internal class DataProcessHandler
         }
 
         return _cablesDataByRoomLocation;
+    }
+
+    public Dictionary<string, List<FixedGridPanel>> GenerateTechPanels(List<IdentifiedCableGroup> groupedBySource)
+    {
+        Dictionary<string, List<FixedGridPanel>> builtPanels = [];
+
+        Directory.CreateDirectory("./generated_tech_panels");
+        var socketInformation = CableToSocketConverter.ConvertCableGroupsToSockets(groupedBySource);
+
+        foreach (var source in socketInformation)
+        {
+            Console.WriteLine($"Iterating source panel: {source.SourcePanelId}");
+
+            var filteredSystemGroups = FilterHelper.FilterSystemGroupContentsForTechPanels(source.SystemGroups);
+            if (filteredSystemGroups.Count == 0)
+                continue;
+
+            var panelsFit = TechPanelHelper.FitToPanel(filteredSystemGroups.SelectMany(g => g.Sockets).Count());
+            // This part that produces panels only when the whoel thing fits on one can be removed, was just to quickly have a look at some results
+            if (panelsFit.Count > 0) // if we have any that fit, we will just take the first one (largest)
+            {
+                // we can fit this whole source panel onto a single TP
+                Console.WriteLine($"This source panel can fit onto one panel (smallest fit = {panelsFit[0]})");
+
+                // create this panel...
+                var builtPanel = Builder.BuildFixedGridPanel(panelsFit[0], source.SourcePanelId, filteredSystemGroups);
+                if (builtPanels.TryGetValue(source.SourcePanelId, out var panelsList))
+                {
+                    panelsList.Add(builtPanel);
+                } else
+                {
+                    var success = builtPanels.TryAdd(source.SourcePanelId, [builtPanel]);
+                }
+                // check if panel can be split down further.
+                //DxfDocument doc = new();
+                //builtPanel.Draw(doc.Entities);
+                //doc.Save($"./generated_tech_panels/{source.SourcePanelId}.dxf");
+            }
+
+            var panelCombinations = TechPanelFitCalculator.CalculatePanelCombinations2(filteredSystemGroups);
+            var leftOverSystemGroups = filteredSystemGroups;
+            foreach (var combination in panelCombinations)
+            {
+                var firstSizeKvp = combination.PanelSizes.First();
+                var panelSize = firstSizeKvp.Key;
+                var qtyOf = firstSizeKvp.Value;
+
+                var groupsForThisPanel = TechPanelFitCalculator.SelectGroupsForPanel(leftOverSystemGroups, panelSize.GetSocketQuantity(), 2, out var leftOver);
+
+                leftOverSystemGroups = leftOver;
+
+                var builtPanel = Builder.BuildFixedGridPanel(panelSize, source.SourcePanelId, groupsForThisPanel);
+                if (builtPanels.TryGetValue(source.SourcePanelId, out var panelsList))
+                {
+                    panelsList.Add(builtPanel);
+                }
+                else
+                {
+                    var success = builtPanels.TryAdd(source.SourcePanelId, [builtPanel]);
+                }
+                //builtPanels.Add(builtPanel);
+            }
+
+            if (leftOverSystemGroups.Count > 0)
+            {
+                Debug.WriteLine($"There are still {leftOverSystemGroups.Count} system groups not on a panel");
+                //throw new Exception("Need to handle this - and would be better to handle earlier in this process");
+            }
+
+            //foreach (var system in source.SystemGroups)
+            //{
+            //    Console.WriteLine($"System: {system.SystemName}");
+
+            //    //foreach (var socket in system.Sockets)
+            //    //{
+            //    //    Console.WriteLine($"{socket.Key} - {socket.Value}");
+            //    //}
+            //}
+
+        }
+
+        return builtPanels;
     }
 }

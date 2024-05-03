@@ -1,4 +1,7 @@
-﻿using ExcelCableGeneratorApp;
+﻿using DocumentFormat.OpenXml.Bibliography;
+using ExcelCableGeneratorApp;
+using ExcelCableGeneratorApp.Convert;
+using ExcelCableGeneratorApp.Dxf;
 using ExcelCableGeneratorApp.Extract;
 using ExcelCableGeneratorApp.Identifier.Aggregates;
 using ExcelCableGeneratorApp.Output.Excel;
@@ -6,6 +9,7 @@ using ExcelCableGeneratorApp.Persistence;
 using ExcelCableGeneratorApp.Persistence.Mapper;
 using ExcelCableGeneratorApp.Sorting;
 using ExcelCableGeneratorApp.Utility;
+using netDxf;
 using System.Diagnostics;
 
 /// <summary>
@@ -46,17 +50,27 @@ class Program
 
         Console.WriteLine("Identifying cables...");
         var identifiedData = process.AssignIdsToCables();
-        //foreach (var idd in identifiedData)
-        //{
-        //    Console.WriteLine($"\n\nSystem Group: {idd.Name}\n\n");
-        //    foreach (var cable in idd.Cables)
-        //        Console.WriteLine(cable);
-        //}
+        
+        // 
 
         Console.WriteLine("Grouping cables by source and destination...");
         var groupedByDestination = process.GroupByDestinationAcrossEntireSystem();
         var groupedBySource = process.GroupBySourceAcrossEntireSystem();
         var groupedByRoom = process.GroupByRoomOrLocationAcrossEntireSystem();
+
+        var generatedPanels = process.GenerateTechPanels(groupedBySource);
+
+        foreach (var gp in generatedPanels)
+        {
+            var panels = gp.Value;
+            for (int i = 0; i < panels.Count; i++)
+            {
+                var p = panels[i];
+                DxfDocument doc = new();
+                p.Draw(doc.Entities);
+                doc.Save($"./generated_tech_panels/{gp.Key}_{i}.dxf");
+            }
+        }
 
         Console.WriteLine("Writing groups to excel...");
         var destExcelFile = WriteDataToExcel(groupedByDestination, "RackFiles/Destinations", true); //WriteGroupsToSpreadsheets(groupedByDestination, "Destinations");
@@ -117,6 +131,11 @@ class Program
 
         Console.WriteLine("Press any key to exit...");
         Console.ReadKey();
+    }
+
+    private static void WriteDataToFiles()
+    {
+
     }
 
     private static (bool, string) PromptUserSaveToDatabase()
@@ -274,7 +293,7 @@ class Program
         List<string> filePaths = [];
 
         Dictionary<string, Dictionary<string, int>> rackCableQuants = [];
-
+        
         // loop through groups (by room)
         foreach (var roomGroup in groups)
         {

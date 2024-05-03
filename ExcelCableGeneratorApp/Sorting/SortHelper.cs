@@ -1,9 +1,7 @@
 ﻿using ExcelCableGeneratorApp.Extract.Aggregates;
 using ExcelCableGeneratorApp.Identifier.Aggregates;
 using ExcelCableGeneratorApp.Sorting.Aggregates;
-using ExcelCableGeneratorApp.Utility;
 using System.Diagnostics;
-using System.Text.RegularExpressions;
 
 namespace ExcelCableGeneratorApp.Sorting
 {

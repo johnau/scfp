@@ -26,8 +26,14 @@ internal class Label : DrawingObject
     public static Label HeaderLabel(string text) => new Label("Label for Panel", text, 6.0f);
     public override ElementType Type => ElementType.LABEL;
     public string Text { get; private set; }
+    public bool AlignTextCenter { get; set; }
     public float Height { get; private set; }
     public float MaxWidth { get; private set; }
+    public double WidthFactor { get; set; }
+    public double CharSpacingFactor { get; set; }
+    public bool IsBold { get; set; }
+    public bool IsItalic { get; set; }
+
 
     public Label(string nameTag, string text, float textHeight, float margin_Top = 0, float margin_Bottom = 0, float margin_Left = 0, float margin_Right = 0)
     : base(nameTag, margin_Top, margin_Bottom, margin_Left, margin_Right)
@@ -35,6 +41,11 @@ internal class Label : DrawingObject
         Text = text;
         Height = textHeight;
         MaxWidth = -1.0f;
+
+        WidthFactor = 1.0d;
+        CharSpacingFactor = 1.0d;
+        IsBold = false;
+        IsItalic = false;
     }
 
     public void SetLabelText(string value)

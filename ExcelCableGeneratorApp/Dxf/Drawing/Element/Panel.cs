@@ -204,8 +204,6 @@ internal class Panel : LabelledDrawingObject
 
     public override bool Draw(DrawingEntities drawing)
     {
-
-
         DrawOutline(drawing, AciColor.FromHsl(0, 0, 0));
         DrawPanelEdgeOffsets(drawing);
         DrawHoles(drawing);
